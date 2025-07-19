@@ -1,0 +1,926 @@
+	{
+	   "Level 1":[
+		  {
+			 "File Management":[
+				{
+				   "question":"Which command lists files and directories in Linux?",
+				   "options":[
+					  "dir",
+					  "ls",
+					  "list",
+					  "show"
+				   ],
+				   "correct":"ls",
+				   "type":"radio",
+				   "example":"ls -l /home/user",
+				   "explication": "displays a detailed list of files in the /home/user directory"
+				},
+				{
+				   "question":"What command creates a new directory?",
+				   "options":[
+					  "mkdir",
+					  "newdir",
+					  "createdir",
+					  "md"
+				   ],
+				   "correct":"mkdir",
+				   "type":"radio",
+				   "example":"mkdir",
+				   "explication": " projects creates a new directory named 'projects' in the current directory"
+				},
+				{
+				   "question":"Which command copies files or directories?",
+				   "options":[
+					  "mv",
+					  "cp",
+					  "copy",
+					  "duplicate"
+				   ],
+				   "correct":"cp",
+				   "type":"radio",
+				   "example":"cp file.txt file_backup.txt ",
+				   "explication": "copies 'file.txt' to 'file_backup.txt'"
+				},
+				{
+				   "question":"What command moves or renames a file?",
+				   "options":[
+					  "move",
+					  "mv",
+					  "rename",
+					  "cp"
+				   ],
+				   "correct":"mv",
+				   "type":"radio",
+				   "example":"mv file.txt /tmp ",
+				   "explication": "moves 'file.txt' to the /tmp directory"
+				},
+				{
+				   "question":"Which command removes a file?",
+				   "options":[
+					  "rm",
+					  "del",
+					  "erase",
+					  "remove"
+				   ],
+				   "correct":"rm",
+				   "type":"radio",
+				   "example":"rm oldfile.txt ",
+				   "explication": "deletes the file 'oldfile.txt' from the current directory"
+				},
+				{
+				   "question":"What command displays the contents of a file?",
+				   "options":[
+					  "cat",
+					  "show",
+					  "display",
+					  "view"
+				   ],
+				   "correct":"cat",
+				   "type":"radio",
+				   "example":"cat config.conf ",
+				   "explication": "displays the contents of 'config.conf' in the terminal"
+				},
+				{
+				   "question":"Which command finds files by name in a directory?",
+				   "options":[
+					  "find",
+					  "search",
+					  "locate",
+					  "grep"
+				   ],
+				   "correct":"find",
+				   "type":"radio",
+				   "example":"find /etc -name '*.conf' ",
+				   "explication": "searches for all .conf files in the /etc directory"
+				},
+				{
+				   "question":"What command creates an empty file?",
+				   "options":[
+					  "touch",
+					  "new",
+					  "create",
+					  "file"
+				   ],
+				   "correct":"touch",
+				   "type":"radio",
+				   "example":"touch notes.txt ",
+				   "explication": "creates an empty file named 'notes.txt'"
+				},
+				{
+				   "question":"Which command displays the first few lines of a file?",
+				   "options":[
+					  "head",
+					  "top",
+					  "first",
+					  "start"
+				   ],
+				   "correct":"head",
+				   "type":"radio",
+				   "example":"head -n 5 access.log ",
+				   "explication": "displays the first 5 lines of 'access.log'"
+				},
+				{
+				   "question":"Which command displays the last few lines of a file?",
+				   "options":[
+					  "tail",
+					  "end",
+					  "last",
+					  "bottom"
+				   ],
+				   "correct":"tail",
+				   "type":"radio",
+				   "example":"tail -n 10 error.log ",
+				   "explication": "displays the last 10 lines of 'error.log'"
+				}
+			 ]
+		  },
+		  {
+			 "Permissions":[
+				{
+				   "question":"Which command changes file permissions?",
+				   "options":[
+					  "chmod",
+					  "chown",
+					  "perm",
+					  "access"
+				   ],
+				   "correct":"chmod",
+				   "type":"radio",
+				   "example":"chmod 755 script.sh ",
+				   "explication": "sets executable permissions for 'script.sh'"
+				},
+				{
+				   "question":"What does the permission 'rwx' mean?",
+				   "options":[
+					  "Read, write, execute",
+					  "Read, write, exclude",
+					  "Run, write, execute",
+					  "Read, watch, execute"
+				   ],
+				   "correct":"Read, write, execute",
+				   "type":"radio",
+				   "example":"rwx on script.sh ",
+				   "explication": "allows the owner to read, modify, and run the script"
+				},
+				{
+				   "question":"Which command changes the owner of a file?",
+				   "options":[
+					  "chown",
+					  "chmod",
+					  "owner",
+					  "chgrp"
+				   ],
+				   "correct":"chown",
+				   "type":"radio",
+				   "example":"chown alice file.txt ",
+				   "explication": "changes the owner of 'file.txt' to user 'alice'"
+				},
+				{
+				   "question":"What does the permission number '755' mean for a file?",
+				   "options":[
+					  "Owner: rwx, Group: rx, Others: rx",
+					  "Owner: rx, Group: rwx, Others: rx",
+					  "Owner: rwx, Group: r, Others: r",
+					  "Owner: rx, Group: rx, Others: rwx"
+				   ],
+				   "correct":"Owner: rwx, Group: rx, Others: rx",
+				   "type":"radio",
+				   "example":"chmod 755 script.sh ",
+				   "explication": "allows the owner full access and others read/execute"
+				},
+				{
+				   "question":"Which command lists files with detailed permissions?",
+				   "options":[
+					  "ls -l",
+					  "ls -a",
+					  "ls -r",
+					  "ls -t"
+				   ],
+				   "correct":"ls -l",
+				   "type":"radio",
+				   "example":"ls -l /home/user ",
+				   "explication": "shows permissions, owner, and size for files in /home/user"
+				},
+				{
+				   "question":"What does the 'x' permission allow on a file?",
+				   "options":[
+					  "Execute",
+					  "Read",
+					  "Write",
+					  "View"
+				   ],
+				   "correct":"Execute",
+				   "type":"radio",
+				   "example":"chmod +x script.sh ",
+				   "explication": "allows running 'script.sh' as a program"
+				},
+				{
+				   "question":"Which command changes the group ownership of a file?",
+				   "options":[
+					  "chgrp",
+					  "chown",
+					  "chmod",
+					  "group"
+				   ],
+				   "correct":"chgrp",
+				   "type":"radio",
+				   "example":"chgrp users file.txt ",
+				   "explication": "sets the group of 'file.txt' to 'users'"
+				},
+				{
+				   "question":"What does the permission 'rw-' mean?",
+				   "options":[
+					  "Read and write",
+					  "Read and execute",
+					  "Write and execute",
+					  "Read only"
+				   ],
+				   "correct":"Read and write",
+				   "type":"radio",
+				   "example":"rw- on config.txt ",
+				   "explication": "allows the owner to read and modify but not execute"
+				},
+				{
+				   "question":"Which symbol represents the owner in chmod symbolic notation?",
+				   "options":[
+					  "u",
+					  "g",
+					  "o",
+					  "a"
+				   ],
+				   "correct":"u",
+				   "type":"radio",
+				   "example":"chmod u+x script.sh ",
+				   "explication": "adds execute permission for the owner of 'script.sh'"
+				},
+				{
+				   "question":"What does 'chmod +x' do to a file?",
+				   "options":[
+					  "Adds execute permission for all",
+					  "Removes execute permission",
+					  "Adds read permission",
+					  "Adds write permission"
+				   ],
+				   "correct":"Adds execute permission for all",
+				   "type":"radio",
+				   "example":"chmod +x run.sh ",
+				   "explication": "makes 'run.sh' executable for everyone"
+				}
+			 ]
+		  },
+		  {
+			 "Processes":[
+				{
+				   "question":"Which command displays running processes?",
+				   "options":[
+					  "ps",
+					  "top",
+					  "proc",
+					  "listp"
+				   ],
+				   "correct":"ps",
+				   "type":"radio",
+				   "example":"ps aux ",
+				   "explication": "lists all running processes with details like PID and CPU usage"
+				},
+				{
+				   "question":"What command terminates a process by its ID?",
+				   "options":[
+					  "kill",
+					  "stop",
+					  "end",
+					  "terminate"
+				   ],
+				   "correct":"kill",
+				   "type":"radio",
+				   "example":"kill 1234 ",
+				   "explication": "terminates the process with PID 1234"
+				},
+				{
+				   "question":"Which command shows real-time process information?",
+				   "options":[
+					  "top",
+					  "ps",
+					  "htop",
+					  "proc"
+				   ],
+				   "correct":"top",
+				   "type":"radio",
+				   "example":"top ",
+				   "explication": "displays a live view of processes, CPU, and memory usage"
+				},
+				{
+				   "question":"What signal does 'kill -9' send to a process?",
+				   "options":[
+					  "SIGKILL",
+					  "SIGTERM",
+					  "SIGHUP",
+					  "SIGINT"
+				   ],
+				   "correct":"SIGKILL",
+				   "type":"radio",
+				   "example":"kill -9 5678 ",
+				   "explication": "forcefully terminates the process with PID 5678"
+				},
+				{
+				   "question":"Which command runs a process in the background?",
+				   "options":[
+					  "bg",
+					  "fg",
+					  "nohup",
+					  "&"
+				   ],
+				   "correct":"&",
+				   "type":"radio",
+				   "example":"./script.sh & ",
+				   "explication": "runs 'script.sh' in the background"
+				},
+				{
+				   "question":"What command brings a background process to the foreground?",
+				   "options":[
+					  "fg",
+					  "bg",
+					  "jobs",
+					  "front"
+				   ],
+				   "correct":"fg",
+				   "type":"radio",
+				   "example":"fg %1 ",
+				   "explication": "brings the first background job to the foreground"
+				},
+				{
+				   "question":"Which command lists background jobs?",
+				   "options":[
+					  "jobs",
+					  "ps",
+					  "top",
+					  "bg"
+				   ],
+				   "correct":"jobs",
+				   "type":"radio",
+				   "example":"jobs ",
+				   "explication": "lists all background processes started in the current session"
+				},
+				{
+				   "question":"What does the 'nice' command do?",
+				   "options":[
+					  "Sets process priority",
+					  "Kills a process",
+					  "Lists processes",
+					  "Restarts a process"
+				   ],
+				   "correct":"Sets process priority",
+				   "type":"radio",
+				   "example":"nice -n 10 script.sh runs 'script.sh' with a lower priority"
+				},
+				{
+				   "question":"Which command ",
+				   "explication": "shows the process ID of a running command?",
+				   "options":[
+					  "pidof",
+					  "ps",
+					  "top",
+					  "id"
+				   ],
+				   "correct":"pidof",
+				   "type":"radio",
+				   "example":"pidof nginx ",
+				   "explication": "returns the PID of the running nginx process"
+				},
+				{
+				   "question":"What does 'killall' do?",
+				   "options":[
+					  "Kills processes by name",
+					  "Kills all processes",
+					  "Restarts processes",
+					  "Lists processes"
+				   ],
+				   "correct":"Kills processes by name",
+				   "type":"radio",
+				   "example":"killall firefox ",
+				   "explication": "terminates all running Firefox processes"
+				}
+			 ]
+		  },
+		  {
+			 "Network":[
+				{
+				   "question":"Which command displays network interface information?",
+				   "options":[
+					  "ifconfig",
+					  "netstat",
+					  "ipconfig",
+					  "network"
+				   ],
+				   "correct":"ifconfig",
+				   "type":"radio",
+				   "example":"ifconfig eth0 shows configuration details for the eth0 network interface"
+				},
+				{
+				   "question":"What command tests connectivity to a host?",
+				   "options":[
+					  "ping",
+					  "trace",
+					  "net",
+					  "connect"
+				   ],
+				   "correct":"ping",
+				   "type":"radio",
+				   "example":"ping google.com tests connectivity to google.com"
+				},
+				{
+				   "question":"Which command shows open ports and services?",
+				   "options":[
+					  "netstat",
+					  "ifconfig",
+					  "port",
+					  "nmap"
+				   ],
+				   "correct":"netstat",
+				   "type":"radio",
+				   "example":"netstat -tulnp lists open ports and associated services"
+				},
+				{
+				   "question":"What command downloads files from a URL?",
+				   "options":[
+					  "wget",
+					  "curl",
+					  "fetch",
+					  "download"
+				   ],
+				   "correct":"wget",
+				   "type":"radio",
+				   "example":"wget https://example.com/file.zip downloads 'file.zip' from a URL"
+				},
+				{
+				   "question":"Which command displays the routing table?",
+				   "options":[
+					  "route",
+					  "netstat -r",
+					  "ip route",
+					  "gateway"
+				   ],
+				   "correct":"ip route",
+				   "type":"radio",
+				   "example":"ip route shows the system's routing table"
+				},
+				{
+				   "question":"What command resolves domain names to IP addresses?",
+				   "options":[
+					  "nslookup",
+					  "dig",
+					  "resolve",
+					  "host"
+				   ],
+				   "correct":"dig",
+				   "type":"radio",
+				   "example":"dig example.com returns the IP address of example.com"
+				},
+				{
+				   "question":"Which command checks the status of a network service?",
+				   "options":[
+					  "systemctl",
+					  "service",
+					  "status",
+					  "chkconfig"
+				   ],
+				   "correct":"service",
+				   "type":"radio",
+				   "example":"service ssh status checks if the SSH service is running"
+				},
+				{
+				   "question":"What does the 'ssh' command do?",
+				   "options":[
+					  "Connects to a remote server",
+					  "Transfers files",
+					  "Displays network status",
+					  "Configures network"
+				   ],
+				   "correct":"Connects to a remote server",
+				   "type":"radio",
+				   "example":"ssh user@server.com connects to 'server.com' as 'user'"
+				},
+				{
+				   "question":"Which command transfers files securely between hosts?",
+				   "options":[
+					  "scp",
+					  "ftp",
+					  "sftp",
+					  "copy"
+				   ],
+				   "correct":"scp",
+				   "type":"radio",
+				   "example":"scp file.txt user@server.com:~/ transfers 'file.txt' to a remote server"
+				},
+				{
+				   "question":"What command displays active network connections?",
+				   "options":[
+					  "ss",
+					  "netstat",
+					  "ip",
+					  "conn"
+				   ],
+				   "correct":"ss",
+				   "type":"radio",
+				   "example":"ss -tuln shows all active TCP and UDP connections"
+				}
+			 ]
+		  },
+		  {
+			 "System":[
+				{
+				   "question":"Which command displays the current user's username?",
+				   "options":[
+					  "whoami",
+					  "who",
+					  "id",
+					  "user"
+				   ],
+				   "correct":"whoami",
+				   "type":"radio",
+				   "example":"whoami displays the username of the current user, e.g., 'alice'"
+				},
+				{
+				   "question":"What command shows disk usage?",
+				   "options":[
+					  "du",
+					  "df",
+					  "disk",
+					  "free"
+				   ],
+				   "correct":"du",
+				   "type":"radio",
+				   "example":"du -sh /home/user shows the total size of the /home/user directory"
+				},
+				{
+				   "question":"Which command displays free memory information?",
+				   "options":[
+					  "free",
+					  "mem",
+					  "top",
+					  "vmstat"
+				   ],
+				   "correct":"free",
+				   "type":"radio",
+				   "example":"free -h displays available and used memory in a human-readable format"
+				},
+				{
+				   "question":"What command shows system uptime?",
+				   "options":[
+					  "uptime",
+					  "time",
+					  "status",
+					  "sysinfo"
+				   ],
+				   "correct":"uptime",
+				   "type":"radio",
+				   "example":"uptime shows how long the system has been running"
+				},
+				{
+				   "question":"Which command displays the kernel version?",
+				   "options":[
+					  "uname -r",
+					  "kernel",
+					  "version",
+					  "sysctl"
+				   ],
+				   "correct":"uname -r",
+				   "type":"radio",
+				   "example":"uname -r displays the current Linux kernel version, e.g., '5.15.0'"
+				},
+				{
+				   "question":"What command reboots the system?",
+				   "options":[
+					  "reboot",
+					  "restart",
+					  "shutdown",
+					  "halt"
+				   ],
+				   "correct":"reboot",
+				   "type":"radio",
+				   "example":"reboot restarts the system immediately"
+				},
+				{
+				   "question":"Which command displays CPU information?",
+				   "options":[
+					  "lscpu",
+					  "cpuinfo",
+					  "proc",
+					  "syscpu"
+				   ],
+				   "correct":"lscpu",
+				   "type":"radio",
+				   "example":"lscpu shows details about the CPU architecture and cores"
+				},
+				{
+				   "question":"What command shows the current hostname?",
+				   "options":[
+					  "hostname",
+					  "host",
+					  "name",
+					  "sysname"
+				   ],
+				   "correct":"hostname",
+				   "type":"radio",
+				   "example":"hostname displays the system's hostname, e.g., 'server1'"
+				},
+				{
+				   "question":"Which command updates the system time from a server?",
+				   "options":[
+					  "ntpdate",
+					  "timedate",
+					  "sync",
+					  "time"
+				   ],
+				   "correct":"ntpdate",
+				   "type":"radio",
+				   "example":"ntpdate pool.ntp.org synchronizes the system clock with an NTP server"
+				},
+				{
+				   "question":"What command lists loaded kernel modules?",
+				   "options":[
+					  "lsmod",
+					  "modinfo",
+					  "modules",
+					  "kmod"
+				   ],
+				   "correct":"lsmod",
+				   "type":"radio",
+				   "example":"lsmod lists all currently loaded kernel modules"
+				}
+			 ]
+		  }
+	   ],
+	   "Level 2":[
+		  {
+			 "File Management":[
+				{
+				   "question":"Enter the command to list all files, including hidden ones, in long format.",
+				   "correct":"ls -la",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to create a directory named 'projects'.",
+				   "correct":"mkdir projects",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to copy 'file.txt' to 'backup.txt'.",
+				   "correct":"cp file.txt backup.txt",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to move 'file.txt' to '/tmp'.",
+				   "correct":"mv file.txt /tmp",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to remove 'file.txt'.",
+				   "correct":"rm file.txt",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to display the contents of 'log.txt'.",
+				   "correct":"cat log.txt",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to find a file named 'config.conf' in '/etc'.",
+				   "correct":"find /etc -name config.conf",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to create an empty file named 'test.txt'.",
+				   "correct":"touch test.txt",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to display the first 10 lines of 'data.txt'.",
+				   "correct":"head data.txt",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to display the last 10 lines of 'data.txt'.",
+				   "correct":"tail data.txt",
+				   "type":"text"
+				}
+			 ]
+		  },
+		  {
+			 "Permissions":[
+				{
+				   "question":"Enter the command to give full permissions to the owner of 'script.sh'.",
+				   "correct":"chmod u=rwx script.sh",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to change the owner of 'file.txt' to 'alice'.",
+				   "correct":"chown alice file.txt",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to set permissions 'rwxr-xr-x' on 'file.txt'.",
+				   "correct":"chmod 755 file.txt",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to change the group of 'file.txt' to 'users'.",
+				   "correct":"chgrp users file.txt",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to add execute permission for the group on 'script.sh'.",
+				   "correct":"chmod g+x script.sh",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to remove write permission for others on 'file.txt'.",
+				   "correct":"chmod o-w file.txt",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to set permissions 'rw-r--r--' on 'data.txt'.",
+				   "correct":"chmod 644 data.txt",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to recursively change the owner of 'dir' to 'bob'.",
+				   "correct":"chown -R bob dir",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to set the sticky bit on a directory 'shared'.",
+				   "correct":"chmod +t shared",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to display permissions of 'file.txt' in long format.",
+				   "correct":"ls -l file.txt",
+				   "type":"text"
+				}
+			 ]
+		  },
+		  {
+			 "Processes":[
+				{
+				   "question":"Enter the command to display all running processes.",
+				   "correct":"ps aux",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to terminate a process with PID 1234.",
+				   "correct":"kill 1234",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to display real-time process information.",
+				   "correct":"top",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to forcefully kill a process with PID 5678.",
+				   "correct":"kill -9 5678",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to run 'script.sh' in the background.",
+				   "correct":"script.sh &",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to list all background jobs.",
+				   "correct":"jobs",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to bring job number 1 to the foreground.",
+				   "correct":"fg %1",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to set the priority of a process with PID 1234 to 10.",
+				   "correct":"nice -n 10 pid 1234",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to find the PID of a process named 'nginx'.",
+				   "correct":"pidof nginx",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to kill all processes named 'firefox'.",
+				   "correct":"killall firefox",
+				   "type":"text"
+				}
+			 ]
+		  },
+		  {
+			 "Network":[
+				{
+				   "question":"Enter the command to display network interface information.",
+				   "correct":"ifconfig",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to ping 'google.com' 4 times.",
+				   "correct":"ping -c 4 google.com",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to display open ports and services.",
+				   "correct":"netstat -tulnp",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to download 'file.zip' from a URL.",
+				   "correct":"wget <URL>/file.zip",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to display the routing table.",
+				   "correct":"ip route",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to resolve 'example.com' to an IP address.",
+				   "correct":"dig example.com",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to check the status of the 'ssh' service.",
+				   "correct":"service ssh status",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to connect to 'server.com' via SSH as user 'admin'.",
+				   "correct":"ssh admin@server.com",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to copy 'file.txt' to 'server.com' as user 'admin'.",
+				   "correct":"scp file.txt admin@server.com:~/",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to display active network connections.",
+				   "correct":"ss -tuln",
+				   "type":"text"
+				}
+			 ]
+		  },
+		  {
+			 "System":[
+				{
+				   "question":"Enter the command to display the current user's username.",
+				   "correct":"whoami",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to display disk usage of the current directory.",
+				   "correct":"du -sh .",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to display free memory information.",
+				   "correct":"free",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to display system uptime.",
+				   "correct":"uptime",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to display the kernel version.",
+				   "correct":"uname -r",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to reboot the system.",
+				   "correct":"reboot",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to display CPU information.",
+				   "correct":"lscpu",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to display the current hostname.",
+				   "correct":"hostname",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to update the system time from a server.",
+				   "correct":"ntpdate pool.ntp.org",
+				   "type":"text"
+				},
+				{
+				   "question":"Enter the command to list loaded kernel modules.",
+				   "correct":"lsmod",
+				   "type":"text"
+				}
+			 ]
+		  }
+	   ]
+	}

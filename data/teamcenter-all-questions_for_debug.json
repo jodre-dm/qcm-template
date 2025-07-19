@@ -1,0 +1,556 @@
+{
+   "Role Functional":[
+      {
+         "1. Analyze product structures - KC1":[
+            {
+               "question":"When can you create precise assemblies in Active Workspace?",
+               "options":[
+                  "If we apply the Latest Working revision rule",
+                  "If we apply the Precise Only revision rule",
+                  "Editing values in the Precise column",
+                  "Precise assemblies can be viewed, but not created in Active Worskpace"
+               ],
+               "correct":"Editing values in the Precise column",
+               "type":"radio"
+            },
+            {
+               "question":"For a component that has only revision A, approved, and revision B, working, the Latest Working revision rule would select which of the following?",
+               "options":[
+                  "Revision A",
+                  "Revision B",
+                  "Neither"
+               ],
+               "correct":"Revision B",
+               "type":"radio"
+            },
+            {
+               "question":"When we open an assembly, what happens?",
+               "options":[
+                  "The global revision rule will be applied if we open it for the first time",
+                  "The assembly will not load any revisions and wait for us to manually select a revision rule",
+                  "The assembly will always be loaded using the Latest Working revision rule, but we can change that later on",
+                  "The assembly will always be loaded using the Any Status; Working revision rule, but we can change that later on"
+               ],
+               "correct":"The global revision rule will be applied if we open it for the first time",
+               "type":"radio"
+            },
+            {
+               "question":"A working context contains what?",
+               "options":[
+                  "Just one assembly",
+                  "Just one assembly and one revision rule",
+                  "One or several configured assemblies",
+                  "One or several unconfigured assemblies"
+               ],
+               "correct":"One or several configured assemblies",
+               "type":"radio"
+            },
+            {
+               "question":"Imprecise structures need to be configured using a revision rule.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"TRUE",
+               "type":"radio"
+            },
+            {
+               "question":"Working contexts are always visible to everyone.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"We can compare two revisions of the same item.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"We can choose to compare only the leaf nodes of our assembly.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"TRUE",
+               "type":"radio"
+            }
+         ]
+      }
+   ],
+   "Role Admin":[
+      {
+         "1 Install the Business Modeler IDE (BMIDE)":[
+            {
+               "question":"In BMIDE, what is IDE an abbreviation for?",
+               "options":[
+                  "Interface Desktop Environment",
+                  "Interface Design Elements",
+                  "Integrated Drive Electronics",
+                  "Integrated Development Environment"
+               ],
+               "correct":"Integrated Development Environment",
+               "type":"checkbox"
+            },
+            {
+               "question":"The _tcbaseline.XML file ____ .",
+               "options":[
+                  "contains a snapshot of the template data model",
+                  "lists the template XML files included in the data model",
+                  "contains the data model for this template",
+                  "lists the other templates that this template is built on top of"
+               ],
+               "correct":"contains a snapshot of the template data model",
+               "type":"checkbox"
+            },
+            {
+               "question":"The _dependancy.XML file ____ .",
+               "options":[
+                  "contains a snapshot of the template data model",
+                  "lists the template XML files included in the data model",
+                  "contains the data model for this template",
+                  "lists the other templates that this template is built on top of"
+               ],
+               "correct":"lists the other templates that this template is built on top of",
+               "type":"checkbox"
+            },
+            {
+               "question":"The _template.XML file ____ .",
+               "options":[
+                  "contains a snapshot of the template data model",
+                  "lists the template XML files included in the data model",
+                  "contains the data model for this template",
+                  "lists the other templates that this template is built on top of"
+               ],
+               "correct":"contains the data model for this template",
+               "type":"checkbox"
+            },
+            {
+               "question":"The master.XML file ____ .",
+               "options":[
+                  "contains a snapshot of the template data model",
+                  "lists the template XML files included in the data model",
+                  "contains the data model for this template",
+                  "lists the other templates that this template is built on top of"
+               ],
+               "correct":"lists the template XML files included in the data model",
+               "type":"checkbox"
+            }
+         ],
+         "1. Install Teamcenter databases":[
+            {
+               "question":"What is the minimum RAM required to run BMIDE with live updates?",
+               "options":[
+                  ".5 GB",
+                  "1 GB",
+                  "2 GB",
+                  "5 GB"
+               ],
+               "correct":"2 GB",
+               "type":"checkbox"
+            },
+            {
+               "question":"On which tier is persistent metadata stored?",
+               "options":[
+                  "Resource tier",
+                  "Enterprise tier",
+                  "Web tier",
+                  "Routing tier"
+               ],
+               "correct":"Resource tier",
+               "type":"checkbox"
+            },
+            {
+               "question":"When installing Teamcenter, when should the database be installed?",
+               "options":[
+                  "First",
+                  "Second",
+                  "Third",
+                  "Fourth"
+               ],
+               "correct":"First",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which of these statements is not true regarding Teamcenter database support?",
+               "options":[
+                  "Oracle is supported",
+                  "Microsoft SQL Server is supported",
+                  "Microsoft Access is supported",
+                  "All of the above are supported"
+               ],
+               "correct":"Microsoft Access is supported",
+               "type":"checkbox"
+            },
+            {
+               "question":"When installing Oracle, it is recommeded that you use ____ .",
+               "options":[
+                  "Teamcenter Oracle database templates",
+                  "Teamcenter generic database templates",
+                  "Oracle database templates",
+                  "Microsoft database templates"
+               ],
+               "correct":"Teamcenter Oracle database templates",
+               "type":"checkbox"
+            },
+            {
+               "question":"What Oracle account is created to hold your Teamcenter data?",
+               "options":[
+                  "sys",
+                  "infodba",
+                  "tc",
+                  "system"
+               ],
+               "correct":"infodba",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which is NOT a major component of an Oracle installation?",
+               "options":[
+                  "Server",
+                  "Database",
+                  "Volume",
+                  "Listener"
+               ],
+               "correct":"Volume",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is included in an Oracle instance?",
+               "options":[
+                  "Only the System Global Area",
+                  "Only Oracle processes",
+                  "The Oracle Server",
+                  "The combination of the System Global Area and Oracle processes"
+               ],
+               "correct":"The combination of the System Global Area and Oracle processes",
+               "type":"checkbox"
+            },
+            {
+               "question":"When choosing an Oracle install location, which statement is false?",
+               "options":[
+                  "You can install the Oracle server and application files on shared directories",
+                  "Oracle does not support database files on shared directories",
+                  "To improve performance, create database files on remote disk drives",
+                  "To ensure data integrity, create database files on local disk drives"
+               ],
+               "correct":"To improve performance, create database files on remote disk drives",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is the purpose of the Oracle listener?",
+               "options":[
+                  "Monitors connection requests from one database or for multiple databases",
+                  "Monitors email requests to the database",
+                  "Monitors file requests from the local server",
+                  "Monitors SQL queries from a 4tier client"
+               ],
+               "correct":"Monitors SQL queries from a 4tier client",
+               "type":"checkbox"
+            },
+            {
+               "question":"What file does a Teamcenter client use to connect to the database?",
+               "options":[
+                  "listener.ora",
+                  "tnsnames.ora",
+                  "portal.bat",
+                  "tcdata.bat"
+               ],
+               "correct":"tnsnames.ora",
+               "type":"checkbox"
+            },
+            {
+               "question":"What Oracle database service must be running in order for Teamcenter to connect to the database?",
+               "options":[
+                  "System Global Area",
+                  "Server",
+                  "Client",
+                  "Listener"
+               ],
+               "correct":"Listener",
+               "type":"checkbox"
+            }
+         ],
+         "1. Install the corporate server":[
+            {
+               "question":"When using the Microsoft SQL database, which of the following is False?",
+               "options":[
+                  "The Teamcenter corporate server can be installed on Windows or UNIX platforms",
+                  "The Teamcenter corporate server must be installed on a Windows platform",
+                  "Twotier clients must be installed on Windows platform",
+                  "Fourtier clients can be installed on Windows or UNIX platforms"
+               ],
+               "correct":"The Teamcenter corporate server can be installed on Windows or UNIX platforms",
+               "type":"checkbox"
+            },
+            {
+               "question":"In Teamcenter, FMS is an abbreviation for ____ .",
+               "options":[
+                  "Fully Managed Service",
+                  "Flexible Modeling System",
+                  "File Management System",
+                  "Firewall Modulation Subsystem"
+               ],
+               "correct":"File Management System",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which statement is true regarding a Teamcenter 4-tier architecture install?",
+               "options":[
+                  "The FSC is found on the client tier",
+                  "The FSC is found on the corporate tier",
+                  "The FSC is found on the web tier",
+                  "The FSC is found on the resource tier"
+               ],
+               "correct":"The FSC is found on the corporate tier",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which of the following does the Teamcenter corporate server NOT contain?",
+               "options":[
+                  "A database",
+                  "Shared binary executables and files",
+                  "Shared data subdirectories and files",
+                  "Volumes"
+               ],
+               "correct":"A database",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which is NOT an important component of the corporate server?",
+               "options":[
+                  "TC_ROOT",
+                  "TC_DATA",
+                  "TC_LICENSE",
+                  "FMS"
+               ],
+               "correct":"TC_LICENSE",
+               "type":"checkbox"
+            },
+            {
+               "question":"What provides file transfer between volumes and clients?",
+               "options":[
+                  "WAN",
+                  "FCC",
+                  "FSC",
+                  "FMS"
+               ],
+               "correct":"FMS",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which process controls the transfer of data between volumes and clients?",
+               "options":[
+                  "WAN",
+                  "FCC",
+                  "FSC",
+                  "FMS"
+               ],
+               "correct":"FSC",
+               "type":"checkbox"
+            },
+            {
+               "question":"When selecting Teamcenter features to install, you should install ____ .",
+               "options":[
+                  "only the solutions and features you need",
+                  "all the solutions and features available",
+                  "only one additional feature",
+                  "the same list of features that some one else you know installed"
+               ],
+               "correct":"only the solutions and features you need",
+               "type":"checkbox"
+            },
+            {
+               "question":"A Teamcenter configuration is ____ .",
+               "options":[
+                  "a set of one or more solutions to be installed",
+                  "a set of one or more features to be installed",
+                  "a set of one or more solutions or features to be installed",
+                  "a set of one or more solutions and features to be installed"
+               ],
+               "correct":"a set of one or more solutions and features to be installed",
+               "type":"checkbox"
+            },
+            {
+               "question":"Each TC_ROOT is ____ .",
+               "options":[
+                  "a set of TC_DATA directories",
+                  "a single Teamcenter installation",
+                  "a separate configuration",
+                  "a set of multiple configurations"
+               ],
+               "correct":"a separate configuration",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is the purpose of the Dispatcher Server feature?",
+               "options":[
+                  "Installs the file management system",
+                  "Installs the process that manages the pool of Teamcenter server processes",
+                  "Installs Teamcenter 2tier or 4tier Rich Clients",
+                  "Installs the scheduler module and event client for file translation"
+               ],
+               "correct":"Installs the scheduler module and event client for file translation",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which file is used to set most of the environment variables that are needed to run Teamcenter?",
+               "options":[
+                  "tc_env.bat",
+                  "tc_profilesvars.bat",
+                  "tnsnames.ora",
+                  "tcdata.bat"
+               ],
+               "correct":"tc_profilesvars.bat",
+               "type":"checkbox"
+            }
+         ]
+      }
+   ],
+   "Role Parameter":[
+      {
+         "1. Administer lists of values (LOVs)":[
+            {
+               "question":"___ is not a classic LOV.",
+               "options":[
+                  "Filter LOVs",
+                  "Cascading LOVs (Hierarchical)",
+                  "Interdependent cascading LOVs",
+                  "Dynamic LOVs"
+               ],
+               "correct":"Dynamic LOVs",
+               "type":"checkbox"
+            },
+            {
+               "question":"____ are lists of values that are a subset of another LOV.",
+               "options":[
+                  "Filter LOVs",
+                  "Cascading LOVs (Hierarchical)",
+                  "Interdependent cascading LOVs",
+                  "Dynamic LOVs"
+               ],
+               "correct":"Filter LOVs",
+               "type":"checkbox"
+            }
+         ],
+         "1. Identify Business Modeler IDE (BMIDE) fundamentals - 14.1":[
+            {
+               "question":"____ are lists of values queried from the database when the user selects the dropdown list.",
+               "options":[
+                  "Filter LOVs",
+                  "Cascading LOVs (Hierarchical)",
+                  "Interdependent cascading LOVs",
+                  "Dynamic LOVs"
+               ],
+               "correct":"Dynamic LOVs",
+               "type":"checkbox"
+            },
+            {
+               "question":"For a template project prefix, what numeric digits can be used?",
+               "options":[
+                  "19",
+                  "39",
+                  "49",
+                  "03"
+               ],
+               "correct":"49",
+               "type":"checkbox"
+            },
+            {
+               "question":"How can you modify a COTS element?",
+               "options":[
+                  "A COTS element cannot be modified in the foundation template",
+                  "A COTS element cannot be modified in the project template",
+                  "A modified COTS element is added to a dependent template",
+                  "The COTS element is removed from the template"
+               ],
+               "correct":"A COTS element cannot be modified in the foundation template",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is the best practice to manage custom BMIDE templates?",
+               "options":[
+                  "Managed in a PLM system",
+                  "Managed on a shared drive",
+                  "Managed in a SCM system",
+                  "Managed in a folder"
+               ],
+               "correct":"Managed in a SCM system",
+               "type":"checkbox"
+            },
+            {
+               "question":"Once you setup Project Backup settings, what appears upon deploying the project?",
+               "options":[
+                  "The project deploys to the server",
+                  "A dialog box will prompt to backup the template",
+                  "A dialog box will prompt to save the template",
+                  "Confirmation of the deploy"
+               ],
+               "correct":"A dialog box will prompt to backup the template",
+               "type":"checkbox"
+            },
+            {
+               "question":"How can you manipulate the visibility of business objects in the “configure business objects to display” window?",
+               "options":[
+                  "Remove the business objects from the filter",
+                  "Remove the COTS objects",
+                  "Hide the business objects",
+                  "Turn the business objects off"
+               ],
+               "correct":"Remove the business objects from the filter",
+               "type":"checkbox"
+            },
+            {
+               "question":"What do constants control?",
+               "options":[
+                  "List of property options",
+                  "Govern global system behavior",
+                  "Govern the behaviors of business objects",
+                  "Deploy data model updates to the client"
+               ],
+               "correct":"Govern global system behavior",
+               "type":"checkbox"
+            },
+            {
+               "question":"What do rules control?",
+               "options":[
+                  "List of property options",
+                  "Govern global system behavior",
+                  "Govern the behaviors of business objects",
+                  "Deploy data model updates to the client"
+               ],
+               "correct":"Govern the behaviors of business objects",
+               "type":"checkbox"
+            },
+            {
+               "question":"When do you use a Hot Deploy method?",
+               "options":[
+                  "Development environment",
+                  "Development and QA environments",
+                  "Development, QA, and Production environments",
+                  "QA and Production environments"
+               ],
+               "correct":"Development environment",
+               "type":"checkbox"
+            },
+            {
+               "question":"A server connection profile is used to ____ .",
+               "options":[
+                  "deploy extensions to a server",
+                  "establish a connection to the Teamcenter server",
+                  "save the deploy.log file to the server",
+                  "install the Business Modeler IDE"
+               ],
+               "correct":"establish a connection to the Teamcenter server",
+               "type":"checkbox"
+            }
+         ]
+      }
+   ]
+}

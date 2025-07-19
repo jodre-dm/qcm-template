@@ -1,0 +1,4171 @@
+{
+   "Role Functional":[
+      {
+         "1. Analyze product structures - KC1":[
+            {
+               "question":"When can you create precise assemblies in Active Workspace?",
+               "options":[
+                  "If we apply the Latest Working revision rule",
+                  "If we apply the Precise Only revision rule",
+                  "Editing values in the Precise column",
+                  "Precise assemblies can be viewed, but not created in Active Worskpace"
+               ],
+               "correct":"Editing values in the Precise column",
+               "type":"radio"
+            },
+            {
+               "question":"For a component that has only revision A, approved, and revision B, working, the Latest Working revision rule would select which of the following?",
+               "options":[
+                  "Revision A",
+                  "Revision B",
+                  "Neither"
+               ],
+               "correct":"Revision B",
+               "type":"radio"
+            },
+            {
+               "question":"When we open an assembly, what happens?",
+               "options":[
+                  "The global revision rule will be applied if we open it for the first time",
+                  "The assembly will not load any revisions and wait for us to manually select a revision rule",
+                  "The assembly will always be loaded using the Latest Working revision rule, but we can change that later on",
+                  "The assembly will always be loaded using the Any Status; Working revision rule, but we can change that later on"
+               ],
+               "correct":"The global revision rule will be applied if we open it for the first time",
+               "type":"radio"
+            },
+            {
+               "question":"A working context contains what?",
+               "options":[
+                  "Just one assembly",
+                  "Just one assembly and one revision rule",
+                  "One or several configured assemblies",
+                  "One or several unconfigured assemblies"
+               ],
+               "correct":"One or several configured assemblies",
+               "type":"radio"
+            },
+            {
+               "question":"Imprecise structures need to be configured using a revision rule.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"TRUE",
+               "type":"radio"
+            },
+            {
+               "question":"Working contexts are always visible to everyone.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"We can compare two revisions of the same item.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"We can choose to compare only the leaf nodes of our assembly.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"TRUE",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Approve and release data":[
+            {
+               "question":"Comparing very large assemblies is not a good idea, as that could freeze our Active Workspace session.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"A workflow process can have any number of tasks arranged how?",
+               "options":[
+                  "Serial progression only",
+                  "Parallel progression only",
+                  "Serial or parallel progression"
+               ],
+               "correct":"Serial or parallel progression",
+               "type":"radio"
+            },
+            {
+               "question":"When initiating a new process, how do you know which process template to assign?",
+               "options":[
+                  "Assign based on company practices.",
+                  "Assign based on the number of signoffs required.",
+                  "Assign based on the amount of time available to complete the process."
+               ],
+               "correct":"Assign based on company practices.",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following applies to a target object in Workflow?",
+               "options":[
+                  "Released through a process.",
+                  "Always assigned a release status when the process is complete.",
+                  "Provide information to those performing tasks.",
+                  "Are never assigned a status change when the process completes."
+               ],
+               "correct":"Released through a process.",
+               "type":"radio"
+            },
+            {
+               "question":"In the graphical representation of a process in Workflow tab, which symbol indicates the task is pending?",
+               "options":[
+                  "Hourglass",
+                  "Checkmark",
+                  "Clock",
+                  "Exclamation point"
+               ],
+               "correct":"Checkmark",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Create and edit a file":[
+            {
+               "question":"Which release state indicates an item is released?",
+               "options":[
+                  "Statused",
+                  "Released",
+                  "Inprocess",
+                  "Empty value"
+               ],
+               "correct":"Statused",
+               "type":"radio"
+            },
+            {
+               "question":"What command adds a file to a selected revision?",
+               "options":[
+                  "New child",
+                  "Add to",
+                  "Open",
+                  "Check Out"
+               ],
+               "correct":"Add to",
+               "type":"radio"
+            },
+            {
+               "question":"How can I NOT add a file to a revision?",
+               "options":[
+                  "Uploading from local",
+                  "Drag and drop a file under a revision",
+                  "Adding from Palette",
+                  "Saving from an integrated application"
+               ],
+               "correct":"Uploading from local",
+               "type":"radio"
+            },
+            {
+               "question":"How do you edit a file without the integrated application?",
+               "options":[
+                  "Double click to open the file",
+                  "Open>Open in Visualization",
+                  "Download the file and replace it after the changes",
+                  "Select Edit from the toolbar"
+               ],
+               "correct":"Download the file and replace it after the changes",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Create and edit product structures - KC1":[
+            {
+               "question":"Files stored in Active Workspace are linked to other workspace objects with _____",
+               "options":[
+                  "Item Revisions",
+                  "Relations",
+                  "Datasets",
+                  "Change Orders"
+               ],
+               "correct":"Relations",
+               "type":"radio"
+            },
+            {
+               "question":"What kind of queries cannot we use to find components within an assembly?",
+               "options":[
+                  "Item Revision…",
+                  "Item ID",
+                  "General",
+                  "Keyword"
+               ],
+               "correct":"General",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the statements below is true?",
+               "options":[
+                  "Selecting our search results highlights them in the 3D view",
+                  "The “Show only results in Viewer” button shows everything but the results in the 3D view",
+                  "The assembly queries search the first level of the assembly only",
+                  "If an item is used several times in an assembly, the search results will list it just once"
+               ],
+               "correct":"Selecting our search results highlights them in the 3D view",
+               "type":"radio"
+            },
+            {
+               "question":"The Where Used tab shows us what?",
+               "options":[
+                  "The top level assemblies that use the current item",
+                  "The immediate BOM parents of the current item",
+                  "The bottom level assemblies that use the current item",
+                  "All of the above"
+               ],
+               "correct":"The immediate BOM parents of the current item",
+               "type":"radio"
+            },
+            {
+               "question":"In order to limit the number of objects that are shown, which filtering cannot be performed?",
+               "options":[
+                  "Using the criteria pane",
+                  "Using the filter pane",
+                  "This filtering can be based on object type",
+                  "This filtering can be based on relation type"
+               ],
+               "correct":"Using the criteria pane",
+               "type":"radio"
+            },
+            {
+               "question":"We can search within a sub-assembly without quitting the top-level assembly.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"TRUE",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Initiate a workflow process":[
+            {
+               "question":"A Where Used impact analysis of an extremely common component could freeze Active Workspace while it loads all the parent assemblies.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"How do you know which process template to assign when initiating a new process?",
+               "options":[
+                  "Assign based on company practices",
+                  "Assign based on the number of signoffs required",
+                  "Assign based on the amount of time available to complete the process",
+                  "Assign based on the order of templates in the list"
+               ],
+               "correct":"Assign based on company practices",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following applies to a target object in Workflow?",
+               "options":[
+                  "Must be an item revision",
+                  "Assigned a release status when the process is complete",
+                  "Provide information to those performing tasks",
+                  "Are not assigned a status change when the process completes"
+               ],
+               "correct":"Must be an item revision",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Initiate a workflow":[
+            {
+               "question":"Which of the following is not true regarding a workflow process?",
+               "options":[
+                  "Tasks can be arranged in serial progression",
+                  "Tasks can be arranged in parallel progression",
+                  "Must be performed by person creating the workflow",
+                  "Can have any number of tasks"
+               ],
+               "correct":"Must be performed by person creating the workflow",
+               "type":"radio"
+            },
+            {
+               "question":"Which tasks are typically performed by the manager?",
+               "options":[
+                  "Assign design work",
+                  "Create CAD design",
+                  "Submit parts to workflows",
+                  "Verifies parts and documents"
+               ],
+               "correct":"Assign design work",
+               "type":"radio"
+            },
+            {
+               "question":"Which tasks are typically performed by the checker? (select all that apply)",
+               "options":[
+                  "Assign design work",
+                  "Create CAD design",
+                  "Submit parts to workflows",
+                  "Verifies parts and documents"
+               ],
+               "correct":"Verifies parts and documents",
+               "type":"radio"
+            },
+            {
+               "question":"You are asked to give a part a status that indicates the part is ready for production. No other checks or approvals are needed. Select the best workflow for this scenario.",
+               "options":[
+                  "30 – Development Release",
+                  "60 – Production Release",
+                  "Change Status to 60 – Production Released",
+                  "90 – Obsolescence Process"
+               ],
+               "correct":"Change Status to 60 – Production Released",
+               "type":"radio"
+            },
+            {
+               "question":"You have competed the design for a fuel injection assembly, which currently has a status of 30, released for development, and you are ready to release the assembly for production, with the appropriate validation self-check and checker review. Select the best workflow for this scenario.",
+               "options":[
+                  "30 – Development Release",
+                  "60 – Production Release",
+                  "Change Status to 60 – Production Released",
+                  "90 – Obsolescence Process"
+               ],
+               "correct":"60 – Production Release",
+               "type":"radio"
+            },
+            {
+               "question":"Users from of the following roles are responsible for creating or updating the CAD design?",
+               "options":[
+                  "Manager",
+                  "Manufacturing checker",
+                  "Author",
+                  "Design Checker"
+               ],
+               "correct":"Author",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Introduction to Active Workspace":[
+            {
+               "question":"Which command allows you to initiate a workflow for an object?",
+               "options":[
+                  "Inbox",
+                  "Workflow > Submit",
+                  "Manage > Submit to Workflow"
+               ],
+               "correct":"Manage > Submit to Workflow",
+               "type":"radio"
+            },
+			{
+				"question":"In which section does the item in the workflow reside?",
+				"options":[
+				   "Template",
+				   "Description",
+				   "Assignments",
+				   "Targets"
+				],
+				"correct":"Targets",
+				"type":"radio"
+			},
+            {
+               "question":"What is the primary goal of Product Lifecycle Management?",
+               "options":[
+                  "Create model diagrams",
+                  "Display Bill of Materials",
+                  "Connect people and processes across functional silos",
+                  "Manage requirements and changes"
+               ],
+               "correct":"Connect people and processes across functional silos",
+               "type":"radio"
+            },
+            {
+               "question":"Which tools are considered primary capabilities in Active Workspace?",
+               "options":[
+                  "Document Management and Product Requirements Engineering",
+                  "Bill of Materials Management and Process Management",
+                  "Streamline Service Operations and Supplier Integration",
+                  "Program Planning and Project Execution"
+               ],
+               "correct":"Bill of Materials Management and Process Management",
+               "type":"radio"
+            },
+            {
+               "question":"What is the collection of menus on the left side of the interface called?",
+               "options":[
+                  "Task Commands",
+                  "Global Navigation",
+                  "Header",
+                  "Primary toolbar"
+               ],
+               "correct":"Global Navigation",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Managing workflow processes":[
+            {
+               "question":"How can you modify a tile after right clicking it on the home page?",
+               "options":[
+                  "Resize, Pin, and Move the tile",
+                  "Cut and paste the tile",
+                  "Rename the tile",
+                  "Freeze the tile"
+               ],
+               "correct":"Resize, Pin, and Move the tile",
+               "type":"radio"
+            },
+            {
+               "question":"What do resource pools allow you to do?",
+               "options":[
+                  "Assign many team members to complete an assignment together",
+                  "Identify a group of users who will not participate in workflow tasks",
+                  "Define a group of resources who have permissions to update an item",
+                  "Balance workflow task assignments across many team members"
+               ],
+               "correct":"Balance workflow task assignments across many team members",
+               "type":"radio"
+            },
+            {
+               "question":"Where do you find your subscribed resource pools?",
+               "options":[
+                  "Inbox",
+                  "Home",
+                  "Profile",
+                  "Organization"
+               ],
+               "correct":"Profile",
+               "type":"radio"
+            },
+            {
+               "question":"How do you accept responsibility for a task as part of a resource pool?",
+               "options":[
+                  "Claim",
+                  "Add",
+                  "Accept",
+                  "Manage"
+               ],
+               "correct":"Claim",
+               "type":"radio"
+            },
+            {
+               "question":"What tasks are received by the user defined under the Forward Tasks (Out of Office) area?",
+               "options":[
+                  "Task assignments that matches their group",
+                  "Task assignments that matches their role",
+                  "Task assignments that matches their group and role",
+                  "All task assignments"
+               ],
+               "correct":"All task assignments",
+               "type":"radio"
+            },
+            {
+               "question":"Surrogate users do what while you are out of the office?",
+               "options":[
+                  "Complete all your work",
+                  "Complete some workflow tasks",
+                  "Answer your emails",
+                  "Complete all workflow tasks"
+               ],
+               "correct":"Complete some workflow tasks",
+               "type":"radio"
+            },
+            {
+               "question":"Surrogate users are only assigned tasks if the task assignment profile _______.",
+               "options":[
+                  "matches their group",
+                  "matches their role",
+                  "matches their group and role",
+                  "does not match their group and role"
+               ],
+               "correct":"matches their group and role",
+               "type":"radio"
+            },
+            {
+               "question":"Which released state is considered production data?",
+               "options":[
+                  "Statused",
+                  "Production",
+                  "InProcess",
+                  "No value"
+               ],
+               "correct":"Statused",
+               "type":"radio"
+            },
+            {
+               "question":"Which released state means the item is currently in a workflow?",
+               "options":[
+                  "Statused",
+                  "Production",
+                  "InProcess",
+                  "No value"
+               ],
+               "correct":"InProcess",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Measure and cross sections":[
+            {
+               "question":"Which released state means the item is currently work in process or considered working data?",
+               "options":[
+                  "Statused",
+                  "Work in Process",
+                  "InProcess",
+                  "No value"
+               ],
+               "correct":"No value",
+               "type":"radio"
+            },
+            {
+               "question":"What command do you use for single objects measurements?",
+               "options":[
+                  "Pick Parts",
+                  "Query",
+                  "Measure",
+                  "Quick measure"
+               ],
+               "correct":"Query",
+               "type":"radio"
+            },
+            {
+               "question":"Which command do you use to get coordinates for a center point?",
+               "options":[
+                  "Edge",
+                  "Vertex",
+                  "Point",
+                  "Arc Center"
+               ],
+               "correct":"Arc Center",
+               "type":"radio"
+            },
+            {
+               "question":"How do you view the Part Name from pick filtering?",
+               "options":[
+                  "Select Part",
+                  "Select Features",
+                  "Select Surface",
+                  "Select Part Name"
+               ],
+               "correct":"Select Part",
+               "type":"radio"
+            },
+            {
+               "question":"What command do you use to get measurements between two parts using full features?",
+               "options":[
+                  "Pick Parts",
+                  "Query",
+                  "Measure",
+                  "Quick measure"
+               ],
+               "correct":"Measure",
+               "type":"radio"
+            },
+            {
+               "question":"What command do you use to view sections?",
+               "options":[
+                  "Pick Parts",
+                  "Query",
+                  "Section",
+                  "Pick Features"
+               ],
+               "correct":"Section",
+               "type":"radio"
+            },
+            {
+               "question":"What orientation options are not available?",
+               "options":[
+                  "XY",
+                  "XZ",
+                  "YZ",
+                  "XYZ"
+               ],
+               "correct":"XYZ",
+               "type":"radio"
+            },
+            {
+               "question":"How many planes can you view at one time?",
+               "options":[
+                  "One",
+                  "Two",
+                  "Three",
+                  "Four"
+               ],
+               "correct":"Two",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Selecting signoff teams":[
+            {
+               "question":"What are the valid clipping side options?",
+               "options":[
+                  "Top, Bottom, Left, Right",
+                  "Neither, Near, Far, Both",
+                  "Up, Down, Near, Far",
+                  "Neither, Left, Right, Both"
+               ],
+               "correct":"Neither, Near, Far, Both",
+               "type":"radio"
+            },
+            {
+               "question":"When can you assign a signoff team to perform the signoff for each review task in the process you start a new workflow process?",
+               "options":[
+                  "Only when you start the workflow process",
+                  "Only during the review task step",
+                  "Only at the start of the workflow process or during the workflow process",
+                  "Only when you are asked to assign a reviewer"
+               ],
+               "correct":"Only at the start of the workflow process or during the workflow process",
+               "type":"radio"
+            },
+            {
+               "question":"A signoff team can be any of these except?",
+               "options":[
+                  "Single user",
+                  "Resource Pool",
+                  "Multiple Users",
+                  "Leaving the field empty to skip the signoff"
+               ],
+               "correct":"Leaving the field empty to skip the signoff",
+               "type":"radio"
+            },
+            {
+               "question":"Where are signoff teams assigned?",
+               "options":[
+                  "Do task and Review task",
+                  "Review task and Acknowledge task",
+                  "Acknowledge task and Do task",
+                  "Do task, Review task and Acknowledge task"
+               ],
+               "correct":"Review task and Acknowledge task",
+               "type":"radio"
+            },
+            {
+               "question":"Who assigns the signoff teams?",
+               "options":[
+                  "By the workflow initiator after a workflow is started.",
+                  "By the workflow initiator before a workflow is started.",
+                  "By the workflow reviewer after a workflow is started.",
+                  "By the workflow participant after a workflow is started."
+               ],
+               "correct":"By the workflow initiator after a workflow is started.",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Working with data and relations":[
+            {
+               "question":"What are process assignment lists?",
+               "options":[
+                  "Distribution lists associated with workflow process instance",
+                  "Distribution lists defined in Outlook",
+                  "Distribution lists defined in Teams",
+                  "Distribution lists associated with workflow process templates"
+               ],
+               "correct":"Distribution lists associated with workflow process templates",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following statement is true?",
+               "options":[
+                  "Items can exist without revisions",
+                  "Item Revisions keep track of changes",
+                  "Item Revisions have a unique sequence ID",
+                  "Revisions can be associated to different Items"
+               ],
+               "correct":"Item Revisions keep track of changes",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following properties is optional when creating an Item?",
+               "options":[
+                  "Description",
+                  "Name",
+                  "Item ID",
+                  "Revision ID"
+               ],
+               "correct":"Description",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following statements regarding the purpose of Groups and Roles in Active Workspace is false?",
+               "options":[
+                  "They determine which data users can work with",
+                  "They determine product ownership, permission and responsibilities",
+                  "Groups can be assigned to different Roles",
+                  "Users can have different Roles and Groups"
+               ],
+               "correct":"Groups can be assigned to different Roles",
+               "type":"radio"
+            },
+            {
+               "question":"Which command is used to modify an object?",
+               "options":[
+                  "Checkout",
+                  "Checkin",
+                  "Modify",
+                  "View properties"
+               ],
+               "correct":"Checkout",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Working with standard workflows":[
+            {
+               "question":"Which command is used to revise an object?",
+               "options":[
+                  "Save",
+                  "Revise",
+                  "Save All",
+                  "Save As or Revise"
+               ],
+               "correct":"Save As or Revise",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following user role is authorized to Perfrom a sign-off task in a workflow process in Teamcenter?",
+               "options":[
+                  "Checker",
+                  "Author",
+                  "Designer",
+                  "Any of the above"
+               ],
+               "correct":"Checker",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following is a prerequiste for performing a Development Release Process in Teamcenter?",
+               "options":[
+                  "The Release Status of the item to be submitted must be Empty",
+                  "The Release Status of the item to be submitted must be Production",
+                  "The Release Status of the item to be submitted must be Development",
+                  "The Item to be submitted hould have file attachments"
+               ],
+               "correct":"The Release Status of the item to be submitted must be Empty",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following is a prerequiste for performing a Production Release Process in Teamcenter?",
+               "options":[
+                  "The Release Status of the item to be submitted must be Empty",
+                  "The Release Status of the item to be submitted must be Production",
+                  "The Release Status of the item to be submitted must be Development",
+                  "The Item to be submitted hould have file attachments"
+               ],
+               "correct":"The Release Status of the item to be submitted must be Development",
+               "type":"radio"
+            },
+            {
+               "question":"Who is responsible fo reviewing the design for development, production, or obsolescence?",
+               "options":[
+                  "Designer",
+                  "Checker",
+                  "Author",
+                  "Consumer"
+               ],
+               "correct":"Checker",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2. Analyze product structures - KC2":[
+            {
+               "question":"Which of the following best describes the part lifecycle progression?",
+               "options":[
+                  "Obsolete>Development>Production",
+                  "Production>Development>Obsolete",
+                  "Development>Production>Obsolete",
+                  "Obsolete>Production>Development"
+               ],
+               "correct":"Development>Production>Obsolete",
+               "type":"radio"
+            },
+            {
+               "question":"You can markup more than one item at a time in a structure.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"TRUE",
+               "type":"radio"
+            },
+            {
+               "question":"Where do you find the Markup option to turn on markup mode?",
+               "options":[
+                  "Markup",
+                  "View",
+                  "Edit",
+                  "Add"
+               ],
+               "correct":"View",
+               "type":"radio"
+            },
+            {
+               "question":"What color do markups appear?",
+               "options":[
+                  "Red",
+                  "Green",
+                  "Blue",
+                  "Black"
+               ],
+               "correct":"Blue",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2. Create and edit product structures - KC2":[
+            {
+               "question":"What option do you pick to save the markups?",
+               "options":[
+                  "Add Markup",
+                  "Apply Markup",
+                  "Save Markup",
+                  "Update Markup"
+               ],
+               "correct":"Apply Markup",
+               "type":"radio"
+            },
+            {
+               "question":"Where can Product Structures can be modified?",
+               "options":[
+                  "Using Active Workspace only",
+                  "Using CAD software only",
+                  "Using either Active Workspace or CAD software",
+                  "They cannot be modified"
+               ],
+               "correct":"Using either Active Workspace or CAD software",
+               "type":"radio"
+            },
+            {
+               "question":"When can you add a child to a bill of materials?",
+               "options":[
+                  "Only if the child item is already in our clipboard",
+                  "Even if it doesn’t exist yet: create item and add to BOM can be performed in a single action",
+                  "If we have write access to the toplevel assembly",
+                  "If we have write access to its top level parent"
+               ],
+               "correct":"Even if it doesn’t exist yet: create item and add to BOM can be performed in a single action",
+               "type":"radio"
+            },
+            {
+               "question":"The Add Sibling option add a child item where?",
+               "options":[
+                  "To the selected assembly level",
+                  "To the parent of the selected assembly level",
+                  "Below the selected assembly level",
+                  "To the top level assembly"
+               ],
+               "correct":"To the parent of the selected assembly level",
+               "type":"radio"
+            },
+            {
+               "question":"The Add Sibling option appears when?",
+               "options":[
+                  "Isn’t shown unless we have read access to the selected item",
+                  "Always appears",
+                  "Isn’t shown unless we have selected a child item in the context of an assembly",
+                  "Isn’t shown unless we have write access to the selected item"
+               ],
+               "correct":"Isn’t shown unless we have selected a child item in the context of an assembly",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following are occurrence properties?",
+               "options":[
+                  "Quantity and Item ID",
+                  "Item ID and Release Status",
+                  "Release Status and Sequence number",
+                  "Sequence number and Quantity"
+               ],
+               "correct":"Sequence number and Quantity",
+               "type":"radio"
+            },
+            {
+               "question":"When can we edit the quantity of a given level?",
+               "options":[
+                  "If we have write access to that assembly level",
+                  "If we have write access to the parent of that assembly level",
+                  "If we have write access to both that assembly level and its parent",
+                  "Regardless of our write access to either the assembly level or its parent"
+               ],
+               "correct":"If we have write access to the parent of that assembly level",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2. Introduction to Teamcenter X":[
+            {
+               "question":"The Remove option deletes the child item from the Teamcenter database.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"What groups do authors participate?",
+               "options":[
+                  "Management and Engineering",
+                  "Management and Manufacturing",
+                  "Engineering and Manufacturing",
+                  "Management, Engineering, Manufacturing, and Shop Floor"
+               ],
+               "correct":"Engineering and Manufacturing",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following statuses is assigned to the part after approval for a production release?",
+               "options":[
+                  "30",
+                  "60",
+                  "90"
+               ],
+               "correct":"60",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following is responsible for reviewing the design for development, production, or obsolescence?",
+               "options":[
+                  "Checker",
+                  "Designer",
+                  "Author"
+               ],
+               "correct":"Checker",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following best describes the part lifecycle progression?",
+               "options":[
+                  "Obsolete> Development > Production",
+                  "Production> Development > Obsolete",
+                  "Development> Production > Obsolete",
+                  "Obsolete> Production > Development"
+               ],
+               "correct":"Development> Production > Obsolete",
+               "type":"radio"
+            },
+            {
+               "question":"What are the Teamcenter X benefits? (select all that apply) (Select all that apply)",
+               "options":[
+                  "CAD system integration",
+                  "Data security and integrity",
+                  "Preconfigured groups and roles",
+                  "Standard reports",
+                  "Product structure"
+               ],
+               "correct":"Standard reports",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2. Perform signoffs":[
+            {
+               "question":"Users who belong to consumer role in Teamcenter X are allowed to create or modify parts.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following are types of signoff tasks?",
+               "options":[
+                  "Do Task",
+                  "Review Task",
+                  "Inbox",
+                  "Resource Pool"
+               ],
+               "correct":"Review Task",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2. Review Workflow tasks":[
+            {
+               "question":"Which of the following can be selected for a Review task?",
+               "options":[
+                  "Acknowledged",
+                  "Not Acknowledged",
+                  "Approve",
+                  "Delete"
+               ],
+               "correct":"Approve",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following tabs displays all tasks assigned to Resource Pools you belong to?",
+               "options":[
+                  "My Tasks",
+                  "Team",
+                  "Surrogate Tasks",
+                  "Resource Pool"
+               ],
+               "correct":"Team",
+               "type":"radio"
+            },
+            {
+               "question":"In the graphical representation of a process in Workflow tab, a check mark symbol in green color tile indicates the task is ____.",
+               "options":[
+                  "Pending",
+                  "Complete",
+                  "Inprocess",
+                  "Not started"
+               ],
+               "correct":"Complete",
+               "type":"radio"
+            },
+            {
+               "question":"In the graphical representation of a process in Workflow tab, a clock symbol in yellow color tile indicates the task is ____.",
+               "options":[
+                  "Pending",
+                  "Complete",
+                  "Inprocess",
+                  "Not started"
+               ],
+               "correct":"Inprocess",
+               "type":"radio"
+            },
+            {
+               "question":"In the graphical representation of a process in Workflow tab, an hour glass symbol in yellow color tile indicates the task is ____.",
+               "options":[
+                  "Pending",
+                  "Complete",
+                  "Inprocess",
+                  "Not started"
+               ],
+               "correct":"Inprocess",
+               "type":"radio"
+            },
+            {
+               "question":"What is a valid signoff for a Do Task?",
+               "options":[
+                  "Acknowledge",
+                  "Approve",
+                  "Complete",
+                  "Pass"
+               ],
+               "correct":"Complete",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2.1. Toolbar, commands, table display and organize favorites and tile":[
+            {
+               "question":"What is a valid signoff for a Review Task?",
+               "options":[
+                  "Acknowledge",
+                  "Approve",
+                  "Complete",
+                  "Pass"
+               ],
+               "correct":"Approve",
+               "type":"radio"
+            },
+            {
+               "question":"When the user makes a selection in the search result panel in what two ways can the user click the “Open” icon?",
+               "options":[
+                  "Move the mouse cursor on the Object in the table, select the Object and click the Open command in the toolbar",
+                  "Move the mouse cursor on the Object in the table and right click on the Object and Open",
+                  "Navigate to the Inbox, Open the object, select the Object and click the Open command in the toolbar",
+                  "Navigate to the Inbox, Open the object and right click on the Object and Open"
+               ],
+               "correct":"Move the mouse cursor on the Object in the table, select the Object and click the Open command in the toolbar",
+               "type":"radio"
+            },
+            {
+               "question":"The search results can be configured by the ________ command.",
+               "options":[
+                  "Selection",
+                  "Freeze",
+                  "Edit",
+                  "Search filter"
+               ],
+               "correct":"Edit",
+               "type":"radio"
+            },
+            {
+               "question":"A user wants to modify information in an attached document. In order to achieve this, the user needs to ______.",
+               "options":[
+                  "select the Object and Edit command on the top right corner of the result panel",
+                  "select the Freeze command by clicking the column header",
+                  "click the Checkout command in the work area toolbar in the preview section of the document within the work area",
+                  "select the Edit command at the right top corner of the table display"
+               ],
+               "correct":"click the Checkout command in the work area toolbar in the preview section of the document within the work area",
+               "type":"radio"
+            },
+            {
+               "question":"In the table display format, a new column can be shown or hidden by clicking which command?",
+               "options":[
+                  "Edit command at the right top corner of the table display",
+                  "Enabling a search filter in the filter panel",
+                  "Gear icon > Arrange",
+                  "Rightclick column and select Add"
+               ],
+               "correct":"Gear icon > Arrange",
+               "type":"radio"
+            },
+            {
+               "question":"Which format type displays an overview of the selected object in the results panel?",
+               "options":[
+                  "Image display format",
+                  "List with Table display format",
+                  "Table with Summary display format",
+                  "Tree display format"
+               ],
+               "correct":"Table with Summary display format",
+               "type":"radio"
+            },
+            {
+               "question":"Which command allows you to stop vertical scrolling on a column?",
+               "options":[
+                  "Stop",
+                  "Hold",
+                  "Scroll",
+                  "Freeze"
+               ],
+               "correct":"Freeze",
+               "type":"radio"
+            },
+            {
+               "question":"How do you setup quick access to data?",
+               "options":[
+                  "Add to favorites",
+                  "Check out",
+                  "Pin to home",
+                  "Bookmark"
+               ],
+               "correct":"Pin to home",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2.12. Review Workflow tasks__":[
+            {
+               "question":"Under which command do you find Pin to HOME?",
+               "options":[
+                  "Edit",
+                  "Favorites",
+                  "Manage",
+                  "Check out"
+               ],
+               "correct":"Manage",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following tabs displays all tasks assigned to Resource Pools you belong to?",
+               "options":[
+                  "My Tasks",
+                  "Team",
+                  "Surrogate Tasks",
+                  "Resource Pool"
+               ],
+               "correct":"Team",
+               "type":"radio"
+            },
+            {
+               "question":"In the graphical representation of a process in Workflow tab, a check mark symbol in green color tile indicates the task is ____.",
+               "options":[
+                  "Pending",
+                  "Complete",
+                  "Inprocess",
+                  "Not started"
+               ],
+               "correct":"Complete",
+               "type":"radio"
+            },
+            {
+               "question":"In the graphical representation of a process in Workflow tab, a clock symbol in yellow color tile indicates the task is ____.",
+               "options":[
+                  "Pending",
+                  "Complete",
+                  "Inprocess",
+                  "Not started"
+               ],
+               "correct":"Inprocess",
+               "type":"radio"
+            },
+            {
+               "question":"In the graphical representation of a process in Workflow tab, an hour glass symbol in yellow color tile indicates the task is ____.",
+               "options":[
+                  "Pending",
+                  "Complete",
+                  "Inprocess",
+                  "Not started"
+               ],
+               "correct":"Inprocess",
+               "type":"radio"
+            },
+            {
+               "question":"What is a valid signoff for a Do Task?",
+               "options":[
+                  "Acknowledge",
+                  "Approve",
+                  "Complete",
+                  "Pass"
+               ],
+               "correct":"Complete",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2.2. Create and revise items":[
+            {
+               "question":"What is a valid signoff for a Review Task?",
+               "options":[
+                  "Acknowledge",
+                  "Approve",
+                  "Complete",
+                  "Pass"
+               ],
+               "correct":"Approve",
+               "type":"radio"
+            },
+            {
+               "question":"Items can have a status.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following statement is true?",
+               "options":[
+                  "Items can exist without revisions",
+                  "Item Revisions keeps track of changes",
+                  "Item Revisions have a unique sequence ID",
+                  "Revisions can be associated to different Items"
+               ],
+               "correct":"Item Revisions keeps track of changes",
+               "type":"radio"
+            },
+            {
+               "question":"In order to create an Item, the user must follow a sequence. Which sequence is correct?",
+               "options":[
+                  "Select a Folder, click Add, choose the Type, enter the information, click Add",
+                  "Select a Folder, click Create, choose the Type, enter the information, click Finish",
+                  "Select a Folder, click Add, choose the Type, enter the information, click Finish"
+               ],
+               "correct":"Select a Folder, click Add, choose the Type, enter the information, click Add",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following properties is optional when creating an Item?",
+               "options":[
+                  "Description",
+                  "Name",
+                  "Item ID",
+                  "Revision ID"
+               ],
+               "correct":"Description",
+               "type":"radio"
+            },
+            {
+               "question":"The Revise feature creates a new object from an existing one.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2.3. Create and edit a file":[
+            {
+               "question":"In order to revise an item, the user must follow a sequence. Which sequence is correct?",
+               "options":[
+                  "Select Save As or Revise, click New, enter the information, click Save",
+                  "Select Revise, click New, enter the information, click Save",
+                  "Select Revise, enter the information, click Save",
+                  "Select Save As or Revise, enter the information, click Save"
+               ],
+               "correct":"Select Save As or Revise, enter the information, click Save",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following is the command to add a file to the selected revision?",
+               "options":[
+                  "“New” in the primary toolbar",
+                  "“Add to” under Attachments > FILES",
+                  "“Add to” under Attachments > DOCUMENTS"
+               ],
+               "correct":"“Add to” under Attachments > FILES",
+               "type":"radio"
+            },
+            {
+               "question":"How can I NOT add a file to a revision?",
+               "options":[
+                  "Drag and drop a file under a revision",
+                  "Drag and drop a file under a master",
+                  "Adding from Palette",
+                  "Saving from integrated application"
+               ],
+               "correct":"Drag and drop a file under a master",
+               "type":"radio"
+            },
+            {
+               "question":"How do you edit a file without an integrated application?",
+               "options":[
+                  "Double click to open the file",
+                  "Open > Open in Visualization",
+                  "Download the file and Replace it after the changes from the Primary Toolbar",
+                  "Select the file then Edit from the Primary Toolbar"
+               ],
+               "correct":"Download the file and Replace it after the changes from the Primary Toolbar",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2.4. Save search criteria and export search results":[
+            {
+               "question":"Which is the command to edit file properties?",
+               "options":[
+                  "Select the file then Edit from the Primary Toolbar",
+                  "Select a File from Attachments and select Edit>Start Edit from the Primary Toolbar",
+                  "Open a File from Attachments and select Edit>Checkout from the Primary Toolbar",
+                  "Select a File from Attachments and select Edit>Checkout from the Primary Toolbar"
+               ],
+               "correct":"Select the file then Edit from the Primary Toolbar",
+               "type":"radio"
+            },
+            {
+               "question":"What is displayed on the saved search page?",
+               "options":[
+                  "Your saved search and Searches that are shared with you",
+                  "Your Recent Searches and your saved search",
+                  "Searches that are shared with you"
+               ],
+               "correct":"Your saved search and Searches that are shared with you",
+               "type":"radio"
+            },
+            {
+               "question":"After saving search results, users can perform which of the following actions?",
+               "options":[
+                  "Update it",
+                  "Share it with other users",
+                  "Pin it to the home page",
+                  "Delete it",
+                  "All of the above"
+               ],
+               "correct":"All of the above",
+               "type":"radio"
+            },
+            {
+               "question":"Users can access their saved searches from where?",
+               "options":[
+                  "Home page only",
+                  "Home page and Suggestions Searches",
+                  "Home page or the Saved page of the Search page header"
+               ],
+               "correct":"Home page or the Saved page of the Search page header",
+               "type":"radio"
+            },
+            {
+               "question":"When exporting search results to Excel, you must apply what?",
+               "options":[
+                  "List View",
+                  "List With Summary View",
+                  "List With Detail View",
+                  "Table With Summary View"
+               ],
+               "correct":"Table With Summary View",
+               "type":"radio"
+            },
+            {
+               "question":"“Jane is a product manager whose team utilizes the Hard Drive Assembly.It is important for her to track the number of defects reported by her department so that she can include this data in weekly status reports.What is the best way to allow Jane to efficiently retrieve this information? “",
+               "options":[
+                  "Save the search",
+                  "Pin the Hard Drive Assembly to her home page",
+                  "Use the search box and filtering panel"
+               ],
+               "correct":"Save the search",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2.5. Opening and viewing product structures":[
+            {
+               "question":"Users can delete saved searches that are shared with them.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"Which of these item types are typically organized in assemblies?",
+               "options":[
+                  "Drawings",
+                  "Designs",
+                  "Parts",
+                  "Documents"
+               ],
+               "correct":"Parts",
+               "type":"radio"
+            },
+            {
+               "question":"Check the statement below that are true.",
+               "options":[
+                  "An assembly has exactly three levels: toplevel, intermediate level and leaf node",
+                  "Leaf nodes can have children",
+                  "The same item can be used several times within an assembly",
+                  "One assembly level can be at the same time a parent and a child level"
+               ],
+               "correct":"The same item can be used several times within an assembly",
+               "type":"radio"
+            },
+            {
+               "question":"An item that has a bill of materials is:",
+               "options":[
+                  "A leaf node",
+                  "A requirement",
+                  "An assembly",
+                  "A child"
+               ],
+               "correct":"An assembly",
+               "type":"radio"
+            },
+            {
+               "question":"What of the following statements is true regarding the expand command when we use the table view mode?",
+               "options":[
+                  "When I open a structure for the first time, I see only the first of its levels",
+                  "If I choose to expand all levels when a subassembly is selected, it will expand all levels of the toplevel assembly",
+                  "If I choose to expand all levels when a subassembly is selected, it will expand all levels of the selected subassembly",
+                  "The expand command can be applied in table view mode"
+               ],
+               "correct":"When I open a structure for the first time, I see only the first of its levels",
+               "type":"radio"
+            },
+            {
+               "question":"What of the following conditions are needed for two levels to be packed together?",
+               "options":[
+                  "Both levels should have the same item id",
+                  "Both levels should have different find number",
+                  "Both levels should have the same quantity of that item",
+                  "Both levels should be approved"
+               ],
+               "correct":"Both levels should have the same item id",
+               "type":"radio"
+            },
+            {
+               "question":"When we load a structure in a split screen, the summary tab on the right:",
+               "options":[
+                  "Will always load the information for the selected level on the left",
+                  "Will always load the information for the toplevel assembly",
+                  "Lets us edit the information for the assembly components",
+                  "Lets us view information for the assembly components, but not edit it"
+               ],
+               "correct":"Lets us edit the information for the assembly components",
+               "type":"radio"
+            },
+            {
+               "question":"The embedded 3D Viewer in Active Workspace can load an assembly:",
+               "options":[
+                  "Provided we have a high end workstation capable of rendering it",
+                  "Even in cell phones or tablets, as it can use serverside rendering",
+                  "No, it can only load single items",
+                  "Provided all the components in the assembly have been released"
+               ],
+               "correct":"Even in cell phones or tablets, as it can use serverside rendering",
+               "type":"radio"
+            },
+            {
+               "question":"Opening a structure using the list view mode lets us explore all its levels at the same time.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"If I modify the column configuration of a structure, my changes will be still there the next time I log in to Teamcenter?",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"TRUE",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "3. Toolbar, commands, and table display":[
+            {
+               "question":"Active Worspace doesn’t have any feature that lets us export the contents of a structure to Excel.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"What actions can you take with an object while you have it selected in search results?",
+               "options":[
+                  "The same actions as if it was in your home folder",
+                  "Nothing, the object must be opened in a new tab or window first",
+                  "Only editing the properties of the object",
+                  "Only searching for related objects"
+               ],
+               "correct":"The same actions as if it was in your home folder",
+               "type":"radio"
+            },
+            {
+               "question":"The search results can be changed by the ________ command.",
+               "options":[
+                  "Selection",
+                  "Freeze",
+                  "Edit",
+                  "Search filter"
+               ],
+               "correct":"Edit",
+               "type":"radio"
+            },
+            {
+               "question":"A user wants to modify information in an attached document. In order to achieve this, the user needs to ______.",
+               "options":[
+                  "Edit the metadata of the parent object",
+                  "Freeze the attached document",
+                  "Checkout the attached document",
+                  "Pin the document to the home folder"
+               ],
+               "correct":"Checkout the attached document",
+               "type":"radio"
+            },
+            {
+               "question":"How does the Arrange command affect the table display?",
+               "options":[
+                  "Modify data in columns",
+                  "Change the table view to a list view",
+                  "Show and hide columns",
+                  "Sort data alphabetically"
+               ],
+               "correct":"Show and hide columns",
+               "type":"radio"
+            },
+            {
+               "question":"Which format type displays an overview of the selected object in the result panel?",
+               "options":[
+                  "Image display format",
+                  "List with Table display format",
+                  "Table with Summary display format",
+                  "Tree display format"
+               ],
+               "correct":"Table with Summary display format",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "4. Organize favorites and tiles":[
+            {
+               "question":"Which command allows you to stop vertical scrolling on a column?",
+               "options":[
+                  "Stop",
+                  "Hold",
+                  "Scroll",
+                  "Freeze"
+               ],
+               "correct":"Freeze",
+               "type":"radio"
+            },
+            {
+               "question":"Under which folder is the object created by default in Active Workspace?",
+               "options":[
+                  "My favorites",
+                  "HOME folder",
+                  "Newstuff folder",
+                  "Active Workspace Mailbox folder"
+               ],
+               "correct":"HOME folder",
+               "type":"radio"
+            },
+            {
+               "question":"How do you setup quick access to data?",
+               "options":[
+                  "Add to favorites",
+                  "Check out",
+                  "Pin to Home",
+                  "Bookmark"
+               ],
+               "correct":"Pin to Home",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "5. Searching in Active Workspace":[
+            {
+               "question":"Under which command do you find Pin to HOME?",
+               "options":[
+                  "Edit",
+                  "Favorites",
+                  "Manage",
+                  "Check out"
+               ],
+               "correct":"Manage",
+               "type":"radio"
+            },
+            {
+               "question":"What is the best way to search for data that belongs to you?",
+               "options":[
+                  "Favorites Folder",
+                  "Quick Search",
+                  "Global Search",
+                  "Browse"
+               ],
+               "correct":"Global Search",
+               "type":"radio"
+            },
+            {
+               "question":"Suggestions and Recent Searches list are available in which search?",
+               "options":[
+                  "Advanced Searc",
+                  "Quick Search",
+                  "Global Search",
+                  "Browse"
+               ],
+               "correct":"Global Search",
+               "type":"radio"
+            },
+            {
+               "question":"Which prefilter option next to the global search box can you apply to search results?",
+               "options":[
+                  "Specific Owner only",
+                  "Object Type only",
+                  "Specific Owner and Category",
+                  "Object Type and Projects"
+               ],
+               "correct":"Specific Owner and Category",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "Develop and release product design":[
+            {
+               "question":"What cannot be used to further refine your search results after performing a search?",
+               "options":[
+                  "Use the breadcrumb",
+                  "Use the Chart",
+                  "Add search criteria in the Find in this content",
+                  "Use the Search Filters"
+               ],
+               "correct":"Use the breadcrumb",
+               "type":"radio"
+            },
+            {
+               "question":"Which task is typically performed by the manager?",
+               "options":[
+                  "Assign design work",
+                  "Create CAD design",
+                  "Submit parts to workflows",
+                  "Assign a design checker"
+               ],
+               "correct":"Assign design work",
+               "type":"radio"
+            },
+            {
+               "question":"Which task is typically performed by the Author?",
+               "options":[
+                  "Assign design work",
+                  "Create CAD design",
+                  "Submit parts to workflows",
+                  "Assign a design checker"
+               ],
+               "correct":"Create CAD design",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "Opening and viewing product structures":[
+            {
+               "question":"You are asked to give a part a status that indicates the part is ready for production. No other checks or approvals are needed. Select the best workflow for this scenario.",
+               "options":[
+                  "30 – Development Release",
+                  "60 – Production Release",
+                  "Change Status to 60 – Production Released",
+                  "90 – Obsolescence Process"
+               ],
+               "correct":"Change Status to 60 – Production Released",
+               "type":"radio"
+            },
+            {
+               "question":"Which of these item types are typically organized in assemblies?",
+               "options":[
+                  "Drawings",
+                  "Designs",
+                  "Parts",
+                  "Documents"
+               ],
+               "correct":"Parts",
+               "type":"radio"
+            },
+            {
+               "question":"An item that has a bill of materials is:",
+               "options":[
+                  "A leaf node",
+                  "A requirement",
+                  "An assembly",
+                  "A child"
+               ],
+               "correct":"An assembly",
+               "type":"radio"
+            },
+            {
+               "question":"When using the expand command with table view, you can___ .",
+               "options":[
+                  "Expand only the first of its levels when opening an assembly the first time",
+                  "Expand all levels of the toplevel assembly if you choose to expand all levels when a subassembly is selected",
+                  "Expand all levels of the selected subassembly if you choose to expand all levels when a subassembly is selected",
+                  "Not expand the assembly"
+               ],
+               "correct":"Expand only the first of its levels when opening an assembly the first time",
+               "type":"radio"
+            },
+            {
+               "question":"What of the following conditions are needed for two levels to be packed together?",
+               "options":[
+                  "Both levels should have the same Item ID",
+                  "Both levels should have different Find Numbers",
+                  "Both levels should have the same Quantity of that Item",
+                  "Both levels should be Approved"
+               ],
+               "correct":"Both levels should have the same Item ID",
+               "type":"radio"
+            },
+            {
+               "question":"When we load a structure in a split screen, the summary tab on the right:",
+               "options":[
+                  "Will always load the information for the selected level on the left",
+                  "Will always load the information for the toplevel assembly",
+                  "Lets us edit the information for the assembly components",
+                  "Lets us view information for the assembly components, but not edit it"
+               ],
+               "correct":"Lets us edit the information for the assembly components",
+               "type":"radio"
+            },
+            {
+               "question":"When can the embedded 3D Viewer in Active Workspace load an assembly?",
+               "options":[
+                  "Only with a powerful desktop",
+                  "Any client, even cell phones or tablets using serverside rendering",
+                  "Never",
+                  "Only when the components have been released"
+               ],
+               "correct":"Any client, even cell phones or tablets using serverside rendering",
+               "type":"radio"
+            }
+         ]
+      }
+   ],
+   "Role Admin":[
+      {
+         "1 Install the Business Modeler IDE (BMIDE)":[
+            {
+               "question":"In BMIDE, what is IDE an abbreviation for?",
+               "options":[
+                  "Interface Desktop Environment",
+                  "Interface Design Elements",
+                  "Integrated Drive Electronics",
+                  "Integrated Development Environment"
+               ],
+               "correct":"Integrated Development Environment",
+               "type":"checkbox"
+            },
+            {
+               "question":"The _tcbaseline.XML file ____ .",
+               "options":[
+                  "contains a snapshot of the template data model",
+                  "lists the template XML files included in the data model",
+                  "contains the data model for this template",
+                  "lists the other templates that this template is built on top of"
+               ],
+               "correct":"contains a snapshot of the template data model",
+               "type":"checkbox"
+            },
+            {
+               "question":"The _dependancy.XML file ____ .",
+               "options":[
+                  "contains a snapshot of the template data model",
+                  "lists the template XML files included in the data model",
+                  "contains the data model for this template",
+                  "lists the other templates that this template is built on top of"
+               ],
+               "correct":"lists the other templates that this template is built on top of",
+               "type":"checkbox"
+            },
+            {
+               "question":"The _template.XML file ____ .",
+               "options":[
+                  "contains a snapshot of the template data model",
+                  "lists the template XML files included in the data model",
+                  "contains the data model for this template",
+                  "lists the other templates that this template is built on top of"
+               ],
+               "correct":"contains the data model for this template",
+               "type":"checkbox"
+            },
+            {
+               "question":"The master.XML file ____ .",
+               "options":[
+                  "contains a snapshot of the template data model",
+                  "lists the template XML files included in the data model",
+                  "contains the data model for this template",
+                  "lists the other templates that this template is built on top of"
+               ],
+               "correct":"lists the template XML files included in the data model",
+               "type":"checkbox"
+            }
+         ],
+         "1. Install Teamcenter databases":[
+            {
+               "question":"What is the minimum RAM required to run BMIDE with live updates?",
+               "options":[
+                  ".5 GB",
+                  "1 GB",
+                  "2 GB",
+                  "5 GB"
+               ],
+               "correct":"2 GB",
+               "type":"checkbox"
+            },
+            {
+               "question":"On which tier is persistent metadata stored?",
+               "options":[
+                  "Resource tier",
+                  "Enterprise tier",
+                  "Web tier",
+                  "Routing tier"
+               ],
+               "correct":"Resource tier",
+               "type":"checkbox"
+            },
+            {
+               "question":"When installing Teamcenter, when should the database be installed?",
+               "options":[
+                  "First",
+                  "Second",
+                  "Third",
+                  "Fourth"
+               ],
+               "correct":"First",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which of these statements is not true regarding Teamcenter database support?",
+               "options":[
+                  "Oracle is supported",
+                  "Microsoft SQL Server is supported",
+                  "Microsoft Access is supported",
+                  "All of the above are supported"
+               ],
+               "correct":"Microsoft Access is supported",
+               "type":"checkbox"
+            },
+            {
+               "question":"When installing Oracle, it is recommeded that you use ____ .",
+               "options":[
+                  "Teamcenter Oracle database templates",
+                  "Teamcenter generic database templates",
+                  "Oracle database templates",
+                  "Microsoft database templates"
+               ],
+               "correct":"Teamcenter Oracle database templates",
+               "type":"checkbox"
+            },
+            {
+               "question":"What Oracle account is created to hold your Teamcenter data?",
+               "options":[
+                  "sys",
+                  "infodba",
+                  "tc",
+                  "system"
+               ],
+               "correct":"infodba",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which is NOT a major component of an Oracle installation?",
+               "options":[
+                  "Server",
+                  "Database",
+                  "Volume",
+                  "Listener"
+               ],
+               "correct":"Volume",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is included in an Oracle instance?",
+               "options":[
+                  "Only the System Global Area",
+                  "Only Oracle processes",
+                  "The Oracle Server",
+                  "The combination of the System Global Area and Oracle processes"
+               ],
+               "correct":"The combination of the System Global Area and Oracle processes",
+               "type":"checkbox"
+            },
+            {
+               "question":"When choosing an Oracle install location, which statement is false?",
+               "options":[
+                  "You can install the Oracle server and application files on shared directories",
+                  "Oracle does not support database files on shared directories",
+                  "To improve performance, create database files on remote disk drives",
+                  "To ensure data integrity, create database files on local disk drives"
+               ],
+               "correct":"To improve performance, create database files on remote disk drives",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is the purpose of the Oracle listener?",
+               "options":[
+                  "Monitors connection requests from one database or for multiple databases",
+                  "Monitors email requests to the database",
+                  "Monitors file requests from the local server",
+                  "Monitors SQL queries from a 4tier client"
+               ],
+               "correct":"Monitors SQL queries from a 4tier client",
+               "type":"checkbox"
+            },
+            {
+               "question":"What file does a Teamcenter client use to connect to the database?",
+               "options":[
+                  "listener.ora",
+                  "tnsnames.ora",
+                  "portal.bat",
+                  "tcdata.bat"
+               ],
+               "correct":"tnsnames.ora",
+               "type":"checkbox"
+            },
+            {
+               "question":"What Oracle database service must be running in order for Teamcenter to connect to the database?",
+               "options":[
+                  "System Global Area",
+                  "Server",
+                  "Client",
+                  "Listener"
+               ],
+               "correct":"Listener",
+               "type":"checkbox"
+            }
+         ],
+         "1. Install the corporate server":[
+            {
+               "question":"When using the Microsoft SQL database, which of the following is False?",
+               "options":[
+                  "The Teamcenter corporate server can be installed on Windows or UNIX platforms",
+                  "The Teamcenter corporate server must be installed on a Windows platform",
+                  "Twotier clients must be installed on Windows platform",
+                  "Fourtier clients can be installed on Windows or UNIX platforms"
+               ],
+               "correct":"The Teamcenter corporate server can be installed on Windows or UNIX platforms",
+               "type":"checkbox"
+            },
+            {
+               "question":"In Teamcenter, FMS is an abbreviation for ____ .",
+               "options":[
+                  "Fully Managed Service",
+                  "Flexible Modeling System",
+                  "File Management System",
+                  "Firewall Modulation Subsystem"
+               ],
+               "correct":"File Management System",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which statement is true regarding a Teamcenter 4-tier architecture install?",
+               "options":[
+                  "The FSC is found on the client tier",
+                  "The FSC is found on the corporate tier",
+                  "The FSC is found on the web tier",
+                  "The FSC is found on the resource tier"
+               ],
+               "correct":"The FSC is found on the corporate tier",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which of the following does the Teamcenter corporate server NOT contain?",
+               "options":[
+                  "A database",
+                  "Shared binary executables and files",
+                  "Shared data subdirectories and files",
+                  "Volumes"
+               ],
+               "correct":"A database",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which is NOT an important component of the corporate server?",
+               "options":[
+                  "TC_ROOT",
+                  "TC_DATA",
+                  "TC_LICENSE",
+                  "FMS"
+               ],
+               "correct":"TC_LICENSE",
+               "type":"checkbox"
+            },
+            {
+               "question":"What provides file transfer between volumes and clients?",
+               "options":[
+                  "WAN",
+                  "FCC",
+                  "FSC",
+                  "FMS"
+               ],
+               "correct":"FMS",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which process controls the transfer of data between volumes and clients?",
+               "options":[
+                  "WAN",
+                  "FCC",
+                  "FSC",
+                  "FMS"
+               ],
+               "correct":"FSC",
+               "type":"checkbox"
+            },
+            {
+               "question":"When selecting Teamcenter features to install, you should install ____ .",
+               "options":[
+                  "only the solutions and features you need",
+                  "all the solutions and features available",
+                  "only one additional feature",
+                  "the same list of features that some one else you know installed"
+               ],
+               "correct":"only the solutions and features you need",
+               "type":"checkbox"
+            },
+            {
+               "question":"A Teamcenter configuration is ____ .",
+               "options":[
+                  "a set of one or more solutions to be installed",
+                  "a set of one or more features to be installed",
+                  "a set of one or more solutions or features to be installed",
+                  "a set of one or more solutions and features to be installed"
+               ],
+               "correct":"a set of one or more solutions and features to be installed",
+               "type":"checkbox"
+            },
+            {
+               "question":"Each TC_ROOT is ____ .",
+               "options":[
+                  "a set of TC_DATA directories",
+                  "a single Teamcenter installation",
+                  "a separate configuration",
+                  "a set of multiple configurations"
+               ],
+               "correct":"a separate configuration",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is the purpose of the Dispatcher Server feature?",
+               "options":[
+                  "Installs the file management system",
+                  "Installs the process that manages the pool of Teamcenter server processes",
+                  "Installs Teamcenter 2tier or 4tier Rich Clients",
+                  "Installs the scheduler module and event client for file translation"
+               ],
+               "correct":"Installs the scheduler module and event client for file translation",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which file is used to set most of the environment variables that are needed to run Teamcenter?",
+               "options":[
+                  "tc_env.bat",
+                  "tc_profilesvars.bat",
+                  "tnsnames.ora",
+                  "tcdata.bat"
+               ],
+               "correct":"tc_profilesvars.bat",
+               "type":"checkbox"
+            }
+         ],
+         "14.1 2 Perform a 4-tier mass client deploy":[
+            {
+               "question":"What is the key function of TC_DATA?",
+               "options":[
+                  "Contains configuration and data model information",
+                  "Contains the database",
+                  "Data vault",
+                  "Data backup"
+               ],
+               "correct":"Contains configuration and data model information",
+               "type":"checkbox"
+            }
+         ],
+         "14.1 3  Configure the File Management System (FMS)":[
+            {
+               "question":"What types of deployment scripts are generated from Deployment Center?",
+               "options":[
+                  "client deployment and mass deployment",
+                  "server deployment and client deployment",
+                  "server deployment and mass deployment",
+                  "client deployment and tiered deployment"
+               ],
+               "correct":"server deployment and mass deployment",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which of these is not true regarding Teamcenter FMS:",
+               "options":[
+                  "File caching on file servers and clients for better file transfer performance.",
+                  "Transient data storage for transporting data between the web and client tiers",
+                  "Provides Wide Area Network (WAN) acceleration",
+                  "File transfer between the database and clients"
+               ],
+               "correct":"File transfer between the database and clients",
+               "type":"checkbox"
+            },
+            {
+               "question":"FSC cache types do not include:",
+               "options":[
+                  "Configuration server",
+                  "Customization server",
+                  "Cache server",
+                  "Transient file server"
+               ],
+               "correct":"Customization server",
+               "type":"checkbox"
+            }
+         ],
+         "14.1 4 Install dispatcher":[
+            {
+               "question":"FCC file caches do not include:",
+               "options":[
+                  "Write",
+                  "Read",
+                  "Elasticity",
+                  "Segment"
+               ],
+               "correct":"Elasticity",
+               "type":"checkbox"
+            },
+            {
+               "question":"In Teamcenter, dispatcher ______",
+               "options":[
+                  "Assigns users to perform tasks",
+                  "Schedules tasks to be performed in the background",
+                  "Eliminates unnecessary tasks from the database",
+                  "Must be installed for Teamcenter to function"
+               ],
+               "correct":"Schedules tasks to be performed in the background",
+               "type":"checkbox"
+            },
+            {
+               "question":"The dispatcher client ________",
+               "options":[
+                  "Provides the communication mechanism for moving translation requests and data between Teamcenter and the Dispatcher Server",
+                  "Distribute the translation tasks",
+                  "Invokes the specific translators required",
+                  "Assigns users to perform tasks"
+               ],
+               "correct":"Provides the communication mechanism for moving translation requests and data between Teamcenter and the Dispatcher Server",
+               "type":"checkbox"
+            },
+            {
+               "question":"The dispatcher scheduler ________",
+               "options":[
+                  "Provides the communication mechanism for moving translation requests and data between Teamcenter and the Dispatcher Server",
+                  "Distribute the translation tasks",
+                  "Invokes the specific translators required",
+                  "Assigns users to perform tasks"
+               ],
+               "correct":"Distribute the translation tasks",
+               "type":"checkbox"
+            }
+         ],
+         "14.1 6  Install Teamcenter patches":[
+            {
+               "question":"The dispatcher module ________",
+               "options":[
+                  "Provides the communication mechanism for moving translation requests and data between Teamcenter and the Dispatcher Server",
+                  "Distribute the translation tasks",
+                  "Invokes the specific translators required",
+                  "Assigns users to perform tasks"
+               ],
+               "correct":"Invokes the specific translators required",
+               "type":"checkbox"
+            }
+         ],
+         "14.1 7  Upgrade a Teamcenter insta":[
+            {
+               "question":"Which is true regarding patching to a Teamcenter install using Deployment Center?",
+               "options":[
+                  "You must first patch the TEM.",
+                  "You must have the software kits for the old version and the new version in the repository.",
+                  "You must redeploy the patched tc.war file.",
+                  "You must install multiple patches at once."
+               ],
+               "correct":"You must have the software kits for the old version and the new version in the repository.",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which is not true regarding upgrading a Teamcenter install?",
+               "options":[
+                  "You must define a diferent TC_ROOT folder for the new version.",
+                  "You must create a new database for the new version.",
+                  "You can use a common folder for the services for both versions.",
+                  "You must have the software kits for the old version and the new version in the repository."
+               ],
+               "correct":"You can use a common folder for the services for both versions.",
+               "type":"checkbox"
+            }
+         ],
+         "14.1 8 Perform other important Deployment Center tasks":[
+            {
+               "question":"If you current version if Teamcenter is 12.1, which version would be considered a valid upgrade?",
+               "options":[
+                  "12.2",
+                  "13.3",
+                  "14.1",
+                  "11.0"
+               ],
+               "correct":"13.3",
+               "type":"checkbox"
+            },
+            {
+               "question":"Installation tools for Teamcenter do not include:",
+               "options":[
+                  "DC_Quick_Deploy",
+                  "Deployment Center",
+                  "Send_configuration_to_DC",
+                  "Import_configuration_to_DC"
+               ],
+               "correct":"Import_configuration_to_DC",
+               "type":"checkbox"
+            }
+         ],
+         "14.1 9 Perform Teamcenter install maintenance":[
+            {
+               "question":"Which is these is not a version of software used in the training?",
+               "options":[
+                  "Deployment Center 4.2",
+                  "Teamcenter 13.1",
+                  "Deployment Center 13.1",
+                  "Teamcenter 13.0"
+               ],
+               "correct":"Deployment Center 13.1",
+               "type":"checkbox"
+            }
+         ],
+         "2. Get started with Teamcenter Installation":[
+            {
+               "question":"To regenerate the server cache you run the _________________ command.",
+               "options":[
+                  "generate_server_meta_cache",
+                  "generate_metadata_chache",
+                  "generate_client_meta_cache",
+                  "fscadmin"
+               ],
+               "correct":"generate_metadata_chache",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which of the following is not one of the Teamcenter 4-tiers of an install?",
+               "options":[
+                  "Resource tier",
+                  "Enterprise tier",
+                  "Web tier",
+                  "Routing tier"
+               ],
+               "correct":"Routing tier",
+               "type":"checkbox"
+            },
+            {
+               "question":"On which tier would you expect to find the Volume?",
+               "options":[
+                  "Resource tier",
+                  "Enterprise tier",
+                  "Web tier",
+                  "Routing tier"
+               ],
+               "correct":"Resource tier",
+               "type":"checkbox"
+            },
+            {
+               "question":"On which tier would you expect to find the Server Manager?",
+               "options":[
+                  "Resource tier",
+                  "Enterprise tier",
+                  "Web tier",
+                  "Routing tier"
+               ],
+               "correct":"Enterprise tier",
+               "type":"checkbox"
+            },
+            {
+               "question":"On which tier would you expect to find the Database?",
+               "options":[
+                  "Resource tier",
+                  "Enterprise tier",
+                  "Web tier",
+                  "Routing tier"
+               ],
+               "correct":"Resource tier",
+               "type":"checkbox"
+            },
+            {
+               "question":"The Teamcenter Environment Manager (TEM) requires a supported _____ .",
+               "options":[
+                  "database",
+                  "Web Server Environment",
+                  "Java Runtime Environment (JRE)",
+                  "Web Application Manager (WAM)"
+               ],
+               "correct":"Java Runtime Environment (JRE)",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which web browser is not supported by Teamcenter on a Microsoft Windows system?",
+               "options":[
+                  "Microsoft Internet Explorer",
+                  "Google Chrome",
+                  "Mozzilla Firefox",
+                  "Apple Safari"
+               ],
+               "correct":"Apple Safari",
+               "type":"checkbox"
+            },
+            {
+               "question":"What can be installed for web tier support?",
+               "options":[
+                  "Java EE application server",
+                  "Microsoft Internet Information Server (IIS)",
+                  "Java EE application server and Microsoft Internet Information Server (IIS)",
+                  "Java EE application server or Microsoft Internet Information Server (IIS)"
+               ],
+               "correct":"Java EE application server or Microsoft Internet Information Server (IIS)",
+               "type":"checkbox"
+            },
+            {
+               "question":"When downloading software distribution images, you should download ____ .",
+               "options":[
+                  "both the major and minor releases",
+                  "either the major or minor releases",
+                  "only the major release",
+                  "only the minor release"
+               ],
+               "correct":"both the major and minor releases",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which of the following is one of the Teamcenter 2-tiers of an install?",
+               "options":[
+                  "Resource tier",
+                  "Enterprise tier",
+                  "Web tier",
+                  "Routing tier"
+               ],
+               "correct":"Resource tier",
+               "type":"checkbox"
+            },
+            {
+               "question":"On which tier would you expect to find the Teamcenter WAR file?",
+               "options":[
+                  "Resource tier",
+                  "Enterprise tier",
+                  "Web tier",
+                  "Routing tier"
+               ],
+               "correct":"Web tier",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which manages the download and upload of file data?",
+               "options":[
+                  "Data Management System (DMS)",
+                  "File Management System (FMS)",
+                  "Volume Management System (VMS)",
+                  "Teamcenter Enterprise Management System (TEM)"
+               ],
+               "correct":"File Management System (FMS)",
+               "type":"checkbox"
+            }
+         ],
+         "2. Identify and install Deployment Center":[
+            {
+               "question":"Which of the following tools allows you to install and configure the web tier?",
+               "options":[
+                  "Teamcenter Environment Manager (TEM)",
+                  "Web Application Manager (WAM)",
+                  "Deployment Center (DC)",
+                  "Teamcenter Rich Client (RAC)"
+               ],
+               "correct":"Web Application Manager (WAM)",
+               "type":"checkbox"
+            },
+            {
+               "question":"Deployment Center is a _____________.",
+               "options":[
+                  "Command center for organizing the deployment of troops into duty",
+                  "A set of tools to customize your Teamcenter and Active Workspace environment",
+                  "Centralized web application for deploying software to Teamcenter and Active Workspace environment.",
+                  "None of above"
+               ],
+               "correct":"Centralized web application for deploying software to Teamcenter and Active Workspace environment.",
+               "type":"checkbox"
+            },
+            {
+               "question":"Benefits of using Deployment Center include all of the following except ________.",
+               "options":[
+                  "Faster data creation for Items and Item Revisions in Teamcenter",
+                  "Flexible administration of software deployments",
+                  "Manage software deployments for Teamcenter environments",
+                  "Manage software deployments using reports"
+               ],
+               "correct":"Faster data creation for Items and Item Revisions in Teamcenter",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is the dc_encrypt script’s purpose?",
+               "options":[
+                  "To encrypt passwords to be used by Deployment Center",
+                  "To encrypt the files in the installation directory in Deployment Center",
+                  "To encrypt the interface to prevent 3rd party access",
+                  "To deny access to all users except for those in the dba group"
+               ],
+               "correct":"To encrypt passwords to be used by Deployment Center",
+               "type":"checkbox"
+            },
+            {
+               "question":"Encrypted passwords may be provided by",
+               "options":[
+                  "Password specified in the command line",
+                  "Password specified via an environment variable",
+                  "Password specified by a input file",
+                  "All of the above"
+               ],
+               "correct":"All of the above",
+               "type":"checkbox"
+            },
+            {
+               "question":"Deployment center may be used for all of the following except ______________.",
+               "options":[
+                  "Installing a new Teamcenter or Active Workspace environment",
+                  "Uninstalling Teamcenter",
+                  "Maintain an existing registered Teamcenter environment",
+                  "Upgrade or patch an existing Teamcenter environment"
+               ],
+               "correct":"Uninstalling Teamcenter",
+               "type":"checkbox"
+            },
+            {
+               "question":"What Deployment Center utility must be run prior to performing maintanence in the UI?",
+               "options":[
+                  "dc_encrypt",
+                  "import_wsconfig",
+                  "send_configuration_to_dc",
+                  "npm run generateModule"
+               ],
+               "correct":"send_configuration_to_dc",
+               "type":"checkbox"
+            },
+            {
+               "question":"Identify the scenario which require troubleshooting in Deployment Center",
+               "options":[
+                  "Inability to log on to Deployment Center",
+                  "Inability to add software, applications or components",
+                  "Failure to create a deployment script",
+                  "All of the above"
+               ],
+               "correct":"All of the above",
+               "type":"checkbox"
+            }
+         ],
+         "3. Manage the Deployment Center repository":[
+            {
+               "question":"You must stop the following service prior to backing up Deployment Center",
+               "options":[
+                  "Stop the Server Manager",
+                  "Stop the Wildfly Service",
+                  "Stop the repository service",
+                  "All of the above"
+               ],
+               "correct":"Stop the repository service",
+               "type":"checkbox"
+            },
+            {
+               "question":"Software kits are stored in a _____________.",
+               "options":[
+                  "Module",
+                  "Kit",
+                  "Hierarchy",
+                  "Repository"
+               ],
+               "correct":"Repository",
+               "type":"checkbox"
+            },
+            {
+               "question":"What does the MACHINES page in Deployment Center provide?",
+               "options":[
+                  "Names and locations of all server side components for uninstalling",
+                  "Names and locations of all clients installed in the system",
+                  "The physical machines configured for Deployment Center installations",
+                  "The help server"
+               ],
+               "correct":"The physical machines configured for Deployment Center installations",
+               "type":"checkbox"
+            },
+            {
+               "question":"The Software Repository provides which of the following management tasks",
+               "options":[
+                  "Manage data model changes in the user interface",
+                  "Manage software kits",
+                  "Manage templates in the Teamcenter foundation deployment",
+                  "Install the Active Workspace client"
+               ],
+               "correct":"Manage software kits",
+               "type":"checkbox"
+            },
+            {
+               "question":"The primary repository is specified during installation, maintenance, or upgrades with the ____________ argument.",
+               "options":[
+                  "softwareDirectories",
+                  "stageLocation",
+                  "deploy_location",
+                  "repoDir"
+               ],
+               "correct":"repoDir",
+               "type":"checkbox"
+            },
+            {
+               "question":"Additional repositories may be specfied with the ________ argument during install, maintenance, and upgrade.",
+               "options":[
+                  "stageLocation",
+                  "extraSoftwareDir",
+                  "softwareDirectories",
+                  "deploy_location"
+               ],
+               "correct":"extraSoftwareDir",
+               "type":"checkbox"
+            },
+            {
+               "question":"Select the funtion below that is not true when managing software kits in Deployment Center.",
+               "options":[
+                  "Deployment Center scans for software in zipped directories in the repository",
+                  "Deployment center reads directories nested 1 level under the software folder",
+                  "Deployment Center does not scan further than 1 level under the softwar folder",
+                  "Sofware kits placed into the software folder unzipped are scanned by Deployment Center"
+               ],
+               "correct":"Deployment Center scans for software in zipped directories in the repository",
+               "type":"checkbox"
+            },
+            {
+               "question":"The Active Media tab on the Software Repositories page _________________.",
+               "options":[
+                  "Displays information about each software kit",
+                  "Displays dependency information for the kit",
+                  "Provides errors if directories and kits are incorrect",
+                  "All of the above"
+               ],
+               "correct":"All of the above",
+               "type":"checkbox"
+            },
+            {
+               "question":"Software configuration reports ____________________.",
+               "options":[
+                  "Provide reports on all administration changes for the organization",
+                  "Provide detailed diagrams on data used by the dba group",
+                  "Provide information about software, dependencies, internal names, and configuration values",
+                  "None of the above"
+               ],
+               "correct":"Provide information about software, dependencies, internal names, and configuration values",
+               "type":"checkbox"
+            }
+         ],
+         "3. Perform Teamcenter preinstallation tasks":[
+            {
+               "question":"What format must software kits be in for Deployment Center to scan them correctly?",
+               "options":[
+                  "Zipped",
+                  "7Zip",
+                  "Unzipped",
+                  "Archived in a .war directory"
+               ],
+               "correct":"Unzipped",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which of these is not a preinstallation task?",
+               "options":[
+                  "Install the license server",
+                  "Get a license",
+                  "Verify disk space and write access",
+                  "Import data"
+               ],
+               "correct":"Import data",
+               "type":"checkbox"
+            },
+            {
+               "question":"Teamcenter employs which licensing strategy?",
+               "options":[
+                  "Floating licenses: The total number of users logged in to Teamcenter must not exceed the number of licenses purchased",
+                  "Named user licensing: The total number of active users created cannot exceed the number of licenses purchased",
+                  "Local licenses: Each machine on which a Teamcenter server is running, must have its own license file",
+                  "Client licenses: Each machine on which a Teamcenter client is running, must have its own license file"
+               ],
+               "correct":"Named user licensing: The total number of active users created cannot exceed the number of licenses purchased",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is used to install the Teamcenter license server?",
+               "options":[
+                  "License Server installation wizard",
+                  "Teamcenter Environment Manager",
+                  "licensing.exe",
+                  "Install utility"
+               ],
+               "correct":"License Server installation wizard",
+               "type":"checkbox"
+            },
+            {
+               "question":"Teamcenter processes connect to a license server using which environment variable?",
+               "options":[
+                  "UG_LICENSE",
+                  "TC_LICENSE_SERVER",
+                  "TC_LICENSE_FILE",
+                  "SPLM_LICENSE_SERVER"
+               ],
+               "correct":"SPLM_LICENSE_SERVER",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which tool is used to manage the license server?",
+               "options":[
+                  "PLM_LICENSE_TOOL",
+                  "USER_LICENSE",
+                  "LMTOOLS",
+                  "SPLM_LICENSE_SERVER"
+               ],
+               "correct":"SPLM_LICENSE_SERVER",
+               "type":"checkbox"
+            }
+         ],
+         "4. Manage Teamcenter environments with Deployment Center":[
+            {
+               "question":"Which is NOT an important Teamcenter installation directory?",
+               "options":[
+                  "DB_SERVER",
+                  "TC_ROOT",
+                  "TC_DATA",
+                  "Volumes"
+               ],
+               "correct":"DB_SERVER",
+               "type":"checkbox"
+            },
+            {
+               "question":"The Environements page in Deployment Center ______________.",
+               "options":[
+                  "Lists of all environments being tracked by Deployment Center",
+                  "Is used to create, view, edit, and delete environments",
+                  "All of the above",
+                  "None of the above"
+               ],
+               "correct":"All of the above",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which of the following options is not a step when defining Deployment Center environments?",
+               "options":[
+                  "Define software kits",
+                  "Select environment options",
+                  "Fill in component details for selected applications",
+                  "None of the above"
+               ],
+               "correct":"None of the above",
+               "type":"checkbox"
+            },
+            {
+               "question":"Use the Overview tab on the Environments page to display and edit properties for the _____________.",
+               "options":[
+                  "Environment",
+                  "Component",
+                  "Application",
+                  "Deployment Center"
+               ],
+               "correct":"Environment",
+               "type":"checkbox"
+            },
+            {
+               "question":"Environments may be exported and used with the ________ utility to create quick deployments.",
+               "options":[
+                  "sent_configuration_to_dc",
+                  "npm run generateModule",
+                  "dc_quick_deploy",
+                  "list_users"
+               ],
+               "correct":"dc_quick_deploy",
+               "type":"checkbox"
+            },
+            {
+               "question":"What does the send_configuration_to_dc utility do?",
+               "options":[
+                  "Attach a Teamcenter site to Deployment Center",
+                  "Creates new configurations for deployment",
+                  "Handles the configuration of users in the organization application",
+                  "Reacts to logging output from the repository"
+               ],
+               "correct":"Attach a Teamcenter site to Deployment Center",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is the task flow for defining and deploying Deployment Center environments?",
+               "options":[
+                  "Options, Software, Applications, Components, Deploy",
+                  "Deploy, Software, Applications, Components, Installation",
+                  "Applications, Components, Options, Software, Deploy",
+                  "Software, Options, Applications, Components, Deploy"
+               ],
+               "correct":"Software, Options, Applications, Components, Deploy",
+               "type":"checkbox"
+            },
+            {
+               "question":"The Generate Install Scripts builds installation scripts which can support all of the following except?",
+               "options":[
+                  "The web application server",
+                  "The Corporate Server",
+                  "The Rich Client",
+                  "The Business Modeler IDE"
+               ],
+               "correct":"The web application server",
+               "type":"checkbox"
+            }
+         ],
+         "5. Deploy software with Deployment Center TC":[
+            {
+               "question":"Generated Deploy Instructions contain which of the following features?",
+               "options":[
+                  "Script Generation Date",
+                  "Deployment Overview",
+                  "Deploy Scripts",
+                  "All of the above"
+               ],
+               "correct":"All of the above",
+               "type":"checkbox"
+            },
+            {
+               "question":"The Deploy task in Deployment Center provides the following options except _______.",
+               "options":[
+                  "Generates template projects to deploy and load into the Business Modeler IDE",
+                  "Generates deploy scripts",
+                  "Provides deployment instructions",
+                  "All of the above"
+               ],
+               "correct":"Generates template projects to deploy and load into the Business Modeler IDE",
+               "type":"checkbox"
+            },
+            {
+               "question":"Deployment scripts are executed using the following utility.",
+               "options":[
+                  "dc_send_to_configuration",
+                  "deployment_center.bat",
+                  "dc_quick_deploy",
+                  "npm run build"
+               ],
+               "correct":"dc_quick_deploy",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which environment variable must be specified on the machine prior to deployment?",
+               "options":[
+                  "JRE64_HOME",
+                  "JAVA_HOME_DIR",
+                  "ORACLE_HOME",
+                  "All of the above"
+               ],
+               "correct":"JRE64_HOME",
+               "type":"checkbox"
+            }
+         ],
+         "6. Deploy software with Deployment Center":[
+            {
+               "question":"Select the true statement regarding troubleshooting deploy scripts in Deployment Center.",
+               "options":[
+                  "The deployment script logs are not generated by default",
+                  "The deployment center automatically deploys the generated scripts",
+                  "Use the deploy script in diagnostic mode on target machines to validate configurations prior to deployment.",
+                  "All of the above"
+               ],
+               "correct":"All of the above",
+               "type":"checkbox"
+            },
+            {
+               "question":"In Teamcenter, MUX is an abbreviation for:",
+               "options":[
+                  "Multi User eXperience",
+                  "Memory Unit Accelerator",
+                  "Marginal rate of substitution",
+                  "Multiplex"
+               ],
+               "correct":"Multiplex",
+               "type":"checkbox"
+            },
+            {
+               "question":"In a server manager install, besides Foundation, what else must be installed?",
+               "options":[
+                  "Dispatcher",
+                  "Active Workspace",
+                  "Teamcenter Management Console",
+                  "FMS Server Cache"
+               ],
+               "correct":"FMS Server Cache",
+               "type":"checkbox"
+            },
+            {
+               "question":"The Server Manager typically runs on a Windows server as a:",
+               "options":[
+                  "Microservice",
+                  "Web service",
+                  "Dispatcher service",
+                  "None of above"
+               ],
+               "correct":"None of above",
+               "type":"checkbox"
+            }
+         ],
+         "6.1  Identify basic aspects of an Active Workspace installation":[
+            {
+               "question":"The default port for the Teamcenter Management Console is ______",
+               "options":[
+                  "7001",
+                  "8080",
+                  "8083",
+                  "8090"
+               ],
+               "correct":"8083",
+               "type":"checkbox"
+            },
+            {
+               "question":"In a Teamcenter 4-tier deployment, the Active Workspaec server extensions must be installed on the _____ tier.",
+               "options":[
+                  "client",
+                  "web",
+                  "enterprise",
+                  "proxy"
+               ],
+               "correct":"enterprise",
+               "type":"checkbox"
+            },
+            {
+               "question":"The Active Workspace client extensions rely on ____.",
+               "options":[
+                  "microservices",
+                  "a WAR file",
+                  "the .NET framework",
+                  "Microsoft Office"
+               ],
+               "correct":"microservices",
+               "type":"checkbox"
+            },
+            {
+               "question":"When referencing TCFTS, FTS is an abbreviation for:",
+               "options":[
+                  "File Transfer Service",
+                  "Full Table Scan",
+                  "Full Text Search",
+                  "File Tracking System"
+               ],
+               "correct":"Full Text Search",
+               "type":"checkbox"
+            }
+         ],
+         "6.2 Install the Active Workspace client components":[
+            {
+               "question":"Which is an invalid deployment scenario?",
+               "options":[
+                  "Upgrade Teamcenter while installing Active Workspace",
+                  "Install Teamcenter and then Active Workspace",
+                  "Patch Active Workspace and keep the current Teamcenter version",
+                  "Install Active Workspace and then Teamcenter"
+               ],
+               "correct":"Install Active Workspace and then Teamcenter",
+               "type":"checkbox"
+            },
+            {
+               "question":"Active Workspace does not require installing the following:",
+               "options":[
+                  "Microservices",
+                  "Gateway",
+                  "Rich Client",
+                  "Founation"
+               ],
+               "correct":"Rich Client",
+               "type":"checkbox"
+            }
+         ],
+         "6.3 Install Active Workspace server extensions":[
+            {
+               "question":"Methods to test an Active Workspace install, do not include:",
+               "options":[
+                  "Ping the web server and gateway port",
+                  "Logon to Active Workspace",
+                  "Search for objects from Active Workspace",
+                  "Verify that Active Workpsace is installed"
+               ],
+               "correct":"Verify that Active Workpsace is installed",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is not true regarding Active Workspace server extensions:",
+               "options":[
+                  "Add binaries to the TC_ROOT",
+                  "Add model changes to the database",
+                  "Enable Active Workspace functionality",
+                  "Are required to use Active Workspace"
+               ],
+               "correct":"Are required to use Active Workspace",
+               "type":"checkbox"
+            }
+         ],
+         "6.4 Install microservices":[
+            {
+               "question":"_____ is not an example of a server extension.",
+               "options":[
+                  "Product Configurator",
+                  "Active Workspace",
+                  "Foundation",
+                  "Workflow"
+               ],
+               "correct":"Foundation",
+               "type":"checkbox"
+            },
+            {
+               "question":"The Microservices system achitecture does not include:",
+               "options":[
+                  "Active Workspace Gateway",
+                  "Teamcenter GraphQL",
+                  "Declaritive Artifact",
+                  "Indexing Engine"
+               ],
+               "correct":"Indexing Engine",
+               "type":"checkbox"
+            },
+            {
+               "question":"The ______ maintains a list of running microservice instances.",
+               "options":[
+                  "Service Registry",
+                  "Service Dispatcher",
+                  "Micoservice Proxy",
+                  "Active Workspace Gateway"
+               ],
+               "correct":"Service Registry",
+               "type":"checkbox"
+            },
+            {
+               "question":"The ____ receives microservice requests from a Teamcenter client.",
+               "options":[
+                  "Service Registry",
+                  "Service Dispatcher",
+                  "Micoservice Proxy",
+                  "Active Workspace Gateway"
+               ],
+               "correct":"Service Dispatcher",
+               "type":"checkbox"
+            }
+         ],
+         "6.5  Install the indexing components to enable searching in Active Workspace (part 1)":[
+            {
+               "question":"The _____ routes incoming requests for static and dynamic content to the appropriate services.",
+               "options":[
+                  "Service Registry",
+                  "Service Dispatcher",
+                  "Micoservice Proxy",
+                  "Active Workspace Gateway"
+               ],
+               "correct":"Active Workspace Gateway",
+               "type":"checkbox"
+            },
+            {
+               "question":"Index information is stored in the ___ database",
+               "options":[
+                  "Teamcenter",
+                  "Oracle",
+                  "Solr",
+                  "SQL"
+               ],
+               "correct":"Solr",
+               "type":"checkbox"
+            },
+            {
+               "question":"The ____ copies data into the indexing database.",
+               "options":[
+                  "Dispatcher",
+                  "Indexing Engine",
+                  "TcFTS Indexer",
+                  "FMS"
+               ],
+               "correct":"TcFTS Indexer",
+               "type":"checkbox"
+            }
+         ],
+         "6.6 Install the indexing components to enable searching in Active Workspace (part 2)":[
+            {
+               "question":"Order of the four steps to copy data into the indexing database are:",
+               "options":[
+                  "Transform,Export,Query,Load",
+                  "Export,Transform,Load,Query",
+                  "Load,Transform,Export,Query",
+                  "Query, Export, Transform, Load"
+               ],
+               "correct":"Query, Export, Transform, Load",
+               "type":"checkbox"
+            },
+            {
+               "question":"You define which objects and properties to index ______",
+               "options":[
+                  "using an indexing database configuration file",
+                  "using the business modeler IDE",
+                  "using the Teamcenter Environment Manager or Deployment Center",
+                  "using the preferences manager"
+               ],
+               "correct":"using the business modeler IDE",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which of these would not require you to re-index your existing data:",
+               "options":[
+                  "An existing BMIDE template is changed and deployed",
+                  "Data is imported using TC XML utilties",
+                  "A new BMIDE template is deployed",
+                  "Users create a massive amount of new objects to the database"
+               ],
+               "correct":"Users create a massive amount of new objects to the database",
+               "type":"checkbox"
+            },
+            {
+               "question":"To re-index existing data, you should run the following TcFTSIndexer object data task/tasks:",
+               "options":[
+                  "Sync",
+                  "Index",
+                  "Clear",
+                  "Clear and Index"
+               ],
+               "correct":"Clear and Index",
+               "type":"checkbox"
+            }
+         ],
+         "6.7 Install the visualization components":[
+            {
+               "question":"You should schedule the following TcFTSIndexer object data task/tasks to run at regular intervals to keep the index up to date:",
+               "options":[
+                  "Sync",
+                  "Index",
+                  "Clear",
+                  "Clear and Index"
+               ],
+               "correct":"Sync",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which of following is not part of the Visualization Server",
+               "options":[
+                  "Visualization Server Pool Assigner",
+                  "Visualization Data Server",
+                  "Visualization Server Manager",
+                  "Visualization Viewer"
+               ],
+               "correct":"Visualization Viewer",
+               "type":"checkbox"
+            },
+            {
+               "question":"The ___ starts and stops the rendering processes and streams visualization data to the client",
+               "options":[
+                  "Visualization Server Pool Assigner",
+                  "Visualization Data Server",
+                  "Visualization Server Manager",
+                  "Visualization Viewer"
+               ],
+               "correct":"Visualization Server Manager",
+               "type":"checkbox"
+            }
+         ],
+         "7. Install and configure a J2EE 4-tier architecture":[
+            {
+               "question":"The ____ caches 3D data, preppopulates JT files in te FCC, and computes massive model visuzlation spatial hierarchies.",
+               "options":[
+                  "Visualization Server Pool Assigner",
+                  "Visualization Data Server",
+                  "Visualization Server Manager",
+                  "Visualization Viewer"
+               ],
+               "correct":"Visualization Data Server",
+               "type":"checkbox"
+            },
+            {
+               "question":"In Teamcenter, WAM is an abbreviation for:",
+               "options":[
+                  "Wait A Minute",
+                  "Web Access Management",
+                  "Web Application Manager",
+                  "Workload Assessment Monitor"
+               ],
+               "correct":"Web Application Manager",
+               "type":"checkbox"
+            },
+            {
+               "question":"You install WAM using _____",
+               "options":[
+                  "Install_tcWeb",
+                  "Teamcenter environment manager",
+                  "Insweb",
+                  "None of above"
+               ],
+               "correct":"Install_tcWeb",
+               "type":"checkbox"
+            }
+         ],
+         "8. Install and configure a .NET 4-Tier architecture":[
+            {
+               "question":"The results of WAM are deployed using _____",
+               "options":[
+                  "Microservices",
+                  "A web server",
+                  "The Teamcenter environment manager",
+                  "Business Modeler IDE"
+               ],
+               "correct":"A web server",
+               "type":"checkbox"
+            },
+            {
+               "question":"An example of a .net web server is ____",
+               "options":[
+                  "WildFly",
+                  "Tomcat",
+                  "Weblogic",
+                  "None of above"
+               ],
+               "correct":"None of above",
+               "type":"checkbox"
+            }
+         ]
+      }
+   ],
+   "Role Parameter":[
+      {
+         "1. Administer lists of values (LOVs)":[
+            {
+               "question":"___ is not a classic LOV.",
+               "options":[
+                  "Filter LOVs",
+                  "Cascading LOVs (Hierarchical)",
+                  "Interdependent cascading LOVs",
+                  "Dynamic LOVs"
+               ],
+               "correct":"Dynamic LOVs",
+               "type":"checkbox"
+            },
+            {
+               "question":"____ are lists of values that are a subset of another LOV.",
+               "options":[
+                  "Filter LOVs",
+                  "Cascading LOVs (Hierarchical)",
+                  "Interdependent cascading LOVs",
+                  "Dynamic LOVs"
+               ],
+               "correct":"Filter LOVs",
+               "type":"checkbox"
+            }
+         ],
+         "1. Identify Business Modeler IDE (BMIDE) fundamentals - 14.1":[
+            {
+               "question":"____ are lists of values queried from the database when the user selects the dropdown list.",
+               "options":[
+                  "Filter LOVs",
+                  "Cascading LOVs (Hierarchical)",
+                  "Interdependent cascading LOVs",
+                  "Dynamic LOVs"
+               ],
+               "correct":"Dynamic LOVs",
+               "type":"checkbox"
+            },
+            {
+               "question":"For a template project prefix, what numeric digits can be used?",
+               "options":[
+                  "19",
+                  "39",
+                  "49",
+                  "03"
+               ],
+               "correct":"49",
+               "type":"checkbox"
+            },
+            {
+               "question":"How can you modify a COTS element?",
+               "options":[
+                  "A COTS element cannot be modified in the foundation template",
+                  "A COTS element cannot be modified in the project template",
+                  "A modified COTS element is added to a dependent template",
+                  "The COTS element is removed from the template"
+               ],
+               "correct":"A COTS element cannot be modified in the foundation template",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is the best practice to manage custom BMIDE templates?",
+               "options":[
+                  "Managed in a PLM system",
+                  "Managed on a shared drive",
+                  "Managed in a SCM system",
+                  "Managed in a folder"
+               ],
+               "correct":"Managed in a SCM system",
+               "type":"checkbox"
+            },
+            {
+               "question":"Once you setup Project Backup settings, what appears upon deploying the project?",
+               "options":[
+                  "The project deploys to the server",
+                  "A dialog box will prompt to backup the template",
+                  "A dialog box will prompt to save the template",
+                  "Confirmation of the deploy"
+               ],
+               "correct":"A dialog box will prompt to backup the template",
+               "type":"checkbox"
+            },
+            {
+               "question":"How can you manipulate the visibility of business objects in the “configure business objects to display” window?",
+               "options":[
+                  "Remove the business objects from the filter",
+                  "Remove the COTS objects",
+                  "Hide the business objects",
+                  "Turn the business objects off"
+               ],
+               "correct":"Remove the business objects from the filter",
+               "type":"checkbox"
+            },
+            {
+               "question":"What do constants control?",
+               "options":[
+                  "List of property options",
+                  "Govern global system behavior",
+                  "Govern the behaviors of business objects",
+                  "Deploy data model updates to the client"
+               ],
+               "correct":"Govern global system behavior",
+               "type":"checkbox"
+            },
+            {
+               "question":"What do rules control?",
+               "options":[
+                  "List of property options",
+                  "Govern global system behavior",
+                  "Govern the behaviors of business objects",
+                  "Deploy data model updates to the client"
+               ],
+               "correct":"Govern the behaviors of business objects",
+               "type":"checkbox"
+            },
+            {
+               "question":"When do you use a Hot Deploy method?",
+               "options":[
+                  "Development environment",
+                  "Development and QA environments",
+                  "Development, QA, and Production environments",
+                  "QA and Production environments"
+               ],
+               "correct":"Development environment",
+               "type":"checkbox"
+            },
+            {
+               "question":"A server connection profile is used to ____ .",
+               "options":[
+                  "deploy extensions to a server",
+                  "establish a connection to the Teamcenter server",
+                  "save the deploy.log file to the server",
+                  "install the Business Modeler IDE"
+               ],
+               "correct":"establish a connection to the Teamcenter server",
+               "type":"checkbox"
+            }
+         ],
+         "1. Identify Teamcenter Administration tasks that apply to you in Active Workspace 6.2":[
+            {
+               "question":"What files do you package to distribute the Business Modeler IDE data model to a partner?",
+               "options":[
+                  "Template files",
+                  "Project files",
+                  "Archive files",
+                  "Baseline files"
+               ],
+               "correct":"Template files",
+               "type":"checkbox"
+            },
+            {
+               "question":"What 4-tiers are in a Teamcenter environment typically?",
+               "options":[
+                  "Database, Corporate server, Webtier application server and Teamcenter client",
+                  "Database, OS server, Webtier application server and Teamcenter client",
+                  "Database, Corporate server, Gateway server and Teamcenter client",
+                  "Database, Corporate server, Webtier application server, Network load balancer and Teamcenter client"
+               ],
+               "correct":"Database, Corporate server, Webtier application server and Teamcenter client",
+               "type":"checkbox"
+            }
+         ],
+         "1. Manage Active Workspace 6.2 stylesheets in the XRT Editor":[
+            {
+               "question":"What are the capabilities of Active Workspace?",
+               "options":[
+                  "All the capabilities of the rich client are available in AW",
+                  "Base upon the installed applications, all the capabilities of the applications are in AW",
+                  "Some administration and application capabilities are available in AW",
+                  "Backend modifcation capabilities can be done in AW"
+               ],
+               "correct":"Some administration and application capabilities are available in AW",
+               "type":"checkbox"
+            },
+            {
+               "question":"In Active Workspace, XRT is an abbrevation for:",
+               "options":[
+                  "X Ray Tracer",
+                  "Extended Reliability Test",
+                  "XML Rendering Template",
+                  "Exchange Relation Tracer"
+               ],
+               "correct":"XML Rendering Template",
+               "type":"checkbox"
+            }
+         ],
+         "2. Administer rule extensions (part 1)":[
+            {
+               "question":"A stylesheet can be specific to a:",
+               "options":[
+                  "Scope",
+                  "Project",
+                  "Object Type",
+                  "Location"
+               ],
+               "correct":"Project",
+               "type":"checkbox"
+            },
+            {
+               "question":"____ rules control what content can be entered into a property, or field.",
+               "options":[
+                  "Conditions",
+                  "Naming",
+                  "Display",
+                  "GRM"
+               ],
+               "correct":"Naming",
+               "type":"checkbox"
+            },
+            {
+               "question":"The ___ pattern is used to represent any alphanumeric value.",
+               "options":[
+                  "X or x",
+                  "N or n",
+                  "@",
+                  "A or a"
+               ],
+               "correct":"X or x",
+               "type":"checkbox"
+            },
+            {
+               "question":"Entering this pattern means: [true].",
+               "options":[
+                  "Display the value as true",
+                  "Display the value only when it is true",
+                  "Display any one of the letters t, r, u, or e",
+                  "This is not a value pattern"
+               ],
+               "correct":"Display any one of the letters t, r, u, or e",
+               "type":"checkbox"
+            }
+         ],
+         "2. Configure tiles in Active Workspace 6.2":[
+            {
+               "question":"Define a standardized part number structure using multiple counters, numbering schemes, and LOVs to create descriptive object names.",
+               "options":[
+                  "Intelligent part numbering",
+                  "GRM rules",
+                  "Revision naming rules",
+                  "Conditions"
+               ],
+               "correct":"Intelligent part numbering",
+               "type":"checkbox"
+            },
+            {
+               "question":"The tiles that you see on the Active Workspace home page does not depend on:",
+               "options":[
+                  "Your group or role",
+                  "Your workspace",
+                  "Your project",
+                  "Your Teamcenter version"
+               ],
+               "correct":"Your Teamcenter version",
+               "type":"checkbox"
+            },
+            {
+               "question":"For a tile, you can not specify the ___________",
+               "options":[
+                  "Shape",
+                  "Size",
+                  "Tile group",
+                  "Tile template"
+               ],
+               "correct":"Shape",
+               "type":"checkbox"
+            }
+         ],
+         "2. Extend the data mode":[
+            {
+               "question":"Tile template action types include:",
+               "options":[
+                  "Dynamic Link",
+                  "Static resource",
+                  "Popup window",
+                  "Cross link"
+               ],
+               "correct":"Static resource",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is represented in the Data Model?",
+               "options":[
+                  "Documents",
+                  "Items",
+                  "Business Objects",
+                  "Parts"
+               ],
+               "correct":"Business Objects",
+               "type":"checkbox"
+            },
+            {
+               "question":"What does POM stand for?",
+               "options":[
+                  "Process of Manufacturing",
+                  "Plant Order Manual",
+                  "Persistent Object Metadata",
+                  "Persistent Object Model"
+               ],
+               "correct":"Persistent Object Model",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is shown in the UML Editor?",
+               "options":[
+                  "Item and Item revisions",
+                  "Business Objects and Classes",
+                  "Link between Items Revision",
+                  "Item – Document references"
+               ],
+               "correct":"Business Objects and Classes",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is meant by “Inheritance of properties” in the UML Editor?",
+               "options":[
+                  "The value of the properties are inherited from child items",
+                  "The value of the properties are inherited from parent items",
+                  "The properties are inherited from child items",
+                  "The properties are inherited from parent items"
+               ],
+               "correct":"The properties are inherited from parent items",
+               "type":"checkbox"
+            },
+            {
+               "question":"A data model is a structured organization of ____ .",
+               "options":[
+                  "abstract objects to represent business data",
+                  "persistent objects to represent business data",
+                  "business data",
+                  "BOM data"
+               ],
+               "correct":"abstract objects to represent business data",
+               "type":"checkbox"
+            },
+            {
+               "question":"What represents persistent storage in the database?",
+               "options":[
+                  "Business Objects and Properties",
+                  "Constants and Rule",
+                  "Classes and Attributes",
+                  "List of values"
+               ],
+               "correct":"Classes and Attributes",
+               "type":"checkbox"
+            },
+            {
+               "question":"Business objects are abstract implementations of the ____ .",
+               "options":[
+                  "attributes",
+                  "classes",
+                  "constants",
+                  "rules"
+               ],
+               "correct":"classes",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is a valid characteristic of the Secondary Business Object?",
+               "options":[
+                  "Business object/class names are the same",
+                  "Business object/class names are not the same",
+                  "Properties are stored directly on the associated class",
+                  "Properties are stored in the same storage class"
+               ],
+               "correct":"Business object/class names are not the same",
+               "type":"checkbox"
+            }
+         ],
+         "2. Manage preferences in Active Workspace 6.2":[
+            {
+               "question":"Where is the POM NOT used?",
+               "options":[
+                  "Workflow Builder",
+                  "Query Builder",
+                  "Report Builder",
+                  "PLMXML/TCXML"
+               ],
+               "correct":"Workflow Builder",
+               "type":"checkbox"
+            },
+            {
+               "question":"Depending on the preferences protection scope, _______ can make changes to a preference.",
+               "options":[
+                  "Any user",
+                  "Group Administrator",
+                  "Project Administrator",
+                  "DBA"
+               ],
+               "correct":"Project Administrator",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is not true regarding preferences",
+               "options":[
+                  "Read at start up",
+                  "Read when a session is ended",
+                  "Read during application usage",
+                  "Read from a file"
+               ],
+               "correct":"Read when a session is ended",
+               "type":"checkbox"
+            },
+            {
+               "question":"The _______ of a preference includes all relevant information fields.",
+               "options":[
+                  "prototype",
+                  "definition",
+                  "instance",
+                  "occurrence"
+               ],
+               "correct":"definition",
+               "type":"checkbox"
+            }
+         ],
+         "3. Add Business modeler IDE constraints for Active Workspace 6.2":[
+            {
+               "question":"An ______ of a preference can override the value for a given preference at a specific location.",
+               "options":[
+                  "prototype",
+                  "definition",
+                  "instance",
+                  "occurrence"
+               ],
+               "correct":"instance",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which template must be added to the BMIDE to extend the data model for Active Workspace?",
+               "options":[
+                  "The Change Management ( cmd ) template",
+                  "The Active Workspace ( aws2 ) template",
+                  "The Product Configuration template",
+                  "The Server Connection Profile template"
+               ],
+               "correct":"The Active Workspace ( aws2 ) template",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which tool is used to update the BMIDE templates?",
+               "options":[
+                  "The Business Modeler IDE ( BMIDE ) application",
+                  "The AppLauncher tool",
+                  "The Microsoft Word application",
+                  "The Teamcenter Environment Manager ( TEM) tool"
+               ],
+               "correct":"The Teamcenter Environment Manager ( TEM) tool",
+               "type":"checkbox"
+            },
+            {
+               "question":"After a deployment occurs, which of the following needs to be completed?",
+               "options":[
+                  "Merge the solr_schema_files directory",
+                  "Update the index with the awindexerutil utility",
+                  "Sync the index to pick up changes",
+                  "All of the above"
+               ],
+               "correct":"All of the above",
+               "type":"checkbox"
+            },
+            {
+               "question":"After adding a custom Item type to Active Workspace, which preference must be modified to ensure the new type displays in the Add panel?",
+               "options":[
+                  "AWC_Part Revision.CellProperties",
+                  "TC_auto_login",
+                  "AWC_DefaultCreateTypes",
+                  "RevRule_Selected"
+               ],
+               "correct":"AWC_DefaultCreateTypes",
+               "type":"checkbox"
+            }
+         ],
+         "3. Administer rule extensions (part 2)":[
+            {
+               "question":"Which of the following are examples of constants for Active Workspace?",
+               "options":[
+                  "Awp0SearchIsIndexed",
+                  "Awp0GiveMeObjects",
+                  "Awp0ElementsRemoved",
+                  "TCp0ObjectBusiness"
+               ],
+               "correct":"Awp0SearchIsIndexed",
+               "type":"checkbox"
+            },
+            {
+               "question":"____ restrict those who can create the Business Object type.",
+               "options":[
+                  "Deep copy rules",
+                  "GRM rules",
+                  "Conditons",
+                  "Display rules"
+               ],
+               "correct":"Display rules",
+               "type":"checkbox"
+            },
+            {
+               "question":"____ define whether objects attached to a Business Object will be propagated when a user performs a Save As.",
+               "options":[
+                  "Deep copy rules",
+                  "GRM rules",
+                  "Conditons",
+                  "Display rules"
+               ],
+               "correct":"Deep copy rules",
+               "type":"checkbox"
+            },
+            {
+               "question":"_____ applies constraints on the relationship between two Teamcenter objects.",
+               "options":[
+                  "Deep copy rules",
+                  "GRM rules",
+                  "Conditons",
+                  "Display rules"
+               ],
+               "correct":"GRM rules",
+               "type":"checkbox"
+            }
+         ],
+         "3. Create and manage business objects":[
+            {
+               "question":"_____ statements that resolve to TRUE or FALSE based on the evaluation of an expression.",
+               "options":[
+                  "Deep copy rules",
+                  "GRM rules",
+                  "Conditons",
+                  "Display rules"
+               ],
+               "correct":"Conditons",
+               "type":"checkbox"
+            },
+            {
+               "question":"What are Business Objects?",
+               "options":[
+                  "Placeholders for items in Teamcenter",
+                  "Objects identified in a business process",
+                  "Abstract implementations of Teamcenter Classes",
+                  "Document templates in Teamcenter"
+               ],
+               "correct":"Abstract implementations of Teamcenter Classes",
+               "type":"checkbox"
+            },
+            {
+               "question":"What types are Business Objects?",
+               "options":[
+                  "Item, Form, Dataset, Relation",
+                  "Item, Form, Document, Relation",
+                  "Item, Form, Dataset, Revision",
+                  "Item, Form, Document, Revision"
+               ],
+               "correct":"Item, Form, Dataset, Relation",
+               "type":"checkbox"
+            },
+            {
+               "question":"What does the Business Object Editor tab “Display Rules” provide?",
+               "options":[
+                  "A mechanism to set Display Rules on an Object granting Organizational group access",
+                  "A mechanism to set Display Rules on an Object restricting Organizational group access",
+                  "A mechanism to set Display Rules on an Object viewing Organizational group access",
+                  "A mechanism to set Display Rules on an Object changing Organizational group access"
+               ],
+               "correct":"A mechanism to set Display Rules on an Object restricting Organizational group access",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is a valid reason to extend the Item object?",
+               "options":[
+                  "Defining different rules for deep copy rules",
+                  "Making alterations on running business processes",
+                  "Defining uniqueness of Item Revisions for products",
+                  "Make items modifiable by end users"
+               ],
+               "correct":"Defining different rules for deep copy rules",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is a key point of using a Form in Teamcenter?",
+               "options":[
+                  "Provide a location to upload additional documents",
+                  "Set a template for creating Items",
+                  "Store properties that are specific to that Form",
+                  "Store sign off data of the associated Item"
+               ],
+               "correct":"Store properties that are specific to that Form",
+               "type":"checkbox"
+            },
+            {
+               "question":"What objects do Datasets represent?",
+               "options":[
+                  "Objects",
+                  "Files",
+                  "Database settings",
+                  "Database infrastructure configurations"
+               ],
+               "correct":"Files",
+               "type":"checkbox"
+            },
+            {
+               "question":"Relation Business Objects connects what objects?",
+               "options":[
+                  "Documents – Documents",
+                  "CAD Parts – Items Revisions",
+                  "Parent/Child object – Parent/Child object",
+                  "Item – Item Revision"
+               ],
+               "correct":"Parent/Child object – Parent/Child object",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which type business object property defines an integer, string or date?",
+               "options":[
+                  "Persistent",
+                  "Runtime",
+                  "Compound",
+                  "NameValue"
+               ],
+               "correct":"Persistent",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which type business object property defines the current date and time?",
+               "options":[
+                  "Persistent",
+                  "Runtime",
+                  "Compound",
+                  "NameValue"
+               ],
+               "correct":"Runtime",
+               "type":"checkbox"
+            },
+            {
+               "question":"Form display is controlled by what?",
+               "options":[
+                  "User Groups",
+                  "Constants",
+                  "Access rules",
+                  "Metadata"
+               ],
+               "correct":"Access rules",
+               "type":"checkbox"
+            },
+            {
+               "question":"What are Named References?",
+               "options":[
+                  "Objects",
+                  "Files",
+                  "Relations",
+                  "Items"
+               ],
+               "correct":"Files",
+               "type":"checkbox"
+            },
+            {
+               "question":"Why do you use GRM rules?",
+               "options":[
+                  "Define what properties are copied to a new relation",
+                  "Specify the default relation that is created",
+                  "Limit what objects can be pasted to other objects",
+                  "View the properties available on the relation object"
+               ],
+               "correct":"Limit what objects can be pasted to other objects",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which type of relation is a detailed method, designs, process, and procedures used to satisfy requirements?",
+               "options":[
+                  "Specification",
+                  "Requirement",
+                  "Manifestation",
+                  "Reference"
+               ],
+               "correct":"Specification",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which type of relation is a nondefining snapshot of a particular aspect of item or item revision at a particular moment in time?",
+               "options":[
+                  "Specification relations",
+                  "Requirements relations",
+                  "Manifestation relations",
+                  "Reference relations"
+               ],
+               "correct":"Manifestation relations",
+               "type":"checkbox"
+            }
+         ],
+         "3. Manage groups, roles and users in Active Workspace":[
+            {
+               "question":"In the Business Modeler IDE, a new dataset is commonly defined as ____ .",
+               "options":[
+                  "a primary business object",
+                  "a secondary business object",
+                  "an extension option",
+                  "an external data type"
+               ],
+               "correct":"a secondary business object",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is the function of “Roles” in the People location?",
+               "options":[
+                  "Roles are an additional layer of UI access control",
+                  "Roles are an identification of specific tasks",
+                  "Roles provide adminstrators to specify notification groups",
+                  "Roles are an additional layer of data access control"
+               ],
+               "correct":"Roles are an additional layer of data access control",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is true regarding groups?",
+               "options":[
+                  "Groups make up the core of the organization structure.",
+                  "May be assigned to multiple roles",
+                  "Created along functional lines, or “hats”",
+                  "The unique ID for logging into Active Workspace."
+               ],
+               "correct":"Groups make up the core of the organization structure.",
+               "type":"checkbox"
+            }
+         ],
+         "4. Configure table columns and workspaces in Active Workspace":[
+            {
+               "question":"What is one method of building an organizational hierarchy shown in the People location?",
+               "options":[
+                  "People Creator",
+                  "Make_user Utility",
+                  "Build_organization Utility",
+                  "XRT Editor"
+               ],
+               "correct":"Make_user Utility",
+               "type":"checkbox"
+            },
+            {
+               "question":"Column configuration utilties include:",
+               "options":[
+                  "export_uiconfig",
+                  "import_wsconfig",
+                  "table_manager",
+                  "export_awconfig"
+               ],
+               "correct":"export_uiconfig",
+               "type":"checkbox"
+            },
+            {
+               "question":"What is not true regarding workspaces:",
+               "options":[
+                  "Can create UI configurations independent of the Teamcenter organization.",
+                  "Allow you to configure for a role or task once, and assign it as needed",
+                  "Can configure workspace definitions to fit your needs.",
+                  "Are configured using Visual Studio"
+               ],
+               "correct":"Are configured using Visual Studio",
+               "type":"checkbox"
+            }
+         ],
+         "4. Manage business object properties":[
+            {
+               "question":"workspace configuration utilties include:",
+               "options":[
+                  "export_uiconfig",
+                  "import_wsconfig",
+                  "table_manager",
+                  "export_awconfig"
+               ],
+               "correct":"import_wsconfig",
+               "type":"checkbox"
+            },
+            {
+               "question":"What statement, regarding properties in the database is correct?",
+               "options":[
+                  "Properties are equal to rows in the database",
+                  "Properties are equal to columns in the database",
+                  "Properties are stored in database properties of Items",
+                  "Properties are equal to database properties of items"
+               ],
+               "correct":"Properties are equal to columns in the database",
+               "type":"checkbox"
+            },
+            {
+               "question":"How can you add properties to a business object?",
+               "options":[
+                  "On the properties tab, in the BMIDE, select Add",
+                  "On the business object, in the BMIDE, select Add property",
+                  "On the property page in Teamcenter, select Add property",
+                  "On the properties tab, in the BMIDE, paste property"
+               ],
+               "correct":"On the properties tab, in the BMIDE, select Add",
+               "type":"checkbox"
+            },
+            {
+               "question":"What indicates the Real Name of a property?",
+               "options":[
+                  "The name that the end user sees in the user interface",
+                  "The name that is used when the property is created",
+                  "The name of that administrators see in the BMIDE",
+                  "The name in binary coding"
+               ],
+               "correct":"The name of that administrators see in the BMIDE",
+               "type":"checkbox"
+            },
+            {
+               "question":"How can you view the property constants?",
+               "options":[
+                  "On the property constants tab below the property table",
+                  "On the property tab of a business object",
+                  "On the property tab of an Item Revision",
+                  "On the property constants page in the BMIDE"
+               ],
+               "correct":"On the property constants tab below the property table",
+               "type":"checkbox"
+            },
+            {
+               "question":"How can you add an additional language to display the property in a different language?",
+               "options":[
+                  "Add the localization to the localization tab",
+                  "Add an additional property in the additional language",
+                  "Select the language on the property tab",
+                  "Add the localization on the UI tab in the property window"
+               ],
+               "correct":"Add the localization to the localization tab",
+               "type":"checkbox"
+            },
+            {
+               "question":"What allows you to control whether a business object property is modifiable, visible, enabled, and required?",
+               "options":[
+                  "Property Business Rules",
+                  "Property Constants",
+                  "Property Access Rules",
+                  "Property Definitions"
+               ],
+               "correct":"Property Constants",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which of the following is true about Property Constants?",
+               "options":[
+                  "Administrator actions take precedence over constants",
+                  "Business rules take precedence over constants",
+                  "Access rules take precedence over constants",
+                  "Property constant takes precedence over rules"
+               ],
+               "correct":"Access rules take precedence over constants",
+               "type":"checkbox"
+            },
+            {
+               "question":"What allows administrators to present properties on the Create and Save as dialog boxes within the rich client?",
+               "options":[
+                  "Property Constants",
+                  "Property Rules",
+                  "Property Form",
+                  "Operator Descriptor"
+               ],
+               "correct":"Operator Descriptor",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which is NOT a type of List of Values (LOV)?",
+               "options":[
+                  "Batch",
+                  "Classic",
+                  "Dynamic",
+                  "Derived"
+               ],
+               "correct":"Derived",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which type of List of Values (LOV) stores and maintains values in the project XML extensions?",
+               "options":[
+                  "Batch",
+                  "Classic",
+                  "Dynamic",
+                  "Derived"
+               ],
+               "correct":"Classic",
+               "type":"checkbox"
+            },
+            {
+               "question":"What controls the validation of the input of a property in the interface?",
+               "options":[
+                  "Naming Rules",
+                  "Property Rules",
+                  "Property Constants",
+                  "Property Form"
+               ],
+               "correct":"Naming Rules",
+               "type":"checkbox"
+            },
+            {
+               "question":"What controls the icon on a Business Object?",
+               "options":[
+                  "Operator Descriptor",
+                  "Property Renderers",
+                  "Property Constants",
+                  "Property Form"
+               ],
+               "correct":"Property Renderers",
+               "type":"checkbox"
+            },
+            {
+               "question":"Which statement is correct about the IMANRelation?",
+               "options":[
+                  "The IMANRelation property has been replaced by TCRelation",
+                  "A new IMANRelation is created from the Business Modeler IDE Extensions view",
+                  "Target objects of IMANRelation will be released in a Teamcenter workflow process",
+                  "A child of IMANRelease can be used to define a compound property between two objects"
+               ],
+               "correct":"A child of IMANRelease can be used to define a compound property between two objects",
+               "type":"checkbox"
+            }
+         ],
+         "4. Run BMIDE reports":[
+            {
+               "question":"The ____ business object constant is used to define the icon to place on a business object.",
+               "options":[
+                  "Fnd0AttrIcon",
+                  "Fnd0SelectedIcon",
+                  "Fnd0Icon",
+                  "Fnd0ResourceIcon"
+               ],
+               "correct":"Fnd0Icon",
+               "type":"checkbox"
+            },
+            {
+               "question":"_____ report reports on the details of a Condition and all model elements that use the condition.",
+               "options":[
+                  "Property Group Usage",
+                  "Data Model",
+                  "Condition Usage",
+                  "Create Operation Override"
+               ],
+               "correct":"Condition Usage",
+               "type":"checkbox"
+            },
+            {
+               "question":"_____ report provides the details of a given category of model elements.",
+               "options":[
+                  "Property Group Usage",
+                  "Data Model",
+                  "Condition Usage",
+                  "Create Operation Override"
+               ],
+               "correct":"Data Model",
+               "type":"checkbox"
+            }
+         ],
+         "5. Deploy packages and updates":[
+            {
+               "question":"_____ report provides the Data model Differences between two Data Models.",
+               "options":[
+                  "Compare Two Data Models",
+                  "Data Model",
+                  "Condition Usage",
+                  "Create Operation Override"
+               ],
+               "correct":"Compare Two Data Models",
+               "type":"checkbox"
+            },
+            {
+               "question":"Live update elements do not include:",
+               "options":[
+                  "Icons",
+                  "Display rules",
+                  "Lists of values",
+                  "Custom item types"
+               ],
+               "correct":"Custom item types",
+               "type":"checkbox"
+            },
+            {
+               "question":"You must ——————– for a project in order to perform them.",
+               "options":[
+                  "enable live updates",
+                  "configure Live Updates",
+                  "allow Live Updates",
+                  "perform Live Updates"
+               ],
+               "correct":"enable live updates",
+               "type":"checkbox"
+            }
+         ]
+      }
+   ]
+}

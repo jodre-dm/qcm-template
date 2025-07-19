@@ -1,0 +1,175 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', Arial, sans-serif;
+    padding: 0;
+    color: #333; /* Couleur du texte */
+    /* background-color: #f0f4f8; Gris clair moderne */
+    background-color: #d9d9d9;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.container {
+    flex: 1;  /* Permet au contenu de prendre tout l'espace restant */
+    padding: 20px;
+}
+
+/* footer{
+    margin-bottom: 0;
+} */
+
+.footer {
+    width: 100%;
+    color: #f0f4f8;
+    background-color: rgb(0, 0, 40);
+    height: 3vh;
+    /* position:relative; */
+    text-align: center;
+    font-size: .8em;
+    bottom: 0;
+    left: 0;
+}
+
+/* .footer p {
+    margin: 0;
+    padding: 0px;
+} */
+
+/* Style de la navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f2f2f2; /* Couleur de fond de la barre */
+    padding: 10px 20px; /* Espacement interne */
+}
+
+/* Style du logo */
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight:bolder;
+    /* color: rgb(4, 152, 163); Couleur des liens */
+    color : rgb(23, 116, 179);
+
+}
+
+/* Style de la liste de menu */
+.navbar .menu ul {
+    display: flex; /* Met les items côte à côte */
+    list-style: none; /* Supprime les puces de la liste */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style des éléments de la liste */
+.navbar .menu ul li {
+    margin: 0 15px; /* Espace entre les liens */
+}
+
+/* Style des liens */
+.navbar .menu ul li a {
+    text-decoration: none; /* Supprime le soulignement */
+    color: rgb(4, 152, 163); /* Couleur des liens */
+    color: rgb(79, 170, 215);
+    font-size: .8rem;
+    transition: color 0.3s ease; /* Transition pour l'effet au survol */
+}
+
+/* Effet au survol */
+.navbar .menu ul li a:hover {
+    color: #036a73; /* Change la couleur au survol */
+}
+
+/* .container {
+    height: 90vh;
+} */
+
+h1 {
+    font-size: 1em;
+    text-align: center;
+    margin: 0;
+}
+
+.selection-container p {
+    text-align: center;
+    font-size: 1em;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    height: 25vh;
+    margin: auto;
+    align-items: center;
+}
+
+select {
+    height: 5vh;
+    margin: 1.5vh;
+}
+
+button[type="submit"] {
+    display: block;
+    padding: .5em; /* Espace interne pour agrandir le bouton */
+    font-size: 1rem; /* Taille du texte */
+    width: 120px;
+    /* margin-top: 1vh; */
+    margin : 1.5vh auto;
+    color: white; /* Couleur du texte */
+    background-color: rgb(4, 152, 163); /* Couleur de fond */
+    border: none; /* Supprime la bordure */
+    border-radius: 5px; /* Coins arrondis */
+    cursor: pointer; /* Change le curseur au survol */
+    transition: background-color 0.3s ease; /* Transition douce pour le survol */
+}
+
+/* Effet au survol */
+button[type="submit"]:hover {
+    background-color: #036a73; /* Couleur légèrement plus sombre au survol */
+}
+
+h2 {
+    font-size: .8em;
+    text-align: center;
+}
+
+.quiz-question {
+    background-color: #f2f2f2;
+    width: 70vw;
+    margin: auto;
+    padding: 2vw 3vh;
+    font-size: .9em;
+}
+
+/* Supprimer les puces de la liste */
+.quiz-choices ul {
+    list-style-type: none;  /* Supprime les puces */
+    padding-left: 0;        /* Supprime l'indentation de la liste */
+}
+
+/* Vous pouvez aussi ajouter un peu d'espacement entre les éléments */
+.quiz-choices li {
+    margin: 3vh auto;    /* Espace entre chaque option */
+    padding: 2vh;
+    background-color: white;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 8px;
+}
+
+p {
+    text-align: center;
+}
+
+form .score {
+    margin: 0;
+    font-weight: bold;
+}
+
+span {
+    display: block;
+    font-size: .9em;
+}

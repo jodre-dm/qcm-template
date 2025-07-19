@@ -1,0 +1,131 @@
+{
+    "Mathématiques": [
+        {
+            "question": "Quelle est la valeur de π (pi) arrondie à deux décimales ?",
+            "options": ["3.14", "3.15", "3.13", "3.16"],
+            "correct": ["3.14"],
+            "type": "radio"
+        },
+        {
+            "question": "Résolvez : 8 x 7 = ?",
+            "options": ["54", "56", "64", "58"],
+            "correct": ["56"],
+            "type": "radio"
+        },
+        {
+            "question": "Combien y a-t-il de côtés dans un hexagone ?",
+            "options": ["5", "6", "7", "8"],
+            "correct": ["6"],
+            "type": "radio"
+        },
+        {
+            "question": "Quelles opérations sont utilisées dans le calcul 2 + 3 × 4 - 5 ?",
+            "options": ["Addition", "Soustraction", "Multiplication", "Division"],
+            "correct": ["Addition", "Soustraction", "Multiplication"],
+            "type": "checkbox"
+        },
+        {
+            "question": "Quelle est la solution de l'équation : 3x = 12 ?",
+            "options": ["2", "3", "4", "6"],
+            "correct": ["4"],
+            "type": "radio"
+        }
+    ],
+    "Sciences": [
+        {
+            "question": "Quelle planète est connue comme la planète rouge ?",
+            "options": ["Mars", "Jupiter", "Vénus", "Saturne"],
+            "correct": ["Mars"],
+            "type": "radio"
+        },
+        {
+            "question": "Quel gaz les plantes absorbent-elles pendant la photosynthèse ?",
+            "options": ["Oxygène", "Azote", "Hydrogène", "Dioxyde de carbone"],
+            "correct": ["Dioxyde de carbone"],
+            "type": "radio"
+        },
+        {
+            "question": "Quels sont les états principaux de la matière ?",
+            "options": ["Solide", "Liquide", "Gaz", "Plasma"],
+            "correct": ["Solide", "Liquide", "Gaz"],
+            "type": "checkbox"
+        },
+        {
+            "question": "Quelle est la vitesse approximative de la lumière dans le vide ?",
+            "options": ["300 000 km/s", "150 000 km/s", "3 000 km/s", "1 000 000 km/s"],
+            "correct": ["300 000 km/s"],
+            "type": "radio"
+        },
+        {
+            "question": "Quel est le plus grand organe du corps humain ?",
+            "options": ["Le foie", "La peau", "Le cerveau", "Le cœur"],
+            "correct": ["La peau"],
+            "type": "radio"
+        }
+    ],
+    "Histoire": [
+        {
+            "question": "En quelle année Christophe Colomb a-t-il découvert l'Amérique ?",
+            "options": ["1492", "1500", "1450", "1485"],
+            "correct": ["1492"],
+            "type": "radio"
+        },
+        {
+            "question": "Quel empire est connu pour ses gladiateurs ?",
+            "options": ["L'Empire romain", "L'Empire ottoman", "L'Empire aztèque", "L'Empire britannique"],
+            "correct": ["L'Empire romain"],
+            "type": "radio"
+        },
+        {
+            "question": "Quelles furent les trois puissances de l'Axe pendant la Seconde Guerre mondiale ?",
+            "options": ["Allemagne", "Italie", "Japon", "France"],
+            "correct": ["Allemagne", "Italie", "Japon"],
+            "type": "checkbox"
+        },
+        {
+            "question": "Qui a été le principal architecte de la Révolution française ?",
+            "options": ["Robespierre", "Napoléon", "Louis XVI", "Voltaire"],
+            "correct": ["Robespierre"],
+            "type": "radio"
+        },
+        {
+            "question": "Quel roi était surnommé le Roi Soleil ?",
+            "options": ["Louis XIV", "Louis XVI", "Henri IV", "Charles V"],
+            "correct": ["Louis XIV"],
+            "type": "radio"
+        }
+    ],
+    "Culture Générale": [
+        {
+            "question": "Quel est l'auteur de 'Les Misérables' ?",
+            "options": ["Victor Hugo", "Émile Zola", "Gustave Flaubert", "Alexandre Dumas"],
+            "correct": ["Victor Hugo"],
+            "type": "radio"
+        },
+        {
+            "question": "Quelle est la capitale du Japon ?",
+            "options": ["Tokyo", "Kyoto", "Osaka", "Nagasaki"],
+            "correct": ["Tokyo"],
+            "type": "radio"
+        },
+        {
+            "question": "Quels pays font partie du Royaume-Uni ?",
+            "options": ["Angleterre", "Écosse", "Pays de Galles", "Irlande du Nord"],
+            "correct": ["Angleterre", "Écosse", "Pays de Galles", "Irlande du Nord"],
+            "type": "checkbox"
+        },
+        {
+            "question": "Quel est le symbole chimique de l'eau ?",
+            "options": ["H2O", "O2", "H2", "HO"],
+            "correct": ["H2O"],
+            "type": "radio"
+        },
+        {
+            "question": "Qui a peint la Joconde ?",
+            "options": ["Léonard de Vinci", "Michel-Ange", "Raphaël", "Caravage"],
+            "correct": ["Léonard de Vinci"],
+            "type": "radio"
+        }
+    ]
+    
+}

@@ -1,0 +1,1797 @@
+{
+   "Role Functional":[
+      {
+         "1. Analyze product structures - KC1":[
+            {
+               "question":"When can you create precise assemblies in Active Workspace?",
+               "options":[
+                  "If we apply the Latest Working revision rule",
+                  "If we apply the Precise Only revision rule",
+                  "Editing values in the Precise column",
+                  "Precise assemblies can be viewed, but not created in Active Worskpace"
+               ],
+               "correct":"Editing values in the Precise column",
+               "type":"radio"
+            },
+            {
+               "question":"For a component that has only revision A, approved, and revision B, working, the Latest Working revision rule would select which of the following?",
+               "options":[
+                  "Revision A",
+                  "Revision B",
+                  "Neither"
+               ],
+               "correct":"Revision B",
+               "type":"radio"
+            },
+            {
+               "question":"When we open an assembly, what happens?",
+               "options":[
+                  "The global revision rule will be applied if we open it for the first time",
+                  "The assembly will not load any revisions and wait for us to manually select a revision rule",
+                  "The assembly will always be loaded using the Latest Working revision rule, but we can change that later on",
+                  "The assembly will always be loaded using the Any Status; Working revision rule, but we can change that later on"
+               ],
+               "correct":"The global revision rule will be applied if we open it for the first time",
+               "type":"radio"
+            },
+            {
+               "question":"A working context contains what?",
+               "options":[
+                  "Just one assembly",
+                  "Just one assembly and one revision rule",
+                  "One or several configured assemblies",
+                  "One or several unconfigured assemblies"
+               ],
+               "correct":"One or several configured assemblies",
+               "type":"radio"
+            },
+            {
+               "question":"Imprecise structures need to be configured using a revision rule.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"TRUE",
+               "type":"radio"
+            },
+            {
+               "question":"Working contexts are always visible to everyone.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"We can compare two revisions of the same item.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"We can choose to compare only the leaf nodes of our assembly.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"TRUE",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Approve and release data":[
+            {
+               "question":"Comparing very large assemblies is not a good idea, as that could freeze our Active Workspace session.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"A workflow process can have any number of tasks arranged how?",
+               "options":[
+                  "Serial progression only",
+                  "Parallel progression only",
+                  "Serial or parallel progression"
+               ],
+               "correct":"Serial or parallel progression",
+               "type":"radio"
+            },
+            {
+               "question":"When initiating a new process, how do you know which process template to assign?",
+               "options":[
+                  "Assign based on company practices.",
+                  "Assign based on the number of signoffs required.",
+                  "Assign based on the amount of time available to complete the process."
+               ],
+               "correct":"Assign based on company practices.",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following applies to a target object in Workflow?",
+               "options":[
+                  "Released through a process.",
+                  "Always assigned a release status when the process is complete.",
+                  "Provide information to those performing tasks.",
+                  "Are never assigned a status change when the process completes."
+               ],
+               "correct":"Released through a process.",
+               "type":"radio"
+            },
+            {
+               "question":"In the graphical representation of a process in Workflow tab, which symbol indicates the task is pending?",
+               "options":[
+                  "Hourglass",
+                  "Checkmark",
+                  "Clock",
+                  "Exclamation point"
+               ],
+               "correct":"Checkmark",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Create and edit a file":[
+            {
+               "question":"Which release state indicates an item is released?",
+               "options":[
+                  "Statused",
+                  "Released",
+                  "Inprocess",
+                  "Empty value"
+               ],
+               "correct":"Statused",
+               "type":"radio"
+            },
+            {
+               "question":"What command adds a file to a selected revision?",
+               "options":[
+                  "New child",
+                  "Add to",
+                  "Open",
+                  "Check Out"
+               ],
+               "correct":"Add to",
+               "type":"radio"
+            },
+            {
+               "question":"How can I NOT add a file to a revision?",
+               "options":[
+                  "Uploading from local",
+                  "Drag and drop a file under a revision",
+                  "Adding from Palette",
+                  "Saving from an integrated application"
+               ],
+               "correct":"Uploading from local",
+               "type":"radio"
+            },
+            {
+               "question":"How do you edit a file without the integrated application?",
+               "options":[
+                  "Double click to open the file",
+                  "Open>Open in Visualization",
+                  "Download the file and replace it after the changes",
+                  "Select Edit from the toolbar"
+               ],
+               "correct":"Download the file and replace it after the changes",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Create and edit product structures - KC1":[
+            {
+               "question":"Files stored in Active Workspace are linked to other workspace objects with _____",
+               "options":[
+                  "Item Revisions",
+                  "Relations",
+                  "Datasets",
+                  "Change Orders"
+               ],
+               "correct":"Relations",
+               "type":"radio"
+            },
+            {
+               "question":"What kind of queries cannot we use to find components within an assembly?",
+               "options":[
+                  "Item Revision…",
+                  "Item ID",
+                  "General",
+                  "Keyword"
+               ],
+               "correct":"General",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the statements below is true?",
+               "options":[
+                  "Selecting our search results highlights them in the 3D view",
+                  "The “Show only results in Viewer” button shows everything but the results in the 3D view",
+                  "The assembly queries search the first level of the assembly only",
+                  "If an item is used several times in an assembly, the search results will list it just once"
+               ],
+               "correct":"Selecting our search results highlights them in the 3D view",
+               "type":"radio"
+            },
+            {
+               "question":"The Where Used tab shows us what?",
+               "options":[
+                  "The top level assemblies that use the current item",
+                  "The immediate BOM parents of the current item",
+                  "The bottom level assemblies that use the current item",
+                  "All of the above"
+               ],
+               "correct":"The immediate BOM parents of the current item",
+               "type":"radio"
+            },
+            {
+               "question":"In order to limit the number of objects that are shown, which filtering cannot be performed?",
+               "options":[
+                  "Using the criteria pane",
+                  "Using the filter pane",
+                  "This filtering can be based on object type",
+                  "This filtering can be based on relation type"
+               ],
+               "correct":"Using the criteria pane",
+               "type":"radio"
+            },
+            {
+               "question":"We can search within a sub-assembly without quitting the top-level assembly.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"TRUE",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Initiate a workflow process":[
+            {
+               "question":"A Where Used impact analysis of an extremely common component could freeze Active Workspace while it loads all the parent assemblies.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"How do you know which process template to assign when initiating a new process?",
+               "options":[
+                  "Assign based on company practices",
+                  "Assign based on the number of signoffs required",
+                  "Assign based on the amount of time available to complete the process",
+                  "Assign based on the order of templates in the list"
+               ],
+               "correct":"Assign based on company practices",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following applies to a target object in Workflow?",
+               "options":[
+                  "Must be an item revision",
+                  "Assigned a release status when the process is complete",
+                  "Provide information to those performing tasks",
+                  "Are not assigned a status change when the process completes"
+               ],
+               "correct":"Must be an item revision",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Initiate a workflow":[
+            {
+               "question":"Which of the following is not true regarding a workflow process?",
+               "options":[
+                  "Tasks can be arranged in serial progression",
+                  "Tasks can be arranged in parallel progression",
+                  "Must be performed by person creating the workflow",
+                  "Can have any number of tasks"
+               ],
+               "correct":"Must be performed by person creating the workflow",
+               "type":"radio"
+            },
+            {
+               "question":"Which tasks are typically performed by the manager?",
+               "options":[
+                  "Assign design work",
+                  "Create CAD design",
+                  "Submit parts to workflows",
+                  "Verifies parts and documents"
+               ],
+               "correct":"Assign design work",
+               "type":"radio"
+            },
+            {
+               "question":"Which tasks are typically performed by the checker? (select all that apply)",
+               "options":[
+                  "Assign design work",
+                  "Create CAD design",
+                  "Submit parts to workflows",
+                  "Verifies parts and documents"
+               ],
+               "correct":"Verifies parts and documents",
+               "type":"radio"
+            },
+            {
+               "question":"You are asked to give a part a status that indicates the part is ready for production. No other checks or approvals are needed. Select the best workflow for this scenario.",
+               "options":[
+                  "30 – Development Release",
+                  "60 – Production Release",
+                  "Change Status to 60 – Production Released",
+                  "90 – Obsolescence Process"
+               ],
+               "correct":"Change Status to 60 – Production Released",
+               "type":"radio"
+            },
+            {
+               "question":"You have competed the design for a fuel injection assembly, which currently has a status of 30, released for development, and you are ready to release the assembly for production, with the appropriate validation self-check and checker review. Select the best workflow for this scenario.",
+               "options":[
+                  "30 – Development Release",
+                  "60 – Production Release",
+                  "Change Status to 60 – Production Released",
+                  "90 – Obsolescence Process"
+               ],
+               "correct":"60 – Production Release",
+               "type":"radio"
+            },
+            {
+               "question":"Users from of the following roles are responsible for creating or updating the CAD design?",
+               "options":[
+                  "Manager",
+                  "Manufacturing checker",
+                  "Author",
+                  "Design Checker"
+               ],
+               "correct":"Author",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Introduction to Active Workspace":[
+            {
+               "question":"Which command allows you to initiate a workflow for an object?",
+               "options":[
+                  "Inbox",
+                  "Workflow > Submit",
+                  "Manage > Submit to Workflow"
+               ],
+               "correct":"Manage > Submit to Workflow",
+               "type":"radio"
+            },
+            {
+               "question":"What is the primary goal of Product Lifecycle Management?",
+               "options":[
+                  "Create model diagrams",
+                  "Display Bill of Materials",
+                  "Connect people and processes across functional silos",
+                  "Manage requirements and changes"
+               ],
+               "correct":"Connect people and processes across functional silos",
+               "type":"radio"
+            },
+            {
+               "question":"Which tools are considered primary capabilities in Active Workspace?",
+               "options":[
+                  "Document Management and Product Requirements Engineering",
+                  "Bill of Materials Management and Process Management",
+                  "Streamline Service Operations and Supplier Integration",
+                  "Program Planning and Project Execution"
+               ],
+               "correct":"Bill of Materials Management and Process Management",
+               "type":"radio"
+            },
+            {
+               "question":"What is the collection of menus on the left side of the interface called?",
+               "options":[
+                  "Task Commands",
+                  "Global Navigation",
+                  "Header",
+                  "Primary toolbar"
+               ],
+               "correct":"Global Navigation",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Managing workflow processes":[
+            {
+               "question":"How can you modify a tile after right clicking it on the home page?",
+               "options":[
+                  "Resize, Pin, and Move the tile",
+                  "Cut and paste the tile",
+                  "Rename the tile",
+                  "Freeze the tile"
+               ],
+               "correct":"Resize, Pin, and Move the tile",
+               "type":"radio"
+            },
+            {
+               "question":"What do resource pools allow you to do?",
+               "options":[
+                  "Assign many team members to complete an assignment together",
+                  "Identify a group of users who will not participate in workflow tasks",
+                  "Define a group of resources who have permissions to update an item",
+                  "Balance workflow task assignments across many team members"
+               ],
+               "correct":"Balance workflow task assignments across many team members",
+               "type":"radio"
+            },
+            {
+               "question":"Where do you find your subscribed resource pools?",
+               "options":[
+                  "Inbox",
+                  "Home",
+                  "Profile",
+                  "Organization"
+               ],
+               "correct":"Profile",
+               "type":"radio"
+            },
+            {
+               "question":"How do you accept responsibility for a task as part of a resource pool?",
+               "options":[
+                  "Claim",
+                  "Add",
+                  "Accept",
+                  "Manage"
+               ],
+               "correct":"Claim",
+               "type":"radio"
+            },
+            {
+               "question":"What tasks are received by the user defined under the Forward Tasks (Out of Office) area?",
+               "options":[
+                  "Task assignments that matches their group",
+                  "Task assignments that matches their role",
+                  "Task assignments that matches their group and role",
+                  "All task assignments"
+               ],
+               "correct":"All task assignments",
+               "type":"radio"
+            },
+            {
+               "question":"Surrogate users do what while you are out of the office?",
+               "options":[
+                  "Complete all your work",
+                  "Complete some workflow tasks",
+                  "Answer your emails",
+                  "Complete all workflow tasks"
+               ],
+               "correct":"Complete some workflow tasks",
+               "type":"radio"
+            },
+            {
+               "question":"Surrogate users are only assigned tasks if the task assignment profile _______.",
+               "options":[
+                  "matches their group",
+                  "matches their role",
+                  "matches their group and role",
+                  "does not match their group and role"
+               ],
+               "correct":"matches their group and role",
+               "type":"radio"
+            },
+            {
+               "question":"Which released state is considered production data?",
+               "options":[
+                  "Statused",
+                  "Production",
+                  "InProcess",
+                  "No value"
+               ],
+               "correct":"Statused",
+               "type":"radio"
+            },
+            {
+               "question":"Which released state means the item is currently in a workflow?",
+               "options":[
+                  "Statused",
+                  "Production",
+                  "InProcess",
+                  "No value"
+               ],
+               "correct":"InProcess",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Measure and cross sections":[
+            {
+               "question":"Which released state means the item is currently work in process or considered working data?",
+               "options":[
+                  "Statused",
+                  "Work in Process",
+                  "InProcess",
+                  "No value"
+               ],
+               "correct":"No value",
+               "type":"radio"
+            },
+            {
+               "question":"What command do you use for single objects measurements?",
+               "options":[
+                  "Pick Parts",
+                  "Query",
+                  "Measure",
+                  "Quick measure"
+               ],
+               "correct":"Query",
+               "type":"radio"
+            },
+            {
+               "question":"Which command do you use to get coordinates for a center point?",
+               "options":[
+                  "Edge",
+                  "Vertex",
+                  "Point",
+                  "Arc Center"
+               ],
+               "correct":"Arc Center",
+               "type":"radio"
+            },
+            {
+               "question":"How do you view the Part Name from pick filtering?",
+               "options":[
+                  "Select Part",
+                  "Select Features",
+                  "Select Surface",
+                  "Select Part Name"
+               ],
+               "correct":"Select Part",
+               "type":"radio"
+            },
+            {
+               "question":"What command do you use to get measurements between two parts using full features?",
+               "options":[
+                  "Pick Parts",
+                  "Query",
+                  "Measure",
+                  "Quick measure"
+               ],
+               "correct":"Measure",
+               "type":"radio"
+            },
+            {
+               "question":"What command do you use to view sections?",
+               "options":[
+                  "Pick Parts",
+                  "Query",
+                  "Section",
+                  "Pick Features"
+               ],
+               "correct":"Section",
+               "type":"radio"
+            },
+            {
+               "question":"What orientation options are not available?",
+               "options":[
+                  "XY",
+                  "XZ",
+                  "YZ",
+                  "XYZ"
+               ],
+               "correct":"XYZ",
+               "type":"radio"
+            },
+            {
+               "question":"How many planes can you view at one time?",
+               "options":[
+                  "One",
+                  "Two",
+                  "Three",
+                  "Four"
+               ],
+               "correct":"Two",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Selecting signoff teams":[
+            {
+               "question":"What are the valid clipping side options?",
+               "options":[
+                  "Top, Bottom, Left, Right",
+                  "Neither, Near, Far, Both",
+                  "Up, Down, Near, Far",
+                  "Neither, Left, Right, Both"
+               ],
+               "correct":"Neither, Near, Far, Both",
+               "type":"radio"
+            },
+            {
+               "question":"When can you assign a signoff team to perform the signoff for each review task in the process you start a new workflow process?",
+               "options":[
+                  "Only when you start the workflow process",
+                  "Only during the review task step",
+                  "Only at the start of the workflow process or during the workflow process",
+                  "Only when you are asked to assign a reviewer"
+               ],
+               "correct":"Only at the start of the workflow process or during the workflow process",
+               "type":"radio"
+            },
+            {
+               "question":"A signoff team can be any of these except?",
+               "options":[
+                  "Single user",
+                  "Resource Pool",
+                  "Multiple Users",
+                  "Leaving the field empty to skip the signoff"
+               ],
+               "correct":"Leaving the field empty to skip the signoff",
+               "type":"radio"
+            },
+            {
+               "question":"Where are signoff teams assigned?",
+               "options":[
+                  "Do task and Review task",
+                  "Review task and Acknowledge task",
+                  "Acknowledge task and Do task",
+                  "Do task, Review task and Acknowledge task"
+               ],
+               "correct":"Review task and Acknowledge task",
+               "type":"radio"
+            },
+            {
+               "question":"Who assigns the signoff teams?",
+               "options":[
+                  "By the workflow initiator after a workflow is started.",
+                  "By the workflow initiator before a workflow is started.",
+                  "By the workflow reviewer after a workflow is started.",
+                  "By the workflow participant after a workflow is started."
+               ],
+               "correct":"By the workflow initiator after a workflow is started.",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Working with data and relations":[
+            {
+               "question":"What are process assignment lists?",
+               "options":[
+                  "Distribution lists associated with workflow process instance",
+                  "Distribution lists defined in Outlook",
+                  "Distribution lists defined in Teams",
+                  "Distribution lists associated with workflow process templates"
+               ],
+               "correct":"Distribution lists associated with workflow process templates",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following statement is true?",
+               "options":[
+                  "Items can exist without revisions",
+                  "Item Revisions keep track of changes",
+                  "Item Revisions have a unique sequence ID",
+                  "Revisions can be associated to different Items"
+               ],
+               "correct":"Item Revisions keep track of changes",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following properties is optional when creating an Item?",
+               "options":[
+                  "Description",
+                  "Name",
+                  "Item ID",
+                  "Revision ID"
+               ],
+               "correct":"Description",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following statements regarding the purpose of Groups and Roles in Active Workspace is false?",
+               "options":[
+                  "They determine which data users can work with",
+                  "They determine product ownership, permission and responsibilities",
+                  "Groups can be assigned to different Roles",
+                  "Users can have different Roles and Groups"
+               ],
+               "correct":"Groups can be assigned to different Roles",
+               "type":"radio"
+            },
+            {
+               "question":"Which command is used to modify an object?",
+               "options":[
+                  "Checkout",
+                  "Checkin",
+                  "Modify",
+                  "View properties"
+               ],
+               "correct":"Checkout",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "1. Working with standard workflows":[
+            {
+               "question":"Which command is used to revise an object?",
+               "options":[
+                  "Save",
+                  "Revise",
+                  "Save All",
+                  "Save As or Revise"
+               ],
+               "correct":"Save As or Revise",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following user role is authorized to Perfrom a sign-off task in a workflow process in Teamcenter?",
+               "options":[
+                  "Checker",
+                  "Author",
+                  "Designer",
+                  "Any of the above"
+               ],
+               "correct":"Checker",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following is a prerequiste for performing a Development Release Process in Teamcenter?",
+               "options":[
+                  "The Release Status of the item to be submitted must be Empty",
+                  "The Release Status of the item to be submitted must be Production",
+                  "The Release Status of the item to be submitted must be Development",
+                  "The Item to be submitted hould have file attachments"
+               ],
+               "correct":"The Release Status of the item to be submitted must be Empty",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following is a prerequiste for performing a Production Release Process in Teamcenter?",
+               "options":[
+                  "The Release Status of the item to be submitted must be Empty",
+                  "The Release Status of the item to be submitted must be Production",
+                  "The Release Status of the item to be submitted must be Development",
+                  "The Item to be submitted hould have file attachments"
+               ],
+               "correct":"The Release Status of the item to be submitted must be Development",
+               "type":"radio"
+            },
+            {
+               "question":"Who is responsible fo reviewing the design for development, production, or obsolescence?",
+               "options":[
+                  "Designer",
+                  "Checker",
+                  "Author",
+                  "Consumer"
+               ],
+               "correct":"Checker",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2. Analyze product structures - KC2":[
+            {
+               "question":"Which of the following best describes the part lifecycle progression?",
+               "options":[
+                  "Obsolete>Development>Production",
+                  "Production>Development>Obsolete",
+                  "Development>Production>Obsolete",
+                  "Obsolete>Production>Development"
+               ],
+               "correct":"Development>Production>Obsolete",
+               "type":"radio"
+            },
+            {
+               "question":"You can markup more than one item at a time in a structure.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"TRUE",
+               "type":"radio"
+            },
+            {
+               "question":"Where do you find the Markup option to turn on markup mode?",
+               "options":[
+                  "Markup",
+                  "View",
+                  "Edit",
+                  "Add"
+               ],
+               "correct":"View",
+               "type":"radio"
+            },
+            {
+               "question":"What color do markups appear?",
+               "options":[
+                  "Red",
+                  "Green",
+                  "Blue",
+                  "Black"
+               ],
+               "correct":"Blue",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2. Create and edit product structures - KC2":[
+            {
+               "question":"What option do you pick to save the markups?",
+               "options":[
+                  "Add Markup",
+                  "Apply Markup",
+                  "Save Markup",
+                  "Update Markup"
+               ],
+               "correct":"Apply Markup",
+               "type":"radio"
+            },
+            {
+               "question":"Where can Product Structures can be modified?",
+               "options":[
+                  "Using Active Workspace only",
+                  "Using CAD software only",
+                  "Using either Active Workspace or CAD software",
+                  "They cannot be modified"
+               ],
+               "correct":"Using either Active Workspace or CAD software",
+               "type":"radio"
+            },
+            {
+               "question":"When can you add a child to a bill of materials?",
+               "options":[
+                  "Only if the child item is already in our clipboard",
+                  "Even if it doesn’t exist yet: create item and add to BOM can be performed in a single action",
+                  "If we have write access to the toplevel assembly",
+                  "If we have write access to its top level parent"
+               ],
+               "correct":"Even if it doesn’t exist yet: create item and add to BOM can be performed in a single action",
+               "type":"radio"
+            },
+            {
+               "question":"The Add Sibling option add a child item where?",
+               "options":[
+                  "To the selected assembly level",
+                  "To the parent of the selected assembly level",
+                  "Below the selected assembly level",
+                  "To the top level assembly"
+               ],
+               "correct":"To the parent of the selected assembly level",
+               "type":"radio"
+            },
+            {
+               "question":"The Add Sibling option appears when?",
+               "options":[
+                  "Isn’t shown unless we have read access to the selected item",
+                  "Always appears",
+                  "Isn’t shown unless we have selected a child item in the context of an assembly",
+                  "Isn’t shown unless we have write access to the selected item"
+               ],
+               "correct":"Isn’t shown unless we have selected a child item in the context of an assembly",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following are occurrence properties?",
+               "options":[
+                  "Quantity and Item ID",
+                  "Item ID and Release Status",
+                  "Release Status and Sequence number",
+                  "Sequence number and Quantity"
+               ],
+               "correct":"Sequence number and Quantity",
+               "type":"radio"
+            },
+            {
+               "question":"When can we edit the quantity of a given level?",
+               "options":[
+                  "If we have write access to that assembly level",
+                  "If we have write access to the parent of that assembly level",
+                  "If we have write access to both that assembly level and its parent",
+                  "Regardless of our write access to either the assembly level or its parent"
+               ],
+               "correct":"If we have write access to the parent of that assembly level",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2. Introduction to Teamcenter X":[
+            {
+               "question":"The Remove option deletes the child item from the Teamcenter database.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"What groups do authors participate?",
+               "options":[
+                  "Management and Engineering",
+                  "Management and Manufacturing",
+                  "Engineering and Manufacturing",
+                  "Management, Engineering, Manufacturing, and Shop Floor"
+               ],
+               "correct":"Engineering and Manufacturing",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following statuses is assigned to the part after approval for a production release?",
+               "options":[
+                  "30",
+                  "60",
+                  "90"
+               ],
+               "correct":"60",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following is responsible for reviewing the design for development, production, or obsolescence?",
+               "options":[
+                  "Checker",
+                  "Designer",
+                  "Author"
+               ],
+               "correct":"Checker",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following best describes the part lifecycle progression?",
+               "options":[
+                  "Obsolete> Development > Production",
+                  "Production> Development > Obsolete",
+                  "Development> Production > Obsolete",
+                  "Obsolete> Production > Development"
+               ],
+               "correct":"Development> Production > Obsolete",
+               "type":"radio"
+            },
+            {
+               "question":"What are the Teamcenter X benefits? (select all that apply) (Select all that apply)",
+               "options":[
+                  "CAD system integration",
+                  "Data security and integrity",
+                  "Preconfigured groups and roles",
+                  "Standard reports",
+                  "Product structure"
+               ],
+               "correct":"Standard reports",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2. Perform signoffs":[
+            {
+               "question":"Users who belong to consumer role in Teamcenter X are allowed to create or modify parts.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following are types of signoff tasks?",
+               "options":[
+                  "Do Task",
+                  "Review Task",
+                  "Inbox",
+                  "Resource Pool"
+               ],
+               "correct":"Review Task",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2. Review Workflow tasks":[
+            {
+               "question":"Which of the following can be selected for a Review task?",
+               "options":[
+                  "Acknowledged",
+                  "Not Acknowledged",
+                  "Approve",
+                  "Delete"
+               ],
+               "correct":"Approve",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following tabs displays all tasks assigned to Resource Pools you belong to?",
+               "options":[
+                  "My Tasks",
+                  "Team",
+                  "Surrogate Tasks",
+                  "Resource Pool"
+               ],
+               "correct":"Team",
+               "type":"radio"
+            },
+            {
+               "question":"In the graphical representation of a process in Workflow tab, a check mark symbol in green color tile indicates the task is ____.",
+               "options":[
+                  "Pending",
+                  "Complete",
+                  "Inprocess",
+                  "Not started"
+               ],
+               "correct":"Complete",
+               "type":"radio"
+            },
+            {
+               "question":"In the graphical representation of a process in Workflow tab, a clock symbol in yellow color tile indicates the task is ____.",
+               "options":[
+                  "Pending",
+                  "Complete",
+                  "Inprocess",
+                  "Not started"
+               ],
+               "correct":"Inprocess",
+               "type":"radio"
+            },
+            {
+               "question":"In the graphical representation of a process in Workflow tab, an hour glass symbol in yellow color tile indicates the task is ____.",
+               "options":[
+                  "Pending",
+                  "Complete",
+                  "Inprocess",
+                  "Not started"
+               ],
+               "correct":"Inprocess",
+               "type":"radio"
+            },
+            {
+               "question":"What is a valid signoff for a Do Task?",
+               "options":[
+                  "Acknowledge",
+                  "Approve",
+                  "Complete",
+                  "Pass"
+               ],
+               "correct":"Complete",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2.1. Toolbar, commands, table display and organize favorites and tile":[
+            {
+               "question":"What is a valid signoff for a Review Task?",
+               "options":[
+                  "Acknowledge",
+                  "Approve",
+                  "Complete",
+                  "Pass"
+               ],
+               "correct":"Approve",
+               "type":"radio"
+            },
+            {
+               "question":"When the user makes a selection in the search result panel in what two ways can the user click the “Open” icon?",
+               "options":[
+                  "Move the mouse cursor on the Object in the table, select the Object and click the Open command in the toolbar",
+                  "Move the mouse cursor on the Object in the table and right click on the Object and Open",
+                  "Navigate to the Inbox, Open the object, select the Object and click the Open command in the toolbar",
+                  "Navigate to the Inbox, Open the object and right click on the Object and Open"
+               ],
+               "correct":"Move the mouse cursor on the Object in the table, select the Object and click the Open command in the toolbar",
+               "type":"radio"
+            },
+            {
+               "question":"The search results can be configured by the ________ command.",
+               "options":[
+                  "Selection",
+                  "Freeze",
+                  "Edit",
+                  "Search filter"
+               ],
+               "correct":"Edit",
+               "type":"radio"
+            },
+            {
+               "question":"A user wants to modify information in an attached document. In order to achieve this, the user needs to ______.",
+               "options":[
+                  "select the Object and Edit command on the top right corner of the result panel",
+                  "select the Freeze command by clicking the column header",
+                  "click the Checkout command in the work area toolbar in the preview section of the document within the work area",
+                  "select the Edit command at the right top corner of the table display"
+               ],
+               "correct":"click the Checkout command in the work area toolbar in the preview section of the document within the work area",
+               "type":"radio"
+            },
+            {
+               "question":"In the table display format, a new column can be shown or hidden by clicking which command?",
+               "options":[
+                  "Edit command at the right top corner of the table display",
+                  "Enabling a search filter in the filter panel",
+                  "Gear icon > Arrange",
+                  "Rightclick column and select Add"
+               ],
+               "correct":"Gear icon > Arrange",
+               "type":"radio"
+            },
+            {
+               "question":"Which format type displays an overview of the selected object in the results panel?",
+               "options":[
+                  "Image display format",
+                  "List with Table display format",
+                  "Table with Summary display format",
+                  "Tree display format"
+               ],
+               "correct":"Table with Summary display format",
+               "type":"radio"
+            },
+            {
+               "question":"Which command allows you to stop vertical scrolling on a column?",
+               "options":[
+                  "Stop",
+                  "Hold",
+                  "Scroll",
+                  "Freeze"
+               ],
+               "correct":"Freeze",
+               "type":"radio"
+            },
+            {
+               "question":"How do you setup quick access to data?",
+               "options":[
+                  "Add to favorites",
+                  "Check out",
+                  "Pin to home",
+                  "Bookmark"
+               ],
+               "correct":"Pin to home",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2.12. Review Workflow tasks__":[
+            {
+               "question":"Under which command do you find Pin to HOME?",
+               "options":[
+                  "Edit",
+                  "Favorites",
+                  "Manage",
+                  "Check out"
+               ],
+               "correct":"Manage",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following tabs displays all tasks assigned to Resource Pools you belong to?",
+               "options":[
+                  "My Tasks",
+                  "Team",
+                  "Surrogate Tasks",
+                  "Resource Pool",
+                  "Incorrect"
+               ],
+               "correct":"Team",
+               "type":"radio"
+            },
+            {
+               "question":"In the graphical representation of a process in Workflow tab, a check mark symbol in green color tile indicates the task is ____.",
+               "options":[
+                  "Pending",
+                  "Complete",
+                  "Inprocess",
+                  "Not started",
+                  "Incorrect"
+               ],
+               "correct":"Complete",
+               "type":"radio"
+            },
+            {
+               "question":"In the graphical representation of a process in Workflow tab, a clock symbol in yellow color tile indicates the task is ____.",
+               "options":[
+                  "Pending",
+                  "Complete",
+                  "Inprocess",
+                  "Not started",
+                  "Incorrect"
+               ],
+               "correct":"Inprocess",
+               "type":"radio"
+            },
+            {
+               "question":"In the graphical representation of a process in Workflow tab, an hour glass symbol in yellow color tile indicates the task is ____.",
+               "options":[
+                  "Pending",
+                  "Complete",
+                  "Inprocess",
+                  "Not started",
+                  "Incorrect"
+               ],
+               "correct":"Inprocess",
+               "type":"radio"
+            },
+            {
+               "question":"What is a valid signoff for a Do Task?",
+               "options":[
+                  "Acknowledge",
+                  "Approve",
+                  "Complete",
+                  "Pass",
+                  "Incorrect"
+               ],
+               "correct":"Complete",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2.2. Create and revise items":[
+            {
+               "question":"What is a valid signoff for a Review Task?",
+               "options":[
+                  "Acknowledge",
+                  "Approve",
+                  "Complete",
+                  "Pass",
+                  "Incorrect"
+               ],
+               "correct":"Approve",
+               "type":"radio"
+            },
+            {
+               "question":"Items can have a status.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following statement is true?",
+               "options":[
+                  "Items can exist without revisions",
+                  "Item Revisions keeps track of changes",
+                  "Item Revisions have a unique sequence ID",
+                  "Revisions can be associated to different Items"
+               ],
+               "correct":"Item Revisions keeps track of changes",
+               "type":"radio"
+            },
+            {
+               "question":"In order to create an Item, the user must follow a sequence. Which sequence is correct?",
+               "options":[
+                  "Select a Folder, click Add, choose the Type, enter the information, click Add",
+                  "Select a Folder, click Create, choose the Type, enter the information, click Finish",
+                  "Select a Folder, click Add, choose the Type, enter the information, click Finish"
+               ],
+               "correct":"Select a Folder, click Add, choose the Type, enter the information, click Add",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following properties is optional when creating an Item?",
+               "options":[
+                  "Description",
+                  "Name",
+                  "Item ID",
+                  "Revision ID"
+               ],
+               "correct":"Description",
+               "type":"radio"
+            },
+            {
+               "question":"The Revise feature creates a new object from an existing one.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2.3. Create and edit a file":[
+            {
+               "question":"In order to revise an item, the user must follow a sequence. Which sequence is correct?",
+               "options":[
+                  "Select Save As or Revise, click New, enter the information, click Save",
+                  "Select Revise, click New, enter the information, click Save",
+                  "Select Revise, enter the information, click Save",
+                  "Select Save As or Revise, enter the information, click Save"
+               ],
+               "correct":"Select Save As or Revise, enter the information, click Save",
+               "type":"radio"
+            },
+            {
+               "question":"Which of the following is the command to add a file to the selected revision?",
+               "options":[
+                  "“New” in the primary toolbar",
+                  "“Add to” under Attachments > FILES",
+                  "“Add to” under Attachments > DOCUMENTS"
+               ],
+               "correct":"“Add to” under Attachments > FILES",
+               "type":"radio"
+            },
+            {
+               "question":"How can I NOT add a file to a revision?",
+               "options":[
+                  "Drag and drop a file under a revision",
+                  "Drag and drop a file under a master",
+                  "Adding from Palette",
+                  "Saving from integrated application"
+               ],
+               "correct":"Drag and drop a file under a master",
+               "type":"radio"
+            },
+            {
+               "question":"How do you edit a file without an integrated application?",
+               "options":[
+                  "Double click to open the file",
+                  "Open > Open in Visualization",
+                  "Download the file and Replace it after the changes from the Primary Toolbar",
+                  "Select the file then Edit from the Primary Toolbar"
+               ],
+               "correct":"Download the file and Replace it after the changes from the Primary Toolbar",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2.4. Save search criteria and export search results":[
+            {
+               "question":"Which is the command to edit file properties?",
+               "options":[
+                  "Select the file then Edit from the Primary Toolbar",
+                  "Select a File from Attachments and select Edit>Start Edit from the Primary Toolbar",
+                  "Open a File from Attachments and select Edit>Checkout from the Primary Toolbar",
+                  "Select a File from Attachments and select Edit>Checkout from the Primary Toolbar"
+               ],
+               "correct":"Select the file then Edit from the Primary Toolbar",
+               "type":"radio"
+            },
+            {
+               "question":"What is displayed on the saved search page?",
+               "options":[
+                  "Your saved search and Searches that are shared with you",
+                  "Your Recent Searches and your saved search",
+                  "Searches that are shared with you"
+               ],
+               "correct":"Your saved search and Searches that are shared with you",
+               "type":"radio"
+            },
+            {
+               "question":"After saving search results, users can perform which of the following actions?",
+               "options":[
+                  "Update it",
+                  "Share it with other users",
+                  "Pin it to the home page",
+                  "Delete it",
+                  "All of the above"
+               ],
+               "correct":"All of the above",
+               "type":"radio"
+            },
+            {
+               "question":"Users can access their saved searches from where?",
+               "options":[
+                  "Home page only",
+                  "Home page and Suggestions Searches",
+                  "Home page or the Saved page of the Search page header"
+               ],
+               "correct":"Home page or the Saved page of the Search page header",
+               "type":"radio"
+            },
+            {
+               "question":"When exporting search results to Excel, you must apply what?",
+               "options":[
+                  "List View",
+                  "List With Summary View",
+                  "List With Detail View",
+                  "Table With Summary View"
+               ],
+               "correct":"Table With Summary View",
+               "type":"radio"
+            },
+            {
+               "question":"“Jane is a product manager whose team utilizes the Hard Drive Assembly.It is important for her to track the number of defects reported by her department so that she can include this data in weekly status reports.What is the best way to allow Jane to efficiently retrieve this information? “",
+               "options":[
+                  "Save the search",
+                  "Pin the Hard Drive Assembly to her home page",
+                  "Use the search box and filtering panel"
+               ],
+               "correct":"Save the search",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "2.5. Opening and viewing product structures":[
+            {
+               "question":"Users can delete saved searches that are shared with them.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"Which of these item types are typically organized in assemblies?",
+               "options":[
+                  "Drawings",
+                  "Designs",
+                  "Parts",
+                  "Documents"
+               ],
+               "correct":"Parts",
+               "type":"radio"
+            },
+            {
+               "question":"Check the statement below that are true.",
+               "options":[
+                  "An assembly has exactly three levels: toplevel, intermediate level and leaf node",
+                  "Leaf nodes can have children",
+                  "The same item can be used several times within an assembly",
+                  "One assembly level can be at the same time a parent and a child level"
+               ],
+               "correct":"The same item can be used several times within an assembly",
+               "type":"radio"
+            },
+            {
+               "question":"An item that has a bill of materials is:",
+               "options":[
+                  "A leaf node",
+                  "A requirement",
+                  "An assembly",
+                  "A child"
+               ],
+               "correct":"An assembly",
+               "type":"radio"
+            },
+            {
+               "question":"What of the following statements is true regarding the expand command when we use the table view mode?",
+               "options":[
+                  "When I open a structure for the first time, I see only the first of its levels",
+                  "If I choose to expand all levels when a subassembly is selected, it will expand all levels of the toplevel assembly",
+                  "If I choose to expand all levels when a subassembly is selected, it will expand all levels of the selected subassembly",
+                  "The expand command can be applied in table view mode"
+               ],
+               "correct":"When I open a structure for the first time, I see only the first of its levels",
+               "type":"radio"
+            },
+            {
+               "question":"What of the following conditions are needed for two levels to be packed together?",
+               "options":[
+                  "Both levels should have the same item id",
+                  "Both levels should have different find number",
+                  "Both levels should have the same quantity of that item",
+                  "Both levels should be approved"
+               ],
+               "correct":"Both levels should have the same item id",
+               "type":"radio"
+            },
+            {
+               "question":"When we load a structure in a split screen, the summary tab on the right:",
+               "options":[
+                  "Will always load the information for the selected level on the left",
+                  "Will always load the information for the toplevel assembly",
+                  "Lets us edit the information for the assembly components",
+                  "Lets us view information for the assembly components, but not edit it"
+               ],
+               "correct":"Lets us edit the information for the assembly components",
+               "type":"radio"
+            },
+            {
+               "question":"The embedded 3D Viewer in Active Workspace can load an assembly:",
+               "options":[
+                  "Provided we have a high end workstation capable of rendering it",
+                  "Even in cell phones or tablets, as it can use serverside rendering",
+                  "No, it can only load single items",
+                  "Provided all the components in the assembly have been released"
+               ],
+               "correct":"Even in cell phones or tablets, as it can use serverside rendering",
+               "type":"radio"
+            },
+            {
+               "question":"Opening a structure using the list view mode lets us explore all its levels at the same time.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"If I modify the column configuration of a structure, my changes will be still there the next time I log in to Teamcenter?",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"TRUE",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "3. Toolbar, commands, and table display":[
+            {
+               "question":"Active Worspace doesn’t have any feature that lets us export the contents of a structure to Excel.",
+               "options":[
+                  "TRUE",
+                  "FALSE"
+               ],
+               "correct":"FALSE",
+               "type":"radio"
+            },
+            {
+               "question":"What actions can you take with an object while you have it selected in search results?",
+               "options":[
+                  "The same actions as if it was in your home folder",
+                  "Nothing, the object must be opened in a new tab or window first",
+                  "Only editing the properties of the object",
+                  "Only searching for related objects"
+               ],
+               "correct":"The same actions as if it was in your home folder",
+               "type":"radio"
+            },
+            {
+               "question":"The search results can be changed by the ________ command.",
+               "options":[
+                  "Selection",
+                  "Freeze",
+                  "Edit",
+                  "Search filter"
+               ],
+               "correct":"Edit",
+               "type":"radio"
+            },
+            {
+               "question":"A user wants to modify information in an attached document. In order to achieve this, the user needs to ______.",
+               "options":[
+                  "Edit the metadata of the parent object",
+                  "Freeze the attached document",
+                  "Checkout the attached document",
+                  "Pin the document to the home folder"
+               ],
+               "correct":"Checkout the attached document",
+               "type":"radio"
+            },
+            {
+               "question":"How does the Arrange command affect the table display?",
+               "options":[
+                  "Modify data in columns",
+                  "Change the table view to a list view",
+                  "Show and hide columns",
+                  "Sort data alphabetically"
+               ],
+               "correct":"Show and hide columns",
+               "type":"radio"
+            },
+            {
+               "question":"Which format type displays an overview of the selected object in the result panel?",
+               "options":[
+                  "Image display format",
+                  "List with Table display format",
+                  "Table with Summary display format",
+                  "Tree display format"
+               ],
+               "correct":"Table with Summary display format",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "4. Organize favorites and tiles":[
+            {
+               "question":"Which command allows you to stop vertical scrolling on a column?",
+               "options":[
+                  "Stop",
+                  "Hold",
+                  "Scroll",
+                  "Freeze"
+               ],
+               "correct":"Freeze",
+               "type":"radio"
+            },
+            {
+               "question":"Under which folder is the object created by default in Active Workspace?",
+               "options":[
+                  "My favorites",
+                  "HOME folder",
+                  "Newstuff folder",
+                  "Active Workspace Mailbox folder"
+               ],
+               "correct":"HOME folder",
+               "type":"radio"
+            },
+            {
+               "question":"How do you setup quick access to data?",
+               "options":[
+                  "Add to favorites",
+                  "Check out",
+                  "Pin to Home",
+                  "Bookmark"
+               ],
+               "correct":"Pin to Home",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "5. Searching in Active Workspace":[
+            {
+               "question":"Under which command do you find Pin to HOME?",
+               "options":[
+                  "Edit",
+                  "Favorites",
+                  "Manage",
+                  "Check out"
+               ],
+               "correct":"Manage",
+               "type":"radio"
+            },
+            {
+               "question":"What is the best way to search for data that belongs to you?",
+               "options":[
+                  "Favorites Folder",
+                  "Quick Search",
+                  "Global Search",
+                  "Browse"
+               ],
+               "correct":"Global Search",
+               "type":"radio"
+            },
+            {
+               "question":"Suggestions and Recent Searches list are available in which search?",
+               "options":[
+                  "Advanced Searc",
+                  "Quick Search",
+                  "Global Search",
+                  "Browse"
+               ],
+               "correct":"Global Search",
+               "type":"radio"
+            },
+            {
+               "question":"Which prefilter option next to the global search box can you apply to search results?",
+               "options":[
+                  "Specific Owner only",
+                  "Object Type only",
+                  "Specific Owner and Category",
+                  "Object Type and Projects"
+               ],
+               "correct":"Specific Owner and Category",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "Develop and release product design":[
+            {
+               "question":"What cannot be used to further refine your search results after performing a search?",
+               "options":[
+                  "Use the breadcrumb",
+                  "Use the Chart",
+                  "Add search criteria in the Find in this content",
+                  "Use the Search Filters"
+               ],
+               "correct":"Use the breadcrumb",
+               "type":"radio"
+            },
+            {
+               "question":"Which task is typically performed by the manager?",
+               "options":[
+                  "Assign design work",
+                  "Create CAD design",
+                  "Submit parts to workflows",
+                  "Assign a design checker"
+               ],
+               "correct":"Assign design work",
+               "type":"radio"
+            },
+            {
+               "question":"Which task is typically performed by the Author?",
+               "options":[
+                  "Assign design work",
+                  "Create CAD design",
+                  "Submit parts to workflows",
+                  "Assign a design checker"
+               ],
+               "correct":"Create CAD design",
+               "type":"radio"
+            }
+         ]
+      },
+      {
+         "Opening and viewing product structures":[
+            {
+               "question":"You are asked to give a part a status that indicates the part is ready for production. No other checks or approvals are needed. Select the best workflow for this scenario.",
+               "options":[
+                  "30 – Development Release",
+                  "60 – Production Release",
+                  "Change Status to 60 – Production Released",
+                  "90 – Obsolescence Process"
+               ],
+               "correct":"Change Status to 60 – Production Released",
+               "type":"radio"
+            },
+            {
+               "question":"Which of these item types are typically organized in assemblies?",
+               "options":[
+                  "Drawings",
+                  "Designs",
+                  "Parts",
+                  "Documents"
+               ],
+               "correct":"Parts",
+               "type":"radio"
+            },
+            {
+               "question":"An item that has a bill of materials is:",
+               "options":[
+                  "A leaf node",
+                  "A requirement",
+                  "An assembly",
+                  "A child"
+               ],
+               "correct":"An assembly",
+               "type":"radio"
+            },
+            {
+               "question":"When using the expand command with table view, you can___ .",
+               "options":[
+                  "Expand only the first of its levels when opening an assembly the first time",
+                  "Expand all levels of the toplevel assembly if you choose to expand all levels when a subassembly is selected",
+                  "Expand all levels of the selected subassembly if you choose to expand all levels when a subassembly is selected",
+                  "Not expand the assembly"
+               ],
+               "correct":"Expand only the first of its levels when opening an assembly the first time",
+               "type":"radio"
+            },
+            {
+               "question":"What of the following conditions are needed for two levels to be packed together?",
+               "options":[
+                  "Both levels should have the same Item ID",
+                  "Both levels should have different Find Numbers",
+                  "Both levels should have the same Quantity of that Item",
+                  "Both levels should be Approved"
+               ],
+               "correct":"Both levels should have the same Item ID",
+               "type":"radio"
+            },
+            {
+               "question":"When we load a structure in a split screen, the summary tab on the right:",
+               "options":[
+                  "Will always load the information for the selected level on the left",
+                  "Will always load the information for the toplevel assembly",
+                  "Lets us edit the information for the assembly components",
+                  "Lets us view information for the assembly components, but not edit it"
+               ],
+               "correct":"Lets us edit the information for the assembly components",
+               "type":"radio"
+            },
+            {
+               "question":"When can the embedded 3D Viewer in Active Workspace load an assembly?",
+               "options":[
+                  "Only with a powerful desktop",
+                  "Any client, even cell phones or tablets using serverside rendering",
+                  "Never",
+                  "Only when the components have been released"
+               ],
+               "correct":"Any client, even cell phones or tablets using serverside rendering",
+               "type":"radio"
+            }
+         ]
+      }
+   ]
+}

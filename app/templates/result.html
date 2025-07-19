@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block title %}Résultats - QCM{% endblock %}
+
+{% block content %}
+    <div class="container fade-in">
+        <h1>Résultats</h1>
+        <p>Votre score est : {{ score }} / {{ total_questions }} <strong>soit {{ success_rate }} %</strong></p>
+
+        <h2>Réponses Incorrectes</h2>
+        <ol>
+            {% if wrong_answers %}
+                {% for wrong in wrong_answers %}
+                    <li>
+                        <strong>{{ wrong['question'] }}</strong><br/>
+                        <!-- Votre réponse : <span style="color: rgb(173, 17, 17);">{{ wrong['user_answer'] | join(', ') }}</span><br/> -->
+                        Votre réponse : <span style="color: rgb(173, 17, 17);">𐄂 {{ wrong['user_answer'] }}</span><br/>
+
+                        Bonne réponse : <span style="color: darkgreen;"><strong>✔ {{ wrong['correct_answer'] }}</strong></span>
+                    </li>
+                    <br/>
+                {% endfor %}
+            {% else %}
+                <p>Aucune réponse incorrecte, bravo !</p>
+            {% endif %}
+        </ol>
+
+        <h2>Réponses Correctes :</h2>
+        <ol>
+            {% for answer in correct_answers %}
+                <li>{{ answer['question'] }} :<br/>
+                    <B style="color: darkgreen;">✔ {{ answer['correct_answer'] }}</B></li>
+                <br/>
+            {% endfor %}
+        </ol>
+        <a href="{{ url_for('main.index') }}">Retour au menu principal</a>
+    </div>
+
+{% endblock %}

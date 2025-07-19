@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+
+{% block title %}Quiz - QCM{% endblock %}
+
+{% block content %}
+
+<div class="container fade-in">
+    <h2>Thème : {{ theme }}</h2>
+    <form 
+        {% if user_answer is not none %}
+            method="GET"
+            action="{% if question_index + 1 < questions|length %}
+                        {{ url_for('main.quiz', theme=theme, question_index=question_index + 1) }}
+                    {% else %}
+                        {{ url_for('main.result', theme=theme) }}
+                    {% endif %}"
+        {% else %}
+            method="POST"
+            action="{{ url_for('main.quiz', theme=theme, question_index=question_index) }}"
+        {% endif %}
+    >
+        <div class="quiz-question">
+            <div class="quiz-numero"></div>
+            <div class="quiz-text">
+                <p class="score">Score : {{ score }}</p>
+                <p class="quiz-intitule">Question {{ question_index + 1 }} sur {{ total_questions }} : {{ question['question'] }}</p>
+                <div class="quiz-choices">
+                    <ul>
+                        {% if question['type'] == 'radio' %}
+                            {% for option in question['options'] %}
+                                <li {% if user_answer is not none %}
+                                        {% if option == question['correct'] %}
+                                            style="color: white;background-color: rgb(98, 150, 93); font-weight:bolder;"
+                                        {% elif user_answer[0] == option and option != question['correct'] %}
+                                            style="color: red;"
+                                        {% endif %}
+                                    {% endif %}>
+                                    <input type="radio" 
+                                           id="q{{ question_index }}_{{ loop.index0 }}" 
+                                           name="answer" 
+                                           value="{{ option }}" 
+                                           {% if user_answer and option == user_answer[0] %} checked {% endif %}>
+                                    <label for="q{{ question_index }}_{{ loop.index0 }}"
+                                           >
+                                        {{ option }}
+                                    </label>
+                                </li>
+                            {% endfor %}
+                        {% elif question['type'] == 'checkbox' %}
+                            {% for option in question['options'] %}
+                                <li {% if user_answer is not none %}
+                                        {% if option == question['correct'] %}
+                                            style="color: white;background-color: rgb(98, 150, 93); font-weight:bolder;"
+                                        {% elif user_answer[0] == option and option != question['correct'] %}
+                                            style="color: red;"
+                                        {% endif %}
+                                    {% endif %}>
+                                    <input type="checkbox" 
+                                           id="q{{ question_index }}_{{ loop.index0 }}" 
+                                           name="answer" 
+                                           value="{{ option }}" 
+                                           {% if user_answer and option in user_answer %} checked {% endif %}>
+                                    <label for="q{{ question_index }}_{{ loop.index0 }}">
+                                        {{ option }}
+                                    </label>
+                                </li>
+                            {% endfor %}                        
+                        {% elif question['type'] == 'text' %}
+                            <li>
+                                <label for="q{{ question_index }}_text">Votre réponse :</label>
+                                <input type="text" 
+                                    id="q{{ question_index }}_text" 
+                                    name="answer" 
+                                    value="{{ user_answer[0] if user_answer else '' }}">
+                            </li>
+                        {% endif %}
+                    </ul>
+                </div>
+                
+            </div>
+        </div>
+        <button type="submit">
+            {% if user_answer is not none %}
+                {% if question_index + 1 < questions|length %}
+                    Question suivante
+                {% else %}
+                    Voir les résultats
+                {% endif %}
+            {% else %}
+                Soumettre
+            {% endif %}
+        </button>
+    </form>
+
+    {% if user_answer is not none %}
+        <p>
+            {% if is_correct %}
+                <span style="color: green;justify-content: center;margin: auto;">🎉 Bonne réponse ! {{ question['correct'] }}</span>
+                <br>
+                <span style="font-style: italic;">Exemple : </span>                
+                <span style="background-color: black;color: aliceblue; font-family: 'Courier New', Courier, monospace; padding: .8em;"> {{ question['example'] }} </span>
+                <span>Explication : {{ question['explication'] }}</span>
+            {% else %}
+                <span style="color: red;">❌ Mauvaise réponse. La bonne réponse était : {{ question['correct'] }}</span>
+                <span style="font-style: italic;">Exemple : {{ question['example'] }}</span>
+            {% endif %}
+        </p>
+    {% endif %}
+</div>
+
+{% endblock %}
