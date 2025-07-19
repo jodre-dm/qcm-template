@@ -22,8 +22,8 @@ def shuffle_questions(questions_path, original_questions):
     QUESTIONS = original_questions
     return QUESTIONS
 
-# QUESTIONS = shuffle_questions(questions_path, QUESTIONS_ORIGINAL)
-QUESTIONS = QUESTIONS_ORIGINAL
+QUESTIONS = shuffle_questions(questions_path, QUESTIONS_ORIGINAL)
+# QUESTIONS = QUESTIONS_ORIGINAL
 
 # Liste des thèmes disponibles
 THEMES = list(QUESTIONS.keys())

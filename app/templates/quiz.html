@@ -71,7 +71,8 @@
                                 <input type="text" 
                                     id="q{{ question_index }}_text" 
                                     name="answer" 
-                                    value="{{ user_answer[0] if user_answer else '' }}">
+                                    value="{{ user_answer if user_answer else '' }}"
+                                    autocomplete="off">
                             </li>
                         {% endif %}
                     </ul>
@@ -109,3 +110,17 @@
 </div>
 
 {% endblock %}
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.querySelector('form');
+    if (form) {
+        form.addEventListener('submit', function() {
+            const textInput = document.querySelector('input[type="text"][name="answer"]');
+            if (textInput) {
+                setTimeout(() => { textInput.value = ''; }, 10);
+            }
+        });
+    }
+});
+</script>
