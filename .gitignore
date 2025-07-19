@@ -1,0 +1,50 @@
+.vscode/
+        app/__pycache__/__init__.cpython-312.pyc
+        app/__pycache__/routes.cpython-312.pyc
+        app/static/style.css
+        data/__pycache__/
+        data/questions.py
+        data/questions_example.py
+        env/
+        flask-structure-deployment.txt
+        venv/
+
+
+# Dossiers et fichiers générés par l'environnement
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Dossiers virtuels Python
+venv/
+env/
+
+# Fichiers de logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.bak
+
+# Fichiers IDE/éditeurs
+.vscode/
+*.sublime-*
+*.idea/
+
+# Système
+.DS_Store
+
+# Fichiers de configuration locaux (si sensibles)
+*.env
+.env
+
+# Fichiers de déploiement ou spécifiques à l'environnement
+flask-structure-deployment.ps1
+flask-structure-deployment.txt
+
+# Dossiers de données (si sensibles ou volumineux)
+data/
+
+# Fichiers de dépendances (si gérés par un fichier requirements.txt)
+# (Ne pas ignorer requirements.txt lui-même, mais ses dérivés éventuels)
