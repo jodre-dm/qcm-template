@@ -13,7 +13,8 @@
                 {% for wrong in wrong_answers %}
                     <li>
                         <strong>{{ wrong['question'] }}</strong><br/>
-                        <!-- Votre réponse : <span style="color: rgb(173, 17, 17);">{{ wrong['user_answer'] | join(', ') }}</span><br/> -->
+                        <!-- Votre réponse : <span style="color: rgb(173, 17, 17);">{{ wrong['user_answer'] if wrong['user_answer'] is not none else '' }}
+</span><br/> -->
                         Votre réponse : <span style="color: rgb(173, 17, 17);">𐄂 {{ wrong['user_answer'] }}</span><br/>
 
                         Bonne réponse : <span style="color: darkgreen;"><strong>✔ {{ wrong['correct_answer'] }}</strong></span>

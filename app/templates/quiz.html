@@ -97,14 +97,13 @@
         <p>
             {% if is_correct %}
                 <span style="color: green;justify-content: center;margin: auto;">🎉 Bonne réponse ! {{ question['correct'] }}</span>
+            {% else %}
+                <span style="color: red;">❌ Mauvaise réponse. La bonne réponse était : {{ question['correct'] }}</span>
+            {% endif %}
                 <br>
                 <span style="font-style: italic;">Exemple : </span>                
                 <span style="background-color: black;color: aliceblue; font-family: 'Courier New', Courier, monospace; padding: .8em;"> {{ question['example'] }} </span>
                 <span>Explication : {{ question['explication'] }}</span>
-            {% else %}
-                <span style="color: red;">❌ Mauvaise réponse. La bonne réponse était : {{ question['correct'] }}</span>
-                <span style="font-style: italic;">Exemple : {{ question['example'] }}</span>
-            {% endif %}
         </p>
     {% endif %}
 </div>

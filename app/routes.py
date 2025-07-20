@@ -7,8 +7,8 @@ main = Blueprint('main', __name__)
 quiz_started = False
 
 # questions_path = r".\\data\\teamcenter-all-questions.json"
-questions_path = r".\\data\\devops-quiz.json"
-# questions_path = r".\\data\\devopspi_quiz_s1_fixed_50-50.json"
+# questions_path = r".\\data\\devops-quiz.json"
+questions_path = r".\\data\\devopspi_quiz_s1_fixed_50-50.json"
 
 with open(questions_path, 'r', encoding='utf8') as file:
         QUESTIONS_ORIGINAL = json.load(file)

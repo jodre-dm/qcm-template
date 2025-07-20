@@ -185,3 +185,37 @@ input[type="text"] {
   color: whitesmoke;
   font-family: 'Courier New', Courier, monospace;
 }
+
+@media (max-width: 600px) {
+  .container {
+    padding: 8px;
+  }
+
+  .quiz-question {
+    width: 98vw;
+    padding: 2vw 2vh;
+    font-size: 1em;
+  }
+
+  .quiz-choices li {
+    margin: 2vh 0;
+    padding: 1vh;
+    font-size: 1em;
+  }
+
+  input[type="text"] {
+    font-size: 1em;
+    height: 6vh;
+    padding: 0.7em;
+  }
+
+  button[type="submit"] {
+    width: 100%;
+    font-size: 1em;
+    padding: 1em;
+  }
+
+  h1, h2 {
+    font-size: 1.2em;
+  }
+}
